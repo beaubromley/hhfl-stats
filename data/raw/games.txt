@@ -1,0 +1,791 @@
+Game Date	Season	Game	Captain 1	Captain 2	MVP	T1 Score	T2 Score	OT?	Tie?	Comment	Game #	Season.Game	T1	T2	Fant Leader	Point Diff	INT Diff	TO Diff	Season.Game2	Week #
+10/26/2008	1	1	John Powers	Jimmy Quinn		7	6	No	No		1	1.1	8	8	Tyler Boren	1	-2	-2	1.1	1
+	1	2	Matt Davis	Jimmy Quinn		7	6	No	No		2	1.2	7	7	Kyle Bowler	1	-3	-3	1.2	2
+	1	3	Daryl Reininger	Jimmy Quinn		16	13	No	No		3	1.3	5	5	Zach Dunnagan	3	0	0	1.3	3
+	1	4	Kevin Chartney	Jimmy Quinn		11	6	No	No		4	1.4	5	5	John Powers	5	3	5	1.4	4
+	1	5	Drew Cruz	Patrick Funkhouser	Jimmy Quinn	7	6	No	No		5	1.5	5	5	Jimmy Quinn	1	2	2	1.5	5
+	1	6	Markus Murphy	Jonny Blazs	David Wehunt	6	3	No	No		6	1.6	6	6	David Wehunt	3	1	1	1.6	6
+	1	7	Markus Murphy	Jimmy Quinn	John Powers	8	8	Yes	No		7	1.7	7	7	Stephen Hardeback	0	0	0	1.7	7
+2/15/2009	1	8	Gregg Switzer	John Powers		8	6	No	No		8	1.8	5	6	David Wehunt	2	2	0	1.8	8
+2/22/2009	1	9	Cameron Hackett	Aaron Anderson		5	3	No	No		9	1.9	8	8	Joey Felarca	2	0	0	1.9	9
+3/8/2009	1	10	John Powers	Troy Fite		6	6	Yes	No		10	1.10	6	7	David Wehunt	0	0	0	1.10	10
+3/22/2009	1	11	Kyle Bowler	Jimmy Quinn		9	6	No	No		11	1.11	4	5	Brice Maloney	3	-1	-1	1.11	11
+3/29/2009	1	12	David Wehunt	John Powers		9	7	No	No		12	1.12	7	6	Brice Maloney	2	2	2	1.12	12
+	1	13	Jimmy Quinn	Troy Fite		6	6	Yes	No		13	1.13	7	8	David Wehunt	0	-4	-4	1.13	13
+	1	14	Kyle Bowler	David Wehunt		10	8	No	No		14	1.14	6	5	Marcus Legere	2	1	1	1.14	14
+6/7/2009	1	15	Jimmy Quinn	John Powers		8	6	No	No		15	1.15	4	4	Matt Nicolin	2	0	1	1.15	15
+6/14/2009	1	16	David Wehunt	Jimmy Quinn		12	11	No	No		16	1.16	4	3	David Wehunt	1	0	0	1.16	16
+6/21/2009	2	1	Jimmy Quinn	David Wehunt		6	5	No	No		1	2.1	4	4	Jimmy Quinn	1	1	1	2.1	17
+6/28/2009	2	2	Jimmy Quinn	John Powers		6	5	No	No		2	2.2	3	3	John Morton	1	1	-1	2.2	18
+7/5/2009	2	3	Jimmy Quinn	Ryan McGuire		9	8	No	No		3	2.3	4	4	John Powers	1	2	2	2.3	19
+	2	4	Jimmy Quinn	David Wehunt		9	9	Yes	No		4	2.4	6	5	Kyle Bowler	0	0	0	2.4	20
+	2	5	Justin Mattae	Blake Mattae		8	7	No	No		5	2.5	4	5	Justin Mattae	1	-2	-3	2.5	21
+8/30/2009	2	6	Michael Morton	Matt Davis		8	7	No	No		6	2.6	5	4	Jimmy Quinn	1	2	1	2.6	22
+9/20/2009	2	7	Josh Fowler	Matt Davis		6	5	No	No		7	2.7	4	3	Jimmy Quinn	1	0	0	2.7	23
+10/4/2009	2	8	Michael Morton	Matt Davis	Michael Kurtz	11	11	Yes	No		8	2.8	5	5	John Powers	0	-1	-1	2.8	24
+10/11/2009	2	9	Jimmy Quinn	Matt Davis		7	7	Yes	No		9	2.9	6	6	Jarrett Ford	0	0	0	2.9	25
+10/25/2009	2	10	Matt Davis	Jimmy Quinn		7	5	No	No		10	2.10	6	6	Daryl Reininger	2	1	1	2.10	26
+11/1/2009	2	11	Jimmy Quinn	Matt Willison		5	5	Yes	No		11	2.11	11	11	Justin Mattea	0	3	3	2.11	27
+11/8/2009	2	12	Jimmy Quinn	John Powers		8	7	No	No		12	2.12	9	8	Jimmy Quinn	1	-1	0	2.12	28
+11/15/2009	2	13	Jimmy Quinn	Matt Davis		8	7	No	No		13	2.13	7	7	John Powers	1	1	1	2.13	29
+11/29/2009	2	14	Jimmy Quinn	John Powers		11	8	No	No		14	2.14	4	4	Zach Garlitz	3	2	2	2.14	30
+12/6/2009	2	15	Jimmy Quinn	Matt Willison	Jimmy Quinn	13	10	No	No		15	2.15	4	5	Jimmy Quinn	3	1	1	2.15	31
+1/3/2010	2	16	Tyler Smith	Jimmy Quinn	Tyler Smith	11	11	Yes	No		16	2.16	5	6	Jeff Hendrickson	0	0	0	2.16	32
+1/10/2010	3	1	John Powers	Jimmy Quinn	George Overby	12	10	No	No		1	3.1	7	8	George Overby	2	0	0	3.1	33
+1/17/2010	3	2	John Powers	Jimmy Quinn	Jules Davis	3	3	Yes	No		2	3.2	3	3	Kyle Bowler	0	1	1	3.2	34
+1/24/2010	3	3	Matt Davis	Jimmy Quinn	Andrew Wright	7	7	Yes	No		3	3.3	4	4	Matt Davis	0	-1	-1	3.3	35
+	3	4	Matt Davis	Jimmy Quinn		10	8	No	No		4	3.4	7	6	Matt Davis	2	2	4	3.4	36
+4/18/2010	3	5	Jimmy Quinn	Landry Franks		8	5	No	No		5	3.5	4	5	Jimmy Quinn	3	3	2	3.5	37
+4/25/2010	3	6	Jimmy Quinn	Matt Davis		11	8	No	No		6	3.6	4	3	John Powers	3	3	3	3.6	38
+5/2/2010	3	7	Jimmy Quinn	Blake Mattae		10	8	No	No		7	3.7	5	4	Justin Mattae	2	0	1	3.7	39
+	3	8	Landry Franks	Jimmy Quinn	Tyler Smith	7	4	No	No		8	3.8	5	5	Tyler Smith	3	3	3	3.8	40
+	3	9	Jimmy Quinn	Matt Willison		11	11	Yes	No		9	3.9	3	3	John Powers	0	-2	-1	3.9	41
+8/15/2010	3	10	Jimmy Quinn	Matt Willison	Jered Lawrenson	6	6	Yes	No		10	3.10	8	8	Jimmy Quinn	0	1	-1	3.10	42
+8/22/2010	3	11	Landry Franks	Matt Willison		6	6	Yes	No		11	3.11	6	6	Jimmy Quinn	0	1	1	3.11	43
+	3	12	Landry Franks	Matt Willison		7	5	No	No		12	3.12	11	11	Matt Davis	2	4	4	3.12	44
+	3	13	Landry Franks	Matt Willison		9	5	No	No		13	3.13	7	7	Matt Davis	4	2	3	3.13	45
+9/26/2010	3	14	Tyler Smith	Trey Kennedy		6	4	No	No		14	3.14	4	4	Kyle Bowler	2	-1	-1	3.14	46
+10/3/2010	3	15	Matt Willison	Landry Franks		8	8	Yes	No		15	3.15	8	7	Trey Kennedy	0	0	0	3.15	47
+10/10/2010	3	16	Jimmy Quinn	Matt Willison		7	5	No	No		16	3.16	7	7	Kyle Bowler	2	1	1	3.16	48
+10/17/2010	4	1	Jimmy Quinn	Matt Willison		8	8	Yes	No		1	4.1	5	5	Jimmy Quinn	0	-2	-1	4.1	49
+10/24/2010	4	2	Chris Allen	Matt Willison		12	8	No	No		2	4.2	6	5	Landry Franks	4	4	4	4.2	50
+10/31/2010	4	3	Chris Allen	Matt Willison		10	10	No	No		3	4.3	7	7	Chris Allen	0	3	1	4.3	51
+11/7/2010	4	4	Jimmy Quinn	Matt Willison		8	7	No	No		4	4.4	4	4	Matt Davis	1	-1	-1	4.4	52
+11/14/2010	4	5	Matt Willison	Chris Allen		10	9	No	No		5	4.5	9	9	Jaz Carreon	1	1	1	4.5	53
+11/21/2010	4	6	Jimmy Quinn	Matt Willison		13	9	No	No		6	4.6	7	7	Jimmy Quinn	4	4	4	4.6	54
+12/5/2010	4	7	Chris Allen	Jimmy Quinn		10	10	Yes	No		7	4.7	7	8	Matt Davis	0	1	1	4.7	55
+12/12/2010	4	8	Jimmy Quinn	Matt Willison		10	8	No	No		8	4.8	6	5	Tyler Smith	2	0	0	4.8	56
+12/19/2010	4	9	Chris Allen	Matt Willison		10	6	No	No		9	4.9	9	8	Chris Allen	4	6	6	4.9	57
+12/26/2010	4	10	Landry Franks	Chris Allen		10	7	No	No		10	4.10	8	7	Landry Franks	3	2	3	4.10	58
+1/2/2011	4	11	Matt Willison	Jimmy Quinn		10	8	No	No		11	4.11	7	7	Caleb Vanhorn	2	2	3	4.11	59
+1/9/2011	4	12	Matt Willison	Jimmy Quinn		9	6	No	No		12	4.12	6	6	Matt Willison	3	3	3	4.12	60
+1/16/2011	4	13A	Jimmy Quinn	Matt Willison		8	8	Yes	No		13	4.13A	6	7	Tyler Smith	0	1	2	4.13A	61
+1/16/2011	4	13B	Caleb Vanhorn	Blake Barnes	Caleb Vanhorn	11	9	No	No		13	4.13B	5	5	Trey Kennedy	2	1	0	4.13B	61
+1/23/2011	4	14	Jimmy Quinn	Terry Johnson		9	9	Yes	No		14	4.14	7	6	Denzel Johnson	0	0	0	4.14	62
+1/30/2011	4	15	Matt Willison	Jimmy Quinn		9	9	Yes	No		15	4.15	6	7	Caleb Vanhorn	0	0	0	4.15	63
+2/6/2011	4	16	Tyler Smith	Jimmy Quinn		15	11	No	No		16	4.16	5	5	Kyle Bowler	4	3	4	4.16	64
+2/13/2011	5	1A	Chris Allen	Jimmy Quinn		9	8	No	No		1	5.1A	6	6	Matt Willison	1	3	3	5.1A	65
+2/13/2011	5	1B	Matt Davis	Landry Franks		11	8	No	No		1	5.1B	5	5	Caleb Vanhorn	3	3	3	5.1B	65
+2/27/2011	5	2	Matt Davis	Jimmy Quinn		8	6	No	No		2	5.2	6	6	Matt Willison	2	1	1	5.2	66
+3/20/2011	5	3	Jimmy Quinn	Matt Willison		8	5	No	No		3	5.3	8	8	Jimmy Quinn	3	1	1	5.3	67
+3/3/2011	5	4	Tyler Smith	Jimmy Quinn		7	6	Yes	No		4	5.4	7	7	Caleb Vanhorn	1	1	1	5.4	68
+4/10/2011	5	5	Tyler Smith	Jimmy Quinn		11	9	No	No		5	5.5	6	5	Caleb Vanhorn	2	1	1	5.5	69
+4/17/2011	5	6	Tyler Smith	Jimmy Quinn		11	8	No	No		6	5.6	4	4	Caleb Vanhorn	3	0	-1	5.6	70
+5/8/2011	5	7	Zach Garlitz	Jimmy Quinn		5	4	No	No		7	5.7	5	4	Tyler Smith	1	3	3	5.7	71
+	5	8	Tyler Smith	Jimmy Quinn		8	7	No	No		8	5.8	3	4	Caleb Wall	1	0	0	5.8	72
+	5	9	Jon Jester	Jimmy Quinn		8	6	No	No		9	5.9	7	7	Matt Davis	2	2	4	5.9	73
+	5	10	Jimmy Quinn	Matt Davis		9	9	No	No		10	5.10	5	6	Jimmy Quinn	0	2	2	5.10	74
+6/19/2011	5	11	Tyler Smith	Jimmy Quinn		7	6	No	No		11	5.11	4	3	Tyler Smith	1	0	0	5.11	75
+7/10/2011	5	12	Tyler Smith	Jon Jester		7	7	Yes	No		12	5.12	4	4	Mitchell Draelos	0	0	0	5.12	76
+7/31/2011	5	13	Jimmy Quinn	Tyler Smith		7	7	Yes	No		13	5.13	4	4	John Powers	0	0	0	5.13	77
+8/7/2011	5	14	Jon Jester	Matt Willison	Caleb Wall	10	9	No	No		14	5.14	4	4	Caleb Wall	1	0	0	5.14	78
+	5	15	Jimmy Quinn	Matt Davis		9	9	Yes	No		15	5.15	7	6	AJ DePhillips	0	0	0	5.15	79
+	5	16	Jimmy Quinn	Matt Willison		5	4	No	No		16	5.16	5	5	Matt Davis	1	-1	-1	5.16	80
+	6	1	Matt Willison	Jimmy Quinn		9	7	No	No		1	6.1	4	3	AJ DePhillips	2	3	1	6.1	81
+9/18/2011	6	2	Matt Willison	Jimmy Quinn		10	9	No	No		2	6.2	5	5	Matt Davis	1	0	-2	6.2	82
+10/2/2011	6	3	Zach Garlitz	Matt Willison		12	10	No	No		3	6.3	4	4	Tyler Smith	2	1	1	6.3	83
+10/9/2011	6	4	Zach Garlitz	Jimmy Quinn		10	8	No	No		4	6.4	5	6	Caleb Wall	2	-1	-1	6.4	84
+10/16/2011	6	5	Matt Willison	Jimmy Quinn		9	8	No	No		5	6.5	4	4	Jon Jester	1	1	1	6.5	85
+10/23/2011	6	6	Jimmy Quinn	Zach Garlitz		11	9	No	No		6	6.6	3	4	Kyle Bowler	2	3	3	6.6	86
+10/30/2011	6	7	Jimmy Quinn	Matt Willison		8	5	No	No		7	6.7	4	4	John Powers	3	0	0	6.7	87
+11/6/2011	6	8	Jimmy Quinn	Matt Willison		10	8	No	No		8	6.8	6	6	Kyle Bowler	2	1	1	6.8	88
+11/13/2011	6	9	Jimmy Quinn	Matt Willison		9	6	No	No		9	6.9	4	4	Caleb Wall	3	-1	-2	6.9	89
+11/20/2011	6	10	Matt Willison	Jimmy Quinn		8	7	No	No		10	6.10	4	3	Matt Davis	1	-1	0	6.10	90
+11/27/2011	6	11	Jon Jester	Jimmy Quinn		10	8	No	No		11	6.11	3	4	Matt Davis	2	3	3	6.11	91
+12/11/2011	6	12	Matt Willison	Tyler Smith		14	13	Yes	No		12	6.12	3	4	Matt Davis	1	0	0	6.12	92
+1/1/2012	6	13	Jon Jester	Tyler Smith		10	7	No	No		13	6.13	4	4	Matt Davis	3	1	1	6.13	93
+1/8/2012	6	14	Tyler Smith	Jimmy Quinn		12	7	No	No		14	6.14	5	6	Kyle Bowler	5	0	1	6.14	94
+1/15/2012	6	15	Jimmy Quinn	Matt Willison		9	7	No	No		15	6.15	7	6	Matt Davis	2	0	0	6.15	95
+1/22/2012	6	16	Jimmy Quinn	Matt Willison		8	5	No	No		16	6.16	8	6	Matt Davis	3	3	3	6.16	96
+1/29/2012	7	1	Tyler Smith	Jimmy Quinn	Tyler Smith	8	5	No	No		1	7.1	9	9	Matt Willison	3	2	2	7.1	97
+2/5/2012	7	2	Jimmy Quinn	Matt Willison		7	5	No	No		2	7.2	8	9	Reid Wise	2	0	0	7.2	98
+2/12/2012	7	3	Jimmy Quinn	Tyler Smith		10	9	No	No		3	7.3	5	4	Reid Wise	1	1	1	7.3	99
+2/19/2012	7	4	Jimmy Quinn	Matt Willison	Reid Wise	11	10	No	No		4	7.4	7	7	Reid Wise	1	1	1	7.4	100
+2/26/2012	7	5A	Tyler Smith	Brandon Kellbach	Kyle Bowler	12	5	No	No		5	7.5A	5	5	Kyle Bowler	7	4	4	7.5A	101
+2/26/2012	7	5B	Jimmy Quinn	Matt Willison	Mitchell Draelos	11	9	No	No		5	7.5B	6	5	John Powers	2	0	0	7.5B	101
+3/4/2012	7	6A	Jimmy Quinn	Matt Willison	Reid Wise	9	5	No	No		6	7.6A	5	5	Reid Wise	4	0	0	7.6A	102
+3/4/2012	7	6B	Tyler Smith	Brandon Kellbach	Zach Anderson	9	3	No	No		6	7.6B	5	6	Zach Anderson	6	2	3	7.6B	102
+3/11/2012	7	7	Tyler Smith	Jimmy Quinn		9	6	No	No		7	7.7	5	5	Zach Garlitz	3	-1	0	7.7	103
+3/25/2012	7	8	Matt Willison	Tyler Smith		11	10	Yes	No		8	7.8	7	6	Matt Willison	1	2	1	7.8	104
+4/1/2012	7	9	Jimmy Quinn	Chris Wehunt	Zach Anderson	7	6	No	No		9	7.9	4	5	Zach Anderson	1	0	-1	7.9	105
+4/15/2012	7	10	Matt Willison	Jimmy Quinn		12	9	No	No		10	7.10	4	4	Mitchell Draelos	3	1	1	7.10	106
+4/22/2012	7	11	Tyler Smith	Jimmy Quinn	Tyler Smith	10	6	No	No		11	7.11	7	6	Tyler Smith	4	1	1	7.11	107
+4/29/2012	7	12	Jimmy Quinn	Matt Willison	Chris Wilson	7	6	No	No		12	7.12	6	5	Chris Wilson	1	1	1	7.12	108
+5/6/2012	7	13	Jimmy Quinn	Matt Willison		10	7	No	No		13	7.13	7	7	Jimmy Quinn	3	1	1	7.13	109
+6/13/2012	7	14	Jimmy Quinn	Matt Willison	Jimmy Quinn	7	6	No	No		14	7.14	5	5	Zach Anderson	1	1	1	7.14	110
+5/20/2012	7	15	Jimmy Quinn	Matt Willison		11	7	No	No		15	7.15	6	5	Matt Davis	4	0	0	7.15	111
+5/27/2012	7	16	Jimmy Quinn	Tyler Smith		6	4	No	No		16	7.16	7	8	Jimmy Quinn	2	0	0	7.16	112
+6/3/2012	8	1	Stephen Wood	Reid Wise	Stephen Wood	8	8	Yes	No		1	8.1	6	6	Kyle Bowler	0	1	1	8.1	113
+6/10/2012	8	2	Tyler Smith	Jon Jester	Nate Wood	5	4	No	No		2	8.2	8	9	Tyler Smith	1	1	1	8.2	114
+6/17/2012	8	3	Jon Jester	Jimmy Quinn	Kyle Bowler	10	9	No	No		3	8.3	7	7	Mitchell Draelos	1	-2	-2	8.3	115
+6/24/2012	8	4	Jon Jester	Caleb Vanhorn	Jon Jester	8	7	No	Yes	Counted as a tie per Matt Davis's Legend of the HHFL Game that ended in a tie	4	8.4	10	9	Bennett Addudel	1	0	0	8.4	116
+7/1/2012	8	5	Tyler Smith	Jon Jester	Bennett Addudel	8	4	No	No		5	8.5	7	8	Tyler Smith	4	2	2	8.5	117
+7/8/2012	8	6A	Jimmy Quinn	Jon Jester	Jimmy Quinn	11	11	Yes	No		6	8.6A	6	6	Jimmy Quinn	0	-1	-1	8.6A	118
+7/8/2012	8	6B	Matt Willison	Trey Kennedy	Zac Blasdel	8	7	No	No		6	8.6B	5	5	Zac Blasdel	1	-1	0	8.6B	118
+7/15/2012	8	7A	Jimmy Quinn	Matt Willison	Jimmy Quinn	11	7	No	No		7	8.7A	5	4	Jimmy Quinn	4	1	3	8.7A	119
+7/15/2012	8	7B	Jon Jester	Tyler Smith	Jon Jester	11	7	No	No		7	8.7B	5	5	Robert Lame	4	-1	-1	8.7B	119
+7/22/2012	8	8	Tyler Smith	Matt Willison	Tyler Smith	12	10	No	No		8	8.8	4	5	Kyle Bowler	2	2	2	8.8	120
+7/29/2012	8	9A	Matt Willison	Jimmy Quinn	Matt Willison	7	5	No	No		9	8.9A	6	6	Matt Willison	2	2	2	8.9A	121
+7/29/2012	8	9B	Tyler Smith	Jon Jester	Koby O'Bleness	7	6	Yes	No		9	8.9B	5	5	Seth Wachtel	1	1	1	8.9B	121
+8/5/2012	8	10	Jimmy Quinn	Jon Jester	Kyle Bowler	7	6	Yes	No		10	8.10	9	7	Kyle Bowler	1	-1	0	8.10	122
+8/12/2012	8	11A	Matt Willison	Jimmy Quinn	Matt Willison	9	6	No	No		11	8.11A	5	5	Matt Willison	3	1	2	8.11A	123
+8/12/2012	8	11B	Nate Wood	Trey Kennedy	Jacob Wright	8	3	No	No		11	8.11B	6	6	Matt Davis	5	4	4	8.11B	123
+8/19/2012	8	12A	Tyler Smith	Jimmy Quinn		6	4	No	No		12	8.12A	6	6	Nate Wood	2	-1	-1	8.12A	124
+8/19/2012	8	12B	Matt Willison	Jon Jester	Andrew McFarland	6	6	Yes	No	4OT	12	8.12B	6	7	Matt Davis	0	0	0	8.12B	124
+9/2/2012	8	13	Matt Willison	Jon Jester	Connor McElveen	4	3	No	No		13	8.13	9	9	Connor McElveen	1	0	0	8.13	125
+9/9/2012	8	14	Tyler Smith	Jimmy Quinn	Mitchell Draelos	6	5	No	No		14	8.14	8	7	Andrew McFarland	1	1	1	8.14	126
+9/16/2012	8	15A	Jimmy Quinn	Zach Garlitz	Matt Davis	8	3	No	No		15	8.15A	6	6	Jimmy Quinn	5	2	3	8.15A	127
+9/18/2012	8	15B	Tyler Smith	Jered Lawrenson	Tyler Smith	12	8	No	No		15	8.15B	5	6	Kyle Bowler	4	1	1	8.15B	127
+9/23/2012	8	16A	Jimmy Quinn	Matt Willison	Curtis Baker	10	8	No	No		16	8.16A	5	5	Nate Wood	2	0	0	8.16A	128
+9/24/2012	8	16B	Tyler Smith	Robert Lame	Mitchell Draelos	12	9	No	No		16	8.16B	5	5	Daniel Smith	3	1	1	8.16B	128
+9/31/2012	9	1A	Jimmy Quinn	Robert Lame	Kyle Bowler	8	7	No	No		1	9.1A	5	5	Kyle Bowler	1	3	3	9.1A	129
+9/31/2012	9	1B	Tyler Smith	Matt Willison	Wes Jackson	8	7	No	No		1	9.1B	5	5	Wes Jackson	1	-1	-1	9.1B	129
+10/7/2013	9	2A	Jimmy Quinn	Jon Jester	Shawn Lawrenson	10	8	No	No		2	9.2A	7	7	Shawn Lawrenson	2	3	3	9.2A	130
+10/7/2013	9	2B	Tyler Smith	Robert Lame	Seth Wachtel	8	6	No	No		2	9.2B	7	7	Seth Wachtel	2	1	1	9.2B	130
+	9	3A	Robert Lame	Jimmy Quinn	Daniel Smith	8	4	No	No		3	9.3A	4	5	Daniel Smith	4	3	3	9.3A	131
+	9	3B	Jered Lawrenson	Matt Davis	Mitchell Draelos	7	6	Yes	No		3	9.3B	5	5	Mitchell Draelos	1	2	2	9.3B	131
+10/28/2012	9	4	Robert Lame	Matt Willison	Robert Lame	9	8	No	No		4	9.4	8	8	Matt Jordan	1	5	4	9.4	132
+11/25/2012	9	5A	Jimmy Quinn	Jon Jester	Jimmy Quinn	10	8	No	No		5	9.5A	5	5	Nate Wood	2	2	2	9.5A	133
+11/25/2012	9	5B	Matt Willison	Zach Garlitz	Mitchell Draelos	10	9	No	No		5	9.5B	6	6	Mitchell Draelos	1	-1	-1	9.5B	133
+12/9/2012	9	6	Matt Willison	Jimmy Quinn	Robert Lame	6	6	Yes	No		6	9.6	8	9	Robert Lame	0	1	1	9.6	134
+12/16/2012	9	7A	Jesse Mathews	Jimmy Quinn	Caleb Vanhorn	11	8	No	No		7	9.7A	6	6	Caleb Vanhorn	3	1	1	9.7A	135
+12/16/2012	9	7B	Robert Lame	Matt Willison	Robert Lame	14	8	No	No		7	9.7B	5	5	Kyle Bowler	6	3	3	9.7B	135
+12/23/2012	9	8	Jon Jester	Matt Willison	Stephen Walcher	8	7	Yes	No	3OT	8	9.8	7	6	Nate Wood	1	-2	-2	9.8	136
+12/30/2012	9	9A	Tyler Smith	Jimmy Quinn	Jon Jester	9	9	Yes	No		9	9.9A	5	5	Jon Jester	0	0	0	9.9A	137
+12/30/2012	9	9B	Jesse Mathews	Robert Lame	Connor McElveen	13	13	Yes	No		9	9.9B	5	5	Connor McElveen	0	0	-1	9.9B	137
+1/6/2013	9	10A	Asher Cole	Jered Lawrenson	Asher Cole	6	4	No	No		10	9.10A	6	6	Connor McElveen	2	-1	-1	9.10A	138
+1/6/2013	9	10B	Jon Jester	Robert Lame	Caleb Wall	8	4	No	No		10	9.10B	7	6	Caleb Wall	4	2	2	9.10B	138
+1/13/2013	9	11A	Robert Lame	Matt Willison	Stephen Wood	8	7	No	No		11	9.11A	5	5	Stephen Wood	1	0	0	9.11A	139
+1/13/2013	9	11B	Jimmy Quinn	Jon Jester	Jimmy Quinn	7	5	No	No		11	9.11B	6	6	Trey Ellis	2	2	3	9.11B	139
+1/20/2013	9	12A	Tyler Smith	Matt Willison	Andrew McFarland	9	0	No	No		12	9.12A	7	7	Andrew McFarland	9	9	9	9.12A	140
+1/20/2013	9	12B	Robert Lame	Jimmy Quinn	Matt Jackson	10	9	No	No		12	9.12B	6	6	Matt Jackson	1	1	1	9.12B	140
+1/27/2013	9	13A	Kale Crampton	Daryl Hill	Matt Davis	5	5	Yes	No		13	9.13A	6	6	Matt Davis	0	1	1	9.13A	141
+1/27/2013	9	13B	Jimmy Quinn	Tyler Smith	Mitchell Draelos	6	5	No	No		13	9.13B	5	5	Mitchell Draelos	1	-1	-1	9.13B	141
+2/3/2013	9	14A	Jon Jester	Jimmy Quinn	Tim Tofpi	8	5	No	No		14	9.14A	7	6	Tim Tofpi	3	3	2	9.14A	142
+2/3/2013	9	14B	Tyler Smith	Robert Lame	Matt Davis	6	5	No	No		14	9.14B	6	6	Matt Davis	1	-3	-3	9.14B	142
+2/10/2013	9	15A	Jered Lawrenson	Tyler Smith	Andrew McFarland	8	6	No	No		15	9.15A	5	5	Andrew McFarland	2	1	1	9.15A	143
+2/10/2013	9	15B	Robert Lame	Matt Davis	Robert Lame	7	4	No	No		15	9.15B	6	5	Kyle Bowler	3	1	1	9.15B	143
+2/17/2013	9	16A	Reid Wise	Tyler Smith	Tim Tofpi	10	4	No	No		16	9.16A	6	5	Tim Tofpi	6	4	4	9.16A	144
+2/17/2013	9	16B	Jered Lawrenson	Jimmy Quinn	Jered Lawrenson	8	7	No	No		16	9.16B	6	6	Andrew McFarland	1	2	2	9.16B	144
+2/24/2013	10	1	Reid Wise	Jered Lawrenson	Robert Lame	9	7	No	No		1	10.1	7	8	Robert Lame	2	-1	-1	10.1	145
+3/3/2013	10	2	Jered Lawrenson	Robert Lame	Kyle Bowler	8	5	No	No		2	10.2	6	6	Kyle Bowler	3	-2	-2	10.2	146
+3/10/2013	10	3	Jimmy Quinn	Jesse Mathews	Jimmy Quinn	8	6	No	No		3	10.3	7	7	Robert Lame	2	2	2	10.3	147
+3/17/2013	10	4	Reid Wise	Jon Jester	Matt Davis	7	7	Yes	No		4	10.4	4	4	Matt Davis	0	1	1	10.4	148
+3/24/2013	10	5	Jimmy Quinn	Reid Wise	Kale Crampton	9	4	No	No		5	10.5	5	6	Kale Crampton	5	2	2	10.5	149
+3/31/2013	10	6	Tyler Smith	Jimmy Quinn	Tyler Smith	9	7	No	No		6	10.6	3	4	Tyler Smith	2	1	3	10.6	150
+4/7/2013	10	7	Jimmy Quinn	Robert Lame	Jimmy Quinn	9	8	No	No		7	10.7	7	6	Tyler Smith	1	1	1	10.7	151
+4/14/2013	10	8A	Jimmy Quinn	Jered Lawrenson	Nate Wood	10	10	Yes	No		8	10.8A	5	5	Nate Wood	0	-2	-1	10.8A	152
+4/14/2013	10	8B	Robert Lame	Reid Wise	Jacob Wright	9	7	No	No		8	10.8B	4	5	Jacob Wright	2	0	0	10.8B	152
+4/21/2013	10	9	Tyler Smith	Jimmy Quinn	Robert Lame	12	7	No	No		9	10.9	7	6	Robert Lame	5	3	3	10.9	153
+4/28/2013	10	10	Tyler Smith	Jimmy Quinn	Matt Davis	9	5	No	No		10	10.10	7	8	Matt Davis	4	1	3	10.10	154
+5/5/2013	10	11	Jered Lawrenson	Reid Wise		9	7	No	No		11	10.11	6	6	Robert Lame	2	2	3	10.11	155
+5/12/2013	10	12	Jimmy Quinn	Tyler Smith	Seth Wachtel	9	8	No	No		12	10.12	7	7	Caleb Vanhorn	1	0	-1	10.12	156
+5/12/2013	10	13	Jon Jester	Reid Wise	Jon Jester	10	8	No	No		13	10.13	6	6	Kale Crampton	2	3	3	10.13	157
+6/2/2013	10	14	Tyler Smith	Jesse Mathews	Tyler Smith	10	8	No	No		14	10.14	6	6	Kyle Bowler	2	2	2	10.14	158
+6/12/2013	10	15	Tyler Smith	Jesse Mathews	Caleb Vanhorn	6	3	No	No		15	10.15	9	9	Caleb Vanhorn	3	2	2	10.15	159
+6/17/2013	10	16	Jon Jester	Tyler Smith	Jered Lawrenson	11	7	No	No		16	10.16	6	7	Jon Jester	4	4	3	10.16	160
+6/23/2013	11	1	Robert Lame	Jon Jester	Matt Willison	6	6	Yes	No		1	11.1	8	8	Kale Crampton	0	1	1	11.1	161
+6/30/2013	11	2	Tyler Smith	Jon Jester	Jacob Wright	4	4	Yes	No		2	11.2	7	8	Cameron Riney	0	1	1	11.2	162
+7/7/2013	11	3A	Jimmy Quinn	Jesse Mathews	Matt Davis	11	7	No	No		3	11.3A	5	5	Matt Davis	4	0	0	11.3A	163
+7/7/2013	11	3B	Jon Jester	Tyler Smith	Jon Jester	9	9	Yes	No	5OT	3	11.3B	5	6	Zach Garlitz	0	1	1	11.3B	163
+7/14/2013	11	4A	Tyler Smith	Jesse Mathews	Tyler Smith	13	6	No	No		4	11.4A	6	6	Tyler Smith	7	4	4	11.4A	164
+7/14/2013	11	4B	Jimmy Quinn	Jon Jester	Jimmy Quinn	10	8	No	No		4	11.4B	5	5	Matt Davis	2	2	2	11.4B	164
+7/28/2013	11	5A	Tyler Smith	Jimmy Quinn	Connor McElveen	7	4	No	No		5	11.5A	6	6	Connor McElveen	3	0	0	11.5A	165
+7/28/2013	11	5B	Jon Jester	Jesse Mathews	Andrew McFarland	4	4	Yes	No		5	11.5B	7	6	Andrew McFarland	0	1	1	11.5B	165
+8/4/2013	11	6A	Jimmy Quinn	Jesse Mathews	Mitchell Draelos	6	4	No	No		6	11.6A	6	5	Jimmy Quinn	2	2	2	11.6A	166
+8/4/2013	11	6B	Jon Jester	Tyler Smith	Logan Thelen	9	5	No	No		6	11.6B	5	5	Jered Lawrenson	4	0	2	11.6B	166
+8/11/2013	11	7	Jimmy Quinn	Tyler Smith	Mitchell Draelos	9	7	No	No		7	11.7	9	8	Mitchell Draelos	2	3	3	11.7	167
+8/18/2013	11	8	Jimmy Quinn	Troy Fite	Zach Garlitz	6	4	No	No		8	11.8	8	7	Zach Garlitz	2	-1	-1	11.8	168
+9/1/2013	11	9	Jimmy Quinn	Robert Lame	Matt Davis	8	5	No	No		9	11.9	9	10	Caleb Wall	3	4	4	11.9	169
+9/8/2013	11	10	Robert Lame	Jimmy Quinn	Matt Davis	10	9	No	No		10	11.10	7	7	Matt Davis	1	1	1	11.10	170
+10/6/2013	11	11	Robert Lame	Jimmy Quinn	Robert Lame	9	5	No	No		11	11.11	10	10	Robert Lame	4	3	3	11.11	171
+10/13/2013	11	12A	Seth Wachtel	Tyler Smith	Clint Kimsey	8	7	No	No		12	11.12A	6	6	Clint Kimsey	1	4	4	11.12A	172
+10/13/2013	11	12B	Robert Lame	Jimmy Quinn	Daniel Smith	11	9	No	No		12	11.12B	6	6	Daniel Smith	2	0	-1	11.12B	172
+10/20/2013	11	13A	Robert Lame	Troy Fite	Daniel Smith	11	4	No	No		13	11.13A	6	6	Daniel Smith	7	7	7	11.13A	173
+10/20/2013	11	13B	Tyler Smith	Jered Lawrenson	Matt Davis	9	5	No	No		13	11.13B	6	6	Matt Davis	4	1	1	11.13B	173
+10/27/2013	11	14	Robert Lame	Jimmy Quinn	Brent Friday	9	5	No	No		14	11.14	9	9	Robert Lame	4	2	3	11.14	174
+11/3/2013	11	15A	Jimmy Quinn	Jon Jester	Matt Davis	9	8	No	No		15	11.15A	6	6	Matt Davis	1	1	1	11.15A	175
+11/3/2013	11	15B	Tyler Smith	Robert Lame	Jill Bryan	7	6	No	No		15	11.15B	5	5	Koby Obleness	1	2	2	11.15B	175
+11/8/2013	11	16A	Robert Lame	Jimmy Quinn	Clint Kimsey	8	8	Yes	No		16	11.16A	5	5	Clint Kimsey	0	0	0	11.16A	176
+11/8/2013	11	16B	Tyler Smith	Seth Wachtel	Tyler Smith	8	7	No	No		16	11.16B	6	6	Tyler Smith	1	0	0	11.16B	176
+11/15/2013	12	1A	Robert Lame	Jimmy Quinn	Brent Friday	7	5	No	No		1	12.1A	6	6	Brent Friday	2	2	2	12.1A	177
+11/15/2013	12	1B	Jon Jester	Jered Lawrenson	Jon Jester	5	5	Yes	No		1	12.1B	5	5	Matt Davis	0	4	4	12.1B	177
+11/24/2013	12	2	Robert Lame	Jimmy Quinn	Brent Friday	8	6	No	No		2	12.2	8	7	Brent Friday	2	2	1	12.2	178
+12/1/2013	12	3A	Robert Lame	Jon Jester	Trey Kennedy	10	5	No	No		3	12.3A	7	7	Trey Kennedy	5	3	3	12.3A	179
+12/1/2013	12	3B	Daniel Smith	Troy Fite	Daniel Smith	9	5	No	No		3	12.3B	7	6	Daniel Smith	4	4	4	12.3B	179
+12/8/2013	12	4	Jimmy Quinn	Robert Lame	Ryan Huntze	11	6	No	No		4	12.4	9	9	Ryan Huntze	5	2	1	12.4	180
+12/15/2013	12	5A	Jimmy Quinn	Jon Jester	Mitchell Draelos	3	1	No	No		5	12.5A	8	8	Matt Davis	2	-1	0	12.5A	181
+12/15/2013	12	5B	Tyler Smith	Jesse Mathews	Logan Thelen	4	2	No	No		5	12.5B	9	10	Daniel Smith	2	0	0	12.5B	181
+12/22/2013	12	6	Tyler Smith	Jimmy Quinn	Clint Kimsey	5	4	No	No		6	12.6	9	8	Clint Kimsey	1	1	1	12.6	182
+12/22/2013	12	7	Seth Wachtel	Tyler Smith	Seth Wachtel	7	5	No	No		7	12.7	5	4	Mitchell Draelos	2	0	0	12.7	183
+1/5/2014	12	8	Jimmy Quinn	Robert Lame	Aaron Smith	7	4	No	No		8	12.8	7	6	Aaron Smith	3	-1	-1	12.8	184
+1/12/2014	12	9A	Jimmy Quinn	Robert Lame	Matt Davis	9	7	No	No		9	12.9A	8	8	Brent Friday	2	0	-1	12.9A	185
+1/12/2014	12	9B	Joey Tobaee	Jon Jester	Anna Kimsey	8	6	No	No		9	12.9B	7	8	Daniel Smith	2	-1	-1	12.9B	185
+1/19/2014	12	10A	Troy Fite	Jon Jester	Clint Kimsey	4	4	Yes	No		10	12.10A	7	7	Clint Kimsey	0	2	1	12.10A	186
+1/19/2014	12	10B	Robert Lame	Jimmy Quinn	Mark Boles	10	4	No	No		10	12.10B	7	7	Brent Friday	6	2	2	12.10B	186
+1/26/2014	12	11A	Jimmy Quinn	Robert Lame		7	5	No	No		11	12.11A	9	9	Chris Muse	2	0	0	12.11A	187
+1/26/2014	12	11B	Garrett Griffin	Troy Fite	Garrett Griffin	8	5	No	No		11	12.11B	8	9	Brent Friday	3	3	3	12.11B	187
+2/2/2014	12	12	Jon Jester	Jimmy Quinn	Jon Jester	10	9	No	No		12	12.12	5	4	Mitchell Draelos	1	3	4	12.12	188
+2/9/2014	12	13	Robert Lame	Tyler Smith	Brent Friday	8	7	No	No		13	12.13	6	6	Brent Friday	1	2	2	12.13	189
+2/16/2014	12	14A	Robert Lame	Seth Wachtel	Troy Fite	5	5	Yes	No		14	12.14A	8	10	Brent Friday	0	-3	-3	12.14A	190
+2/16/2014	12	14B	Jon Jester	Tyler Smith	Jon Jester	5	3	No	No		14	12.14B	9	9	Matt Davis	2	4	4	12.14B	190
+1/23/2014	12	15A	Jimmy Quinn	Tyler Smith	Jimmy Quinn	5	5	No	No		15	12.15A	5	6	Jimmy Quinn	0	0	0	12.15A	191
+1/23/2014	12	15B	Robert Lame	Jon Jester	Mark Boles	8	7	No	No		15	12.15B	6	6	Mark Boles	1	2	2	12.15B	191
+2/16/2014	12	15C	Troy Fite	Jered Lawrenson	Brent Friday	6	5	No	No		15	12.15C	6	6	AJ Ferguson	1	-1	-1	12.15C	191
+3/9/2014	12	16A	Robert Lame	Tyler Smith	Jered Lawrenson	11	4	No	No		16	12.16A	7	7	Matt Jordan	7	2	3	12.16A	192
+3/9/2014	12	16B	Jon Jester	Jimmy Quinn	Jon Jester	9	8	No	No		16	12.16B	6	6	Troy Fite	1	-1	-1	12.16B	192
+3/9/2014	13	1	Troy Fite	Tyler Smith	Troy Fite	7	4	No	No		1	13.1	8	7	Clint Kimsey	3	3	3	13.1	193
+3/23/2014	13	2A	Robert Lame	Jimmy Quinn	Robert Lame	7	4	No	No		2	13.2A	7	7	Mark Boles	3	2	2	13.2A	194
+3/23/2014	13	2B	Jon Jester	Tyler Smith	Brent Friday	4	3	No	No		2	13.2B	9	9	Daniel Smith	1	5	5	13.2B	194
+3/30/2014	13	3A	Tyler Smith	Jimmy Quinn	Marvin Alright	5	5	Yes	No		3	13.3A	7	8	Marvin Alright	0	1	0	13.3A	195
+3/30/2014	13	3B	Jered Lawrenson	Troy Fite	Jered Lawrenson	6	3	No	No		3	13.3B	8	8	Jered Lawrenson	3	1	1	13.3B	195
+4/6/2014	13	4A	Jon Jester	Daniel Smith	Marvin Alright	8	6	No	No		4	13.4A	5	5	Jon Jester	2	2	2	13.4A	196
+4/6/2014	13	4B	Robert Lame	Troy Fite	Brent Friday	8	6	No	No		4	13.4B	6	6	Brent Friday	2	1	1	13.4B	196
+4/6/2014	13	4C	Jered Lawrenson	Jimmy Quinn	Jesus Stewart	9	7	No	No		4	13.4C	5	5	Jesus Stewart	2	1	3	13.4C	196
+4/13/2014	13	5A	Jimmy Quinn	Troy Fite	Jimmy Quinn	10	2	No	No		5	13.5A	5	7	Jimmy Quinn	8	0	0	13.5A	197
+4/13/2014	13	5B	Tyler Smith	Jered Lawrenson	Logan McKay	4	4	Yes	No		5	13.5B	7	7	Brennan Boothe	0	-1	-1	13.5B	197
+4/20/2014	13	6A	Jimmy Quinn	Jon Jester	Kyle Bowler	9	8	No	No		6	13.6A	6	6	Kyle Bowler	1	1	1	13.6A	198
+4/20/2014	13	6B	Troy Fite	Clint Kimsey	Brian Ward	11	8	No	No		6	13.6B	5	5	Brian Ward	3	3	3	13.6B	198
+4/27/2014	13	7A	Jimmy Quinn	Troy Fite	Reid Wise	7	6	No	No		7	13.7A	5	5	Reid Wise	1	0	0	13.7A	199
+4/27/2014	13	7B	Jon Jester	Tyler Smith	Kyle Bowler	10	9	Yes	No		7	13.7B	5	5	Kyle Bowler	1	-2	-3	13.7B	199
+5/4/2014	13	8	Jimmy Quinn	Troy Fite	Jimmy Quinn	13	9	No	No		8	13.8	7	8	Jimmy Quinn	4	2	2	13.8	200
+5/11/2014	13	9	Kale Crampton	Troy Fite	Robert Lame	8	7	No	No		9	13.9	6	6	Marvin Alright	1	1	1	13.9	201
+5/18/2014	13	10	Robert Lame	Jimmy Quinn	Jered Lawrenson	7	4	No	No		10	13.10	10	10	Jered Lawrenson	3	4	4	13.10	202
+5/25/2014	13	11	Robert Lame	Jimmy Quinn	Matt Davis	10	8	No	No		11	13.11	6	6	Matt Davis	2	0	0	13.11	203
+6/1/2014	13	12A	Robert Lame	Jimmy Quinn	Robert Lame	12	9	No	No		12	13.12A	6	6	Marvin Alright	3	0	2	13.12A	204
+6/1/2014	13	12B	Jon Jester	Troy Fite	Jon Jester	11	8	No	No		12	13.12B	5	5	Shawn Lawrenson	3	2	2	13.12B	204
+6/8/2014	13	13A	Jimmy Quinn	Jon Jester		7	6	No	No		13	13.13A	8	8	Jimmy Quinn	1	0	0	13.13A	205
+6/8/2014	13	13B	Jesse Mathews	Troy Fite	Kale Crampton	6	6	Yes	No		13	13.13B	7	7	Kale Crampton	0	1	1	13.13B	205
+6/15/2014	13	14A	Jimmy Quinn	Robert Lame	Jesse Mathews	8	6	No	No		14	13.14A	8	9	Jesse Mathews	2	2	2	13.14A	206
+6/15/2014	13	14B	Tyler Smith	Jon Jester		9	3	No	No		14	13.14B	9	9	Marvin Alright	6	1	1	13.14B	206
+6/22/2014	13	15A	Robert Lame	Seth Wachtel	Matt Davis	8	5	No	No		15	13.15A	7	7	Matt Davis	3	3	3	13.15A	207
+6/22/2014	13	15B	Jesse Mathews	Jimmy Quinn	Daniel Smith	7	6	No	No		15	13.15B	8	8	Daniel Smith	1	-1	-1	13.15B	207
+6/29/2014	13	16A	Jimmy Quinn	Jesse Mathews		9	8	No	No		16	13.16A	7	7	Jimmy Quinn	1	-1	-1	13.16A	208
+6/29/2014	13	16B	Robert Lame	Troy Fite	Jered Lawrenson	10	8	No	No		16	13.16B	6	6	Jered Lawrenson	2	0	0	13.16B	208
+7/6/2014	14	1A	Jimmy Quinn	Robert Lame	Cole Courtney	7	7	Yes	No		1	14.1A	6	6	Cole Courtney	0	0	0	14.1A	209
+7/6/2014	14	1B	Troy Fite	Jesse Mathews	Troy Fite	8	7	No	No		1	14.1B	6	6	Troy Fite	1	-1	-1	14.1B	209
+7/6/2014	14	1C	Jon Jester	Tyler Smith	Jacob Wright	9	8	No	No		1	14.1C	6	6	Jon Jester	1	3	3	14.1C	209
+7/13/2014	14	2A	Jimmy Quinn	Tyler Smith		10	8	No	No		2	14.2A	6	6	AJ Ferguson	2	2	2	14.2A	210
+7/13/2014	14	2B	Robert Lame	Troy Fite	Jesse Mathews	11	9	No	No		2	14.2B	7	5	Jesse Mathews	2	2	2	14.2B	210
+7/20/2014	14	3A	Robert Lame	Troy Fite	Brent Friday	8	7	No	No		3	14.3A	5	5	Brent Friday	1	-2	-2	14.3A	211
+7/20/2014	14	3B	Jered Lawrenson	Reid Wise	Chris Muse	7	6	No	No		3	14.3B	5	5	Chris Muse	1	0	0	14.3B	211
+7/27/2014	14	4A	Jimmy Quinn	Jon Jester	Matt Davis	8	6	No	No		4	14.4A	8	8	Jimmy Quinn	2	2	2	14.4A	212
+7/27/2014	14	4B	Troy Fite	Jered Lawrenson	Brian Ward	9	6	No	No		4	14.4B	8	7	Troy Fite	3	2	2	14.4B	212
+8/3/2014	14	5A	Jimmy Quinn	Troy Fite	Shawn Slowinski	8	8	Yes	No		5	14.5A	7	7	Shawn Slowinski	0	0	0	14.5A	213
+8/3/2014	14	5B	Jered Lawrenson	Jon Jester	Jered Lawrenson	14	8	No	No		5	14.5B	7	6	Jesse Mathews	6	2	1	14.5B	213
+8/10/2014	14	6A	Jimmy Quinn	Robert Lame	Matt Davis	10	8	No	No		6	14.6A	7	6	Jesse Mathews	2	0	0	14.6A	214
+8/10/2014	14	6B	Jon Jester	Troy Fite	Jon Jester	9	8	No	No		6	14.6B	7	7	Jon Jester	1	5	5	14.6B	214
+8/17/2014	14	7A	Tyler Smith	Jimmy Quinn	Tyler Smith	9	9	Yes	No		7	14.7A	7	8	Tyler Smith	0	1	1	14.7A	215
+8/17/2014	14	7B	Troy Fite	Robert Lame	AJ Ferguson	12	7	No	No		7	14.7B	7	7	Mitchell Draelos	5	2	4	14.7B	215
+8/24/2014	14	8A	Jimmy Quinn	Jon Jester	Jimmy Quinn	14	9	No	No		8	14.8A	8	9	Jimmy Quinn	5	5	5	14.8A	216
+8/24/2014	14	8B	Troy Fite	Tyler Smith	Jered Lawrenson	10	7	No	No		8	14.8B	8	8	Jered Lawrenson	3	4	4	14.8B	216
+8/31/2014	14	9A	Jimmy Quinn	Troy Fite	Chris Muse	10	7	No	No		9	14.9A	7	7	Chris Muse	3	-1	0	14.9A	217
+8/31/2014	14	9B	Jon Jester	AJ Ferguson	Jon Jester	7	5	No	No		9	14.9B	7	7	Jon Jester	2	2	2	14.9B	217
+9/7/2014	14	10A	Jimmy Quinn	Troy Fite	Reid Wise	11	11	Yes	No		10	14.10A	9	8	Brent Friday	0	2	2	14.10A	218
+9/7/2014	14	10B	Jered Lawrenson	Jon Jester	Josh Hough	9	4	No	No		10	14.10B	9	9	Matt Davis	5	4	4	14.10B	218
+9/14/2014	14	11A	AJ Ferguson	Jimmy Quinn	Zach Garlitz	10	9	No	No		11	14.11A	6	6	Zach Garlitz	1	-1	-1	14.11A	219
+9/28/2014	14	11B	Jon Jester	Troy Fite	Ryan Hudson	6	4	No	No		11	14.11B	7	8	Ryan Hudson	2	2	2	14.11B	219
+9/21/2014	14	12A	Jimmy Quinn	AJ Ferguson	Matt Jester	9	4	No	No		12	14.12A	7	8	Kyle Bowler	5	3	4	14.12A	220
+9/21/2014	14	12B	Jon Jester	Troy Fite	Jon Jester	12	7	No	No		12	14.12B	7	7	Jon Jester	5	4	4	14.12B	220
+9/28/2014	14	13A	Jimmy Quinn	Jered Lawrenson	Jimmy Quinn	8	8	Yes	No		13	14.13A	9	8	Brian Ward	0	-1	-1	14.13A	221
+9/28/2014	14	13B	Jon Jester	Troy Fite	Ryan Hudson	6	4	No	No		13	14.13B	8	8	Ryan Hudson	2	2	2	14.13B	221
+10/5/2014	14	14A	Jimmy Quinn	Troy Fite	Jon Jester	9	6	No	No		14	14.14A	7	7	Jon Jester	3	3	4	14.14A	222
+10/5/2014	14	14B	Jered Lawrenson	Robert Lame	Josh Hough	10	9	Yes	No		14	14.14B	6	6	Josh Hough	1	2	2	14.14B	222
+10/12/2014	14	15A	Robert Lame	Jimmy Quinn	Daniel Smith	10	10	Yes	No		15	14.15A	6	6	Daniel Smith	0	-1	-2	14.15A	223
+10/12/2014	14	15B	Jered Lawrenson	Troy Fite	Jon Jester	8	6	No	No		15	14.15B	7	7	Jon Jester	2	-2	-2	14.15B	223
+10/19/2014	14	16A	Jimmy Quinn	Troy Fite	AJ DePhillips	6	4	No	No		16	14.16A	9	8	AJ DePhillips	2	2	2	14.16A	224
+10/19/2014	14	16B	AJ Ferguson	Robert Lame	Carl Lumpkin	8	6	No	No		16	14.16B	8	8	Carl Lumpkin	2	2	2	14.16B	224
+10/26/2014	15	1A	Robert Lame	Jimmy Quinn	Robert Lame	9	7	No	No	AJ Ferguson?	1	15.1A	6	6	AJ Ferguson	2	2	2	15.1A	225
+10/26/2014	15	1B	Troy Fite	Jered Lawrenson	Marvin Alright	8	7	No	No		1	15.1B	7	6	Daniel Smith	1	3	4	15.1B	225
+11/2/2014	15	2A	Jered Lawrenson	Jon Jester	Marvin Alright	8	7	No	No	AJ Ferguson?	2	15.2A	6	6	Jered Lawrenson	1	1	1	15.2A	226
+11/2/2014	15	2B	Robert Lame	Troy Fite	Clint Kimsey	8	8	Yes	No		2	15.2B	5	5	Eric Sykes	0	0	0	15.2B	226
+11/9/2014	15	3A	Jered Lawrenson	Jimmy Quinn	Kyle Bowler	7	4	No	No		3	15.3A	9	8	Kyle Bowler	3	1	1	15.3A	227
+11/9/2014	15	3B	Robert Lame	Troy Fite	AJ Ferguson	8	7	No	No		3	15.3B	8	8	AJ Ferguson	1	-1	-1	15.3B	227
+11/23/2014	15	4A	Jimmy Quinn	Troy Fite	Jimmy Quinn	6	5	No	No		4	15.4A	7	7	Kyle Bowler	1	0	-1	15.4A	228
+11/23/2014	15	4B	Jon Jester	Clint Kimsey	Matt Jordan	9	6	No	No		4	15.4B	7	7	AJ Ferguson	3	2	2	15.4B	228
+11/30/2014	15	5A	Jimmy Quinn	Jon Jester	Zach Garlitz	7	6	No	No		5	15.5A	7	7	Zach Garlitz	1	-1	-2	15.5A	229
+11/30/2014	15	5B	Robert Lame	Troy Fite	Chris Muse	11	5	No	No		5	15.5B	8	8	Chris Muse	6	4	4	15.5B	229
+12/7/2014	15	6A	Jered Lawrenson	Jimmy Quinn	Jered Lawrenson	13	7	No	No		6	15.6A	6	6	Jered Lawrenson	6	6	5	15.6A	230
+12/7/2014	15	6B	Troy Fite	Michael Jordan	Troy Fite	11	9	No	No		6	15.6B	6	6	Troy Fite	2	2	2	15.6B	230
+12/14/2014	15	7A	Jered Lawrenson	Jimmy Quinn	Robert Lame	9	8	No	No		7	15.7A	6	7	Robert Lame	1	1	1	15.7A	231
+12/14/2014	15	7B	Jon Jester	Troy Fite	Chris Muse	9	9	Yes	No		7	15.7B	6	6	Chris Muse	0	4	5	15.7B	231
+12/21/2014	15	8A	Troy Fite	Carl Lumpkin	KP	5	4	No	No	Nick?	8	15.8A	8	8	AJ Ferguson	1	-1	-1	15.8A	232
+12/21/2014	15	8B	Jered Lawrenson	Jesse Mathews	Josh Hough	6	5	No	No	Chris?	8	15.8B	8	7	Zach Garlitz	1	0	0	15.8B	232
+12/28/2014	15	9A	Jon Jester	Jimmy Quinn	Wes Jackson	10	9	No	No	Wes 'Megatron' Jackson	9	15.9A	8	7	Luke Mathews	1	1	2	15.9A	233
+12/28/2014	15	9B	Troy Fite	Jesse Mathews	Ryan Hudson	9	6	No	No		9	15.9B	7	7	Troy Fite	3	0	0	15.9B	233
+1/4/2015	15	10A	Jesse Mathews	Jimmy Quinn	Robert Lame	7	6	No	No		10	15.10A	7	7	Marvin Alright	1	3	3	15.10A	234
+1/4/2015	15	10B	Jered Lawrenson	Troy Fite	Jered Lawrenson	6	4	No	No		10	15.10B	7	7	Trey Kennedy	2	4	4	15.10B	234
+1/11/2015	15	11A	Troy Fite	Jimmy Quinn	Matt Davis	6	6	Yes	No		11	15.11A	7	8	Matt Davis	0	-4	-4	15.11A	235
+1/11/2015	15	11B	Jered Lawrenson	Jon Jester	KP	6	5	No	No	Austin?	11	15.11B	8	8	Robert Lame	1	-1	0	15.11B	235
+1/25/2015	15	12A	Robert Lame	Jimmy Quinn	Josh Hough	7	7	Yes	No		12	15.12A	7	8	Josh Hough	0	0	2	15.12A	236
+1/25/2015	15	12B	Jered Lawrenson	Troy Fite	Clint Kimsey	3	3	Yes	No		12	15.12B	7	7	Clint Kimsey	0	4	4	15.12B	236
+2/1/2015	15	13A	Jimmy Quinn	Troy Fite	Luke Mathews	9	8	No	No		13	15.13A	5	5	Luke Mathews	1	1	1	15.13A	237
+2/1/2015	15	13B	AJ Ferguson	Michael Jordan	AJ Ferguson	11	6	No	No	Garrett?	13	15.13B	5	5	Rex	5	4	3	15.13B	237
+2/8/2015	15	14A	Jimmy Quinn	Jered Lawrenson	Jimmy Quinn	7	5	No	No		14	15.14A	9	9	Chris Cross	2	0	-1	15.14A	238
+2/8/2015	15	14B	Troy Fite	AJ Ferguson	Clint Kimsey	9	6	No	No		14	15.14B	7	9	Clint Kimsey	3	0	0	15.14B	238
+2/15/2015	15	15A	Jered Lawrenson	Jimmy Quinn	KP	6	6	Yes	No		15	15.15A	7	7	KP	0	2	3	15.15A	239
+2/15/2015	15	15B	Troy Fite	Jon Jester	Clint Kimsey	8	8	Yes	No		15	15.15B	6	7	Mitchell Draelos	0	-1	-1	15.15B	239
+2/22/2015	15	16	Troy Fite	Jimmy Quinn	Clint Kimsey	5	4	No	No		16	15.16	7	7	Clint Kimsey	1	2	2	15.16	240
+3/1/2015	16	1	Troy Fite	Jimmy Quinn	Jered Lawrenson	6	5	No	No		1	16.1	8	8	Jered Lawrenson	1	0	0	16.1	241
+3/8/2015	16	2A	Jered Lawrenson	Jimmy Quinn	Zach Garlitz	12	10	No	No		2	16.2A	6	6	Jered Lawrenson	2	1	2	16.2A	242
+3/8/2015	16	2B	Garrett Griffin	Troy Fite	KP	9	6	No	No		2	16.2B	7	6	KP	3	4	4	16.2B	242
+3/15/2015	16	3A	Jon Jester	Jesse Mathews	Reid Wise	9	8	No	No		3	16.3A	6	6	Jon Jester	1	3	3	16.3A	243
+3/15/2015	16	3B	Jered Lawrenson	Troy Fite	Jered Lawrenson	9	7	No	No		3	16.3B	6	6	Kyle Bowler	2	3	3	16.3B	243
+3/22/2015	16	4A	Jimmy Quinn	Jered Lawrenson	Clint Kimsey	9	9	Yes	No		4	16.4A	6	5	clint kimsey	0	-1	-1	16.4A	244
+3/22/2015	16	4B	Jon Jester	Jesse Mathews	AJ Ferguson	13	6	No	No		4	16.4B	5	5	AJ Ferguson	7	5	5	16.4B	244
+3/29/2015	16	5A	Jimmy Quinn	Jered Lawrenson	AJ DePhillips	8	4	No	No		5	16.5A	5	5	AJ DePhillips	4	0	0	16.5A	245
+3/29/2015	16	5B	Troy Fite	AJ Ferguson	Matt Jordan	9	8	No	No		5	16.5B	6	6	clint kimsey	1	0	0	16.5B	245
+4/5/2015	16	6	Troy Fite	Jimmy Quinn	Troy Fite	15	12	No	No		6	16.6	5	5	clint kimsey	3	3	3	16.6	246
+4/12/2015	16	7A	Jimmy Quinn	Troy Fite	Beau Bromley	12	11	No	No		7	16.7A	5	5	matt davis	1	-1	-1	16.7A	247
+4/12/2015	16	7B	Jon Jester	Jered Lawrenson	Jon Jester	7	7	Yes	No		7	16.7B	6	6	Jon Jester	0	5	5	16.7B	247
+4/19/2015	16	8	Garrett Griffin	Troy Fite	Dominique Singer	8	6	No	No		8	16.8	6	6	Dominique Singer	2	1	1	16.8	248
+4/26/2015	16	9A	Troy Fite	Tyler Smith	Matt Jester	8	3	No	No		9	16.9A	7	8	Matt Jester	5	3	3	16.9A	249
+4/26/2015	16	9B	Clint Kimsey	Matt Davis	Kyle Bowler	7	6	No	No		9	16.9B	7	7	Kyle Bowler	1	4	4	16.9B	249
+5/3/2015	16	10	Jered Lawrenson	Jimmy Quinn	Matt Jester	8	5	No	No		10	16.10	9	8	Matt Jester	3	-2	-2	16.10	250
+5/10/2015	16	11	Troy Fite	Jimmy Quinn	Troy Fite	7	3	No	No		11	16.11	10	9	Troy Fite	4	4	5	16.11	251
+5/17/2015	16	12A	Jimmy Quinn	Jon Jester	Tyler Smith	7	6	No	No	Took score from calculated.	12	16.12A	7	6	Tyler Smith	1	-1	-1	16.12A	252
+5/17/2015	16	12B	Troy Fite	Jered Lawrenson	Clint Kimsey	8	7	No	No		12	16.12B	6	6	clint kimsey	1	0	0	16.12B	252
+5/24/2015	16	13	Troy Fite	Jimmy Quinn	Matt Bethke	7	6	No	No		13	16.13	7	6	Mitchell Draelos	1	1	1	16.13	253
+5/31/2015	16	14A	Jon Jester	Jimmy Quinn	Josh Hough	9	6	No	No		14	16.14A	7	6	Jon Jester	3	0	0	16.14A	254
+5/31/2015	16	14B	Jered Lawrenson	Troy Fite	Kyle Bowler	11	10	No	No		14	16.14B	7	7	Kyle Bowler	1	2	2	16.14B	254
+6/7/2015	16	15A	Troy Fite	Jimmy Quinn	Reid Wise	10	9	No	No		15	16.15A	6	6	Jesse Mathews	1	-1	-1	16.15A	255
+6/7/2015	16	15B	Jon Jester	Jered Lawrenson	Jared Gillam	8	5	No	No		15	16.15B	6	6	Jared Gillam	3	1	2	16.15B	255
+6/14/2015	16	16A	Jimmy Quinn	Robert Lame	Rex	10	9	No	No		16	16.16A	5	4	Rex	1	0	-1	16.16A	256
+6/14/2015	16	16B	Jon Jester	Troy Fite	Jon Jester	12	10	No	No		16	16.16B	5	5	Trey Kennedy	2	1	1	16.16B	256
+6/21/2015	17	1A	Troy Fite	Jimmy Quinn	Daniel Smith	8	7	No	No		1	17.1A	7	6	Wes Jackson	1	-2	-2	17.1A	257
+6/21/2015	17	1B	Jered Lawrenson	Jon Jester	Kyle Bowler	8	8	Yes	No		1	17.1B	6	6	Kyle Bowler	0	0	0	17.1B	257
+6/28/2015	17	2A	Jesse Mathews	Troy Fite	Matt Jester	7	5	No	No		2	17.2A	5	5	Matt Jester	2	0	0	17.2A	258
+7/5/2015	17	3A	Jimmy Quinn	Jon Jester	Mitchell Draelos	7	6	No	No		3	17.3A	6	6	Mitchell Draelos	1	2	3	17.3A	259
+7/5/2015	17	3B	Troy Fite	Jered Lawrenson	Luke Mathews	7	6	No	No		3	17.3B	5	6	Daniel Smith	1	1	1	17.3B	259
+7/12/2015	17	4A	Troy Fite	Jimmy Quinn	Matt Davis	8	7	No	No		4	17.4A	6	6	Matt Davis	1	0	0	17.4A	260
+7/12/2015	17	4B	Jon Jester	Jesse Mathews	Josh Hough	7	7	Yes	No		4	17.4B	7	7	Josh Hough	0	3	3	17.4B	260
+7/19/2015	17	5B	Troy Fite	Jered Lawrenson	Brian Ward	8	7	No	No		5	17.5B	6	6	Brian Ward	1	2	2	17.5B	261
+7/26/2015	17	6	Troy Fite	Jimmy Quinn	Luke Mathews	6	6	Yes	No		6	17.6	11	11	Troy Fite	0	-1	-1	17.6	262
+8/2/2015	17	7A	Jimmy Quinn	Jon Jester	Matt Davis	8	6	No	No		7	17.7A	7	7	Jesse Mathews	2	1	1	17.7A	263
+8/7/2015	17	8A	Troy Fite	Jimmy Quinn	Troy Fite	11	11	Yes	No		8	17.8A	6	6	Matt Jordan	0	0	0	17.8A	264
+8/7/2015	17	8B	Jon Jester	Jered Lawrenson	Jon Jester	8	6	No	No		8	17.8B	5	6	Jon Jester	2	-1	-1	17.8B	264
+8/16/2015	17	9A	Jon Jester	Jimmy Quinn	brent Friday	12	10	No	No		9	17.9A	6	6	Jon Jester	2	1	0	17.9A	265
+8/16/2015	17	9B	Jesse Mathews	Troy Fite	Luke Mathews	9	8	No	No		9	17.9B	5	6	Luke Mathews	1	-1	1	17.9B	265
+8/23/2015	17	10A	Jimmy Quinn	Jered Lawrenson	Jimmy Quinn	12	9	No	No		10	17.10A	7	6	Matt Jester	3	3	3	17.10A	266
+8/23/2015	17	10B	Troy Fite	Michael Jordan	Troy Fite	11	6	No	No		10	17.10B	7	7	Troy Fite	5	2	2	17.10B	266
+8/30/2015	17	11	Jered Lawrenson	Troy Fite	Jered Lawrenson	12	12	Yes	No		11	17.11	5	5	Matt Jester	0	1	1	17.11	267
+9/6/2015	17	12	Jimmy Quinn	Troy Fite	Kyle Bowler	6	5	No	No		12	17.12	7	7	Kyle Bowler	1	4	4	17.12	268
+9/13/2015	17	13	Garrett Griffin	Austin Green	Garrett Griffin	8	3	No	No		13	17.13	5	5	Garrett Griffin	5	3	4	17.13	269
+9/20/2015	17	14	Jimmy Quinn	Troy Fite	Reid Wise	8	8	Yes	No		14	17.14	6	7	Reid Wise	0	-2	-2	17.14	270
+9/27/2015	17	15A	Jon Jester	Jimmy Quinn	Jon Jester	9	7	No	No		15	17.15A	7	7	Jon Jester	2	4	3	17.15A	271
+9/27/2015	17	15B	Jered Lawrenson	Troy Fite	Garrett Griffin	13	9	No	No		15	17.15B	6	5	Garrett Griffin	4	1	1	17.15B	271
+10/4/2015	17	16A	Troy Fite	Jimmy Quinn	Troy Fite	11	8	No	No		16	17.16A	8	8	Troy Fite	3	1	1	17.16A	272
+10/4/2015	17	16B	Garrett Griffin	Jered Lawrenson	Cole Courtney	7	6	No	No		16	17.16B	8	8	Cole Courtney	1	2	2	17.16B	272
+10/11/2015	18	1	Troy Fite	Jimmy Quinn	brent Friday	6	6	Yes	No		1	18.1	10	10	Troy Fite	0	-1	-1	18.1	273
+10/18/2015	18	2A	Jimmy Quinn	Jered Lawrenson	Jimmy Quinn	10	7	No	No		2	18.2A	6	6	Kyle Bowler	3	1	2	18.2A	274
+10/18/2015	18	2B	Troy Fite	Garrett Griffin	Reid Wise	12	7	No	No		2	18.2B	6	6	Troy Fite	5	3	3	18.2B	274
+10/25/2015	18	3A	Troy Fite	Jimmy Quinn	Dillon Corn	8	8	Yes	No		3	18.3A	6	5	Clint Kimsey	0	1	1	18.3A	275
+10/25/2015	18	3B	Jon Jester	Jered Lawrenson	Jon Jester	11	7	No	No		3	18.3B	6	6	Jon Jester	4	4	4	18.3B	275
+11/2/2015	18	4	Jimmy Quinn	Troy Fite	Jimmy Quinn	7	5	No	No		4	18.4	9	10	Jimmy Quinn	2	4	4	18.4	276
+11/9/2015	18	5	Jimmy Quinn	Troy Fite	Garrett Bright	12	7	No	No		5	18.5	10	10	Jimmy Quinn	5	7	7	18.5	277
+11/15/2015	18	6	Jimmy Quinn	Garrett Griffin	Reid Wise	13	9	No	No		6	18.6	8	9	Reid Wise	4	4	4	18.6	278
+11/22/2015	18	7	Troy Fite	Jimmy Quinn	Clint Kimsey	8	4	No	No		7	18.7	10	9	clint kimsey	4	5	5	18.7	279
+11/29/2015	18	8	Troy Fite	Jimmy Quinn	Clint Kimsey	12	6	No	No		8	18.8	8	7	Troy Fite	6	1	1	18.8	280
+12/6/2015	18	9A	Jered Lawrenson	Troy Fite	Kyle Bowler	8	7	No	No		9	18.9A	6	7	Kyle Bowler	1	3	3	18.9A	281
+12/6/2015	18	9B	Jimmy Quinn	Garrett Griffin	Jimmy Quinn	11	7	No	No		9	18.9B	7	7	Jimmy Quinn	4	5	5	18.9B	281
+12/13/2015	18	10	Robert Lame	Jimmy Quinn	Luke Mathews	11	10	No	No		10	18.10	8	9	Luke Mathews	1	2	2	18.10	282
+12/20/2015	18	11A	Jered Lawrenson	Jimmy Quinn	Jered Lawrenson	9	7	No	No		11	18.11A	7	7	Jered Lawrenson	2	2	2	18.11A	283
+12/20/2015	18	11B	Troy Fite	Robert Lame	Troy Fite	8	7	No	No		11	18.11B	6	7	Troy Fite	1	0	0	18.11B	283
+12/27/2015	18	12	Troy Fite	Jimmy Quinn	Matt Jester	3	2	No	No	MVP was Mother Nature; my call is Greg Salyer	12	18.12	11	10	Greg Salyer	1	-2	-2	18.12	284
+1/3/2016	18	13A	Jimmy Quinn	Jon Jester	Chris Cross	9	8	No	No		13	18.13A	8	8	Chris Cross	1	-1	-1	18.13A	285
+1/3/2016	18	13B	Troy Fite	Robert Lame	Shane Gibson	7	6	No	No		13	18.13B	9	9	clint kimsey	1	-1	-1	18.13B	285
+1/10/2016	18	14A	Jimmy Quinn	Jon Jester	Jimmy Quinn	11	9	No	No		14	18.14A	7	6	Kyle Bowler	2	2	2	18.14A	286
+1/10/2016	18	14B	Troy Fite	Clint Kimsey	Luke Mathews	9	6	No	No		14	18.14B	7	7	Troy Fite	3	-1	-1	18.14B	286
+1/17/2016	18	15A	Jimmy Quinn	Jon Jester	Shane Gibson	8	8	Yes	No	Shane/Will were Captains	15	18.15A	6	5	Shane Gibson	0	1	1	18.15A	287
+1/17/2016	18	15B	Jered Lawrenson	AJ Ferguson	Jered Lawrenson	8	6	No	No	Beau/Chris were Captains	15	18.15B	5	5	Beau Bromley	2	3	3	18.15B	287
+1/24/2016	18	16A	Jimmy Quinn	Troy Fite	Beau Bromley	10	7	No	No		16	18.16A	6	6	Shane Gibson	3	0	0	18.16A	288
+1/24/2016	18	16B	Jered Lawrenson	AJ Ferguson	Kyle Bowler	9	6	No	No		16	18.16B	5	5	Kyle Bowler	3	1	1	18.16B	288
+1/31/2016	19	1A	Jimmy Quinn	Troy Fite	Will Gattenby	9	6	No	No		1	19.1A	8	8	Will Gattenby	3	-1	0	19.1A	289
+1/31/2016	19	1B	Jered Lawrenson	Jon Jester	Luke Mathews	7	5	No	No		1	19.1B	9	9	Luke Mathews	2	0	0	19.1B	289
+2/7/2016	19	2A	Jimmy Quinn	Troy Fite	Chris Cross	8	6	No	No	Tough call on MVP… Cross, T Smith, Draelos? - My call is Chris	2	19.2A	8	8	Jimmy Quinn	2	1	1	19.2A	290
+2/7/2016	19	2B	Jon Jester	Jered Lawrenson	Beau Bromley	10	8	No	No		2	19.2B	7	7	Jon Jester	2	3	4	19.2B	290
+2/14/2016	19	3A	Jimmy Quinn	Jered Lawrenson	Matt Davis	12	11	No	No		3	19.3A	5	6	matt davis	1	0	1	19.3A	291
+2/14/2016	19	3B	Troy Fite	Jon Jester	Mitchell Draelos	10	8	No	No		3	19.3B	6	6	Mitchell Draelos	2	1	0	19.3B	291
+2/21/2016	19	4A	Jon Jester	Jimmy Quinn	Garrett Griffin	10	9	No	No		4	19.4A	7	8	Garrett Griffin	1	0	0	19.4A	292
+2/21/2016	19	4B	Troy Fite	Jered Lawrenson	Matt Davis	9	8	No	No		4	19.4B	7	7	Matt Davis	1	-1	-1	19.4B	292
+2/28/2016	19	5A	Troy Fite	Jimmy Quinn	Troy Fite	15	9	No	No		5	19.5A	7	6	Troy Fite	6	3	4	19.5A	293
+2/28/2016	19	5B	Jon Jester	Jered Lawrenson	Matt Jordan	9	9	Yes	No	3OT, MVP: AJ? Draelos? Matt Jordan? My call is Matt Jordan	5	19.5B	6	6	Matt Jordan	0	1	1	19.5B	293
+3/7/2016	19	6A	Troy Fite	Jimmy Quinn	Luke Mathews	12	8	No	No		6	19.6A	6	6	Luke Mathews	4	5	6	19.6A	294
+3/7/2016	19	6B	Jered Lawrenson	Garrett Griffin	Jon Jester	11	10	No	No		6	19.6B	6	6	Jon Jester	1	3	2	19.6B	294
+3/13/2016	19	7	Troy Fite	Jered Lawrenson	Kyle Bowler	4	4	Yes	No		7	19.7	9	9	Kyle Bowler	0	-4	-3	19.7	295
+3/20/2016	19	8	Jimmy Quinn	Troy Fite	Jon Jester	9	7	No	No	MVP: Shane, Jester, or Davis; my call is Jester	8	19.8	9	10	Jimmy Quinn	2	2	2	19.8	296
+3/27/2016	19	9	Troy Fite	Jimmy Quinn	Jon Jester	13	10	No	No		9	19.9	5	5	Jon Jester	3	1	1	19.9	297
+4/3/2016	19	10	Troy Fite	Jimmy Quinn	Mitchell Draelos	6	5	No	No	My MVP vote is Mitch Draelos	10	19.10	8	8	Mitchell Draelos	1	-1	-1	19.10	298
+4/10/2016	19	11	Jimmy Quinn	Troy Fite	Allen Cooper	8	6	No	No	MVP Vote tied at Shane/Allen. Fantasy points went with Allen.	11	19.11	7	8	Jimmy Quinn	2	2	2	19.11	299
+4/17/2016	19	12	Troy Fite	Jimmy Quinn	Shane Gibson	12	11	No	No		12	19.12	5	5	Shane Gibson	1	-2	-2	19.12	300
+4/24/2016	19	13	Jimmy Quinn	Troy Fite	Beau Bromley	12	7	No	No		13	19.13	7	6	Beau Bromley	5	4	4	19.13	301
+5/1/2016	19	14	Jimmy Quinn	Troy Fite	Shane Gibson	11	10	No	No		14	19.14	7	7	Jimmy Quinn	1	2	2	19.14	302
+5/8/2016	19	15	Troy Fite	Jimmy Quinn	Troy Fite	10	8	No	No		15	19.15	7	7	Luke Mathews	2	4	4	19.15	303
+5/15/2016	19	16A	Jered Lawrenson	Matt Davis	Jered Lawrenson	12	8	No	No		16	19.16A	6	6	Shane Gibson	4	3	3	19.16A	304
+5/15/2016	19	16B	Jimmy Quinn	Troy Fite	Tyler Smith	11	8	No	No		16	19.16B	5	6	Jimmy Quinn	3	-1	-1	19.16B	304
+5/22/2016	20	1	Jimmy Quinn	Tyler Smith	Daniel Smith	4	3	No	No	Beau/Shane were Captains	1	20.1	9	9	Daniel Smith	1	0	-1	20.1	305
+5/29/2016	20	2A	Jimmy Quinn	Jered Lawrenson	Matt Davis	7	5	No	No		2	20.2A	5	6	Jimmy Quinn	2	-1	-1	20.2A	306
+5/29/2016	20	2B	Jon Jester	Troy Fite	Shane Gibson	12	5	No	No		2	20.2B	6	6	AJ DePhillips	7	4	5	20.2B	306
+6/5/2016	20	3	Troy Fite	Jimmy Quinn	Terrance Pugh	8	7	No	No		3	20.3	9	8	Terrance Pugh	1	2	2	20.3	307
+6/12/2016	20	4	Troy Fite	Jimmy Quinn	Shane Gibson	7	6	No	No		4	20.4	10	10	Shane Gibson	1	1	0	20.4	308
+6/19/2016	20	5	Jimmy Quinn	Troy Fite	Jered Lawrenson	6	5	No	No		5	20.5	9	8	Jered Lawrenson	1	1	1	20.5	309
+6/26/2016	20	6	Jimmy Quinn	Troy Fite	Beau Bromley	9	7	No	No		6	20.6	8	9	Beau Bromley	2	0	0	20.6	310
+7/3/2016	20	7A	Jered Lawrenson	Jimmy Quinn	Shane Gibson	8	8	Yes	No		7	20.7A	7	7	Shane Gibson	0	-2	-2	20.7A	311
+7/3/2016	20	7B	Jon Jester	Troy Fite	Terrance Pugh	9	8	No	No		7	20.7B	6	6	Jon Jester	1	-1	-1	20.7B	311
+7/17/2016	20	8	Jimmy Quinn	Troy Fite	Jimmy Quinn	5	3	No	No		8	20.8	11	12	Jimmy Quinn	2	3	3	20.8	312
+7/24/2016	20	9	AJ DePhillips	Matt Jester	Austin Wullschleger	7	6	Yes	No		9	20.9	6	6	Austin Wullschleger	1	-2	-2	20.9	313
+7/31/2016	20	10A	Jimmy Quinn	Troy Fite	Jered Lawrenson	12	8	No	No		10	20.10A	5	5	Jered Lawrenson	4	2	2	20.10A	314
+7/31/2016	20	10B	Jon Jester	Tyler Smith	Jon Jester	8	6	No	No		10	20.10B	6	6	Jon Jester	2	3	3	20.10B	314
+8/7/2016	20	11	Troy Fite	Jimmy Quinn	Reid Wise	4	2	No	No		11	20.11	10	10	Troy Fite	2	2	2	20.11	315
+8/14/2016	20	12	Jimmy Quinn	Jon Jester	Beau Bromley	7	5	No	No		12	20.12	9	9	Beau Bromley	2	5	5	20.12	316
+8/21/2016	20	13A	Jimmy Quinn	Matt Jester	Jimmy Quinn	10	8	No	No		13	20.13A	6	5	Jimmy Quinn	2	1	1	20.13A	317
+8/21/2016	20	13B	Jon Jester	Troy Fite	Luke Mathews	9	6	No	No		13	20.13B	6	6	Andie McGee	3	2	2	20.13B	317
+8/28/2016	20	14	Jimmy Quinn	Troy Fite	Hayden Holmes	6	6	Yes	No		14	20.14	7	7	Hayden Holmes	0	1	1	20.14	318
+9/4/2016	20	15	Jon Jester	Troy Fite	Luke Mathews	10	7	No	No		15	20.15	5	5	Luke Mathews	3	0	0	20.15	319
+9/11/2016	20	16	Troy Fite	Jimmy Quinn	Shane Gibson	10	8	No	No		16	20.16	8	7	Shane Gibson	2	1	-1	20.16	320
+9/18/2016	21	1	Jimmy Quinn	Troy Fite	Hayden Holmes	4	4	Yes	No		1	21.1	8	8	Hayden Holmes	0	1	1	21.1	321
+9/25/2016	21	2A	Jimmy Quinn	Jered Lawrenson	Jimmy Quinn	13	10	No	No		2	21.2A	6	6	Jimmy Quinn	3	2	3	21.2A	322
+9/25/2016	21	2B	Troy Fite	Jon Jester	Tyler Smith	11	11	Yes	No		2	21.2B	6	6	Tyler Smith	0	-2	-2	21.2B	322
+10/2/2016	21	3	Troy Fite	Jimmy Quinn	Jered Lawrenson	9	8	No	No		3	21.3	9	8	Jered Lawrenson	1	-2	-2	21.3	323
+10/9/2016	21	4A	Troy Fite	Jimmy Quinn	Jesse Mathews	12	11	No	No		4	21.4A	7	7	Jesse Mathews	1	2	1	21.4A	324
+10/9/2016	21	4B	Jon Jester	Jered Lawrenson	Brian Ward	9	5	No	No		4	21.4B	7	7	Jon Jester	4	2	2	21.4B	324
+10/16/2016	21	5	Robert Lame	Troy Fite	Robert Lame	8	7	No	No		5	21.5	8	8	Robert Lame	1	2	2	21.5	325
+10/23/2016	21	6	Jon Jester	Troy Fite	Jon Jester	9	5	No	No		6	21.6	10	9	Jon Jester	4	6	7	21.6	326
+10/30/2016	21	7	Jimmy Quinn	Matt Jester	Beau Bromley	17	10	No	No	Beau and Shane were the captains.	7	21.7	5	5	Beau Bromley	7	6	7	21.7	327
+11/6/2016	21	8A	Jimmy Quinn	Jered Lawrenson	AJ Ferguson	12	8	No	No		8	21.8A	6	6	AJ Ferguson	4	2	2	21.8A	328
+11/6/2016	21	8B	Jon Jester	Troy Fite	Beau Bromley	12	10	No	No		8	21.8B	5	6	Beau Bromley	2	2	2	21.8B	328
+11/13/2016	21	9	Jon Jester	Jimmy Quinn	AJ DePhillips	8	7	No	No		9	21.9	9	9	Jon Jester	1	-1	-1	21.9	329
+11/20/2016	21	10A	Troy Fite	Jimmy Quinn	Troy Fite	10	10	Yes	No		10	21.10A	6	5	Chris Cross	0	0	0	21.10A	330
+11/20/2016	21	10B	Hayden Holmes	Jesse Mathews	Garett Hill	9	7	No	No		10	21.10B	6	6	Garett Hill	2	2	2	21.10B	330
+11/27/2016	21	11	Jimmy Quinn	Troy Fite	Jon Jester	10	5	No	No		11	21.11	7	7	Beau Bromley	5	3	3	21.11	331
+12/4/2016	21	12A	Jimmy Quinn	Jon Jester	Clint Kimsey	11	10	No	No		12	21.12A	5	5	Clint Kimsey	1	0	0	21.12A	332
+12/4/2016	21	12B	Jered Lawrenson	Tyler Smith	Chris Cross	8	3	No	No		12	21.12B	6	5	Chris Cross	5	3	3	21.12B	332
+12/11/2016	21	13A	Jesse Mathews	Jimmy Quinn	Caleb Vanhorn	10	9	No	No		13	21.13A	6	6	Caleb Vanhorn	1	1	1	21.13A	333
+12/11/2016	21	13B	Troy Fite	Hayden Holmes	Garrett Griffin	8	7	No	No		13	21.13B	6	7	Garrett Griffin	1	0	0	21.13B	333
+12/18/2016	21	14	Jimmy Quinn	Troy Fite	Jesse Mathews	9	7	No	No		14	21.14	8	8	Jesse Mathews	2	-1	-1	21.14	334
+1/1/2017	21	15A	Jesse Mathews	Matt Jester	Jacob Wright	7	5	No	No		15	21.15A	5	5	Jacob Wright	2	5	5	21.15A	335
+1/1/2017	21	15B	Jon Jester	Troy Fite	Jon Jester	12	11	No	No		15	21.15B	5	5	Luke Mathews	1	1	1	21.15B	335
+1/8/2017	21	16	Jimmy Quinn	Troy Fite	Garett Hill	5	4	No	No		16	21.16	10	10	Garett Hill	1	-3	-4	21.16	336
+1/15/2017	22	1	Jimmy Quinn	Troy Fite	Chris Cross	7	7	Yes	No		1	22.1	4	5	Chris Cross	0	-1	-1	22.1	337
+1/22/2017	22	2	Hayden Holmes	Jesse Mathews	Garrett Griffin	12	11	No	No		2	22.2	5	5	Luke Mathews	1	1	1	22.2	338
+1/29/2017	22	3	Jesse Mathews	Hayden Holmes	Matt Davis	7	7	Yes	No	3OT	3	22.3	9	10	Matt Davis	0	1	0	22.3	339
+2/5/2017	22	4	Troy Fite	Jon Jester	Troy Fite	7	5	No	No		4	22.4	9	8	Troy Fite	2	2	2	22.4	340
+2/12/2017	22	5A	Jimmy Quinn	Jon Jester	Jered Lawrenson	8	8	Yes	No		5	22.5A	7	6	Jimmy Quinn	0	-2	-2	22.5A	341
+2/12/2017	22	5B	Troy Fite	Hayden Holmes	Brian Ward	7	6	No	No		5	22.5B	7	7	Brian Ward	1	-1	-1	22.5B	341
+2/17/2017	22	6	Jimmy Quinn	Troy Fite	Shane Gibson	10	9	No	No		6	22.6	9	9	Jimmy Quinn	1	0	2	22.6	342
+2/24/2017	22	7A	Jimmy Quinn	Troy Fite	Beau Bromley	12	9	No	No		7	22.7A	6	6	Beau Bromley	3	3	5	22.7A	343
+2/24/2017	22	7B	Jon Jester	Jesse Mathews	Shane Gibson	12	11	No	No		7	22.7B	5	5	Shane Gibson	1	2	3	22.7B	343
+3/5/2017	22	8	Jimmy Quinn	Jesse Mathews	Jimmy Quinn	11	11	Yes	No	3OT	8	22.8	4	4	Aaron Lewis	0	-1	-1	22.8	344
+3/12/2017	22	9	Jon Jester	Troy Fite	AJ Ferguson	10	6	No	No		9	22.9	8	8	AJ Ferguson	4	3	4	22.9	345
+3/19/2017	22	10	Troy Fite	Jimmy Quinn	Jesse Mathews	11	8	No	No		10	22.10	8	7	Jesse Mathews	3	4	3	22.10	346
+3/26/2017	22	11A	Troy Fite	Jimmy Quinn	Chris Cross	10	8	No	No		11	22.11A	5	5	Chris Cross	2	2	2	22.11A	347
+3/26/2017	22	11B	Jon Jester	Garrett Griffin	Ryan Hudson	10	5	No	No		11	22.11B	6	7	Jesse Mathews	5	4	4	22.11B	347
+4/2/2017	22	12	Troy Fite	Jimmy Quinn	Jesse Mathews	11	10	No	No		12	22.12	6	5	Jesse Mathews	1	3	3	22.12	348
+4/9/2017	22	13	Jimmy Quinn	Troy Fite		4	4	No	Yes	Game ended early in a tie due to a Bromley/Cross collision.	13	22.13	5	5	Beau Bromley	0	0	-1	22.13	349
+4/16/2017	22	14	Jon Jester	Jimmy Quinn	Jon Jester	11	11	Yes	No	1st game with new OT rules	14	22.14	3	4	Tyler Smith	0	1	1	22.14	350
+4/23/2017	22	15	Troy Fite	Garrett Griffin	Jesse Mathews	12	9	No	No		15	22.15	6	6	Jesse Mathews	3	1	2	22.15	351
+4/30/2017	22	16	Jimmy Quinn	Troy Fite	Garrett Griffin	11	11	Yes	No	3OT	16	22.16	6	6	Garrett Griffin	0	-1	-1	22.16	352
+5/7/2017	23	1	Troy Fite	Jimmy Quinn	AJ Ferguson	9	8	No	No		1	23.1	9	9	Troy Fite	1	1	1	23.1	353
+5/14/2017	23	2	Troy Fite	Jimmy Quinn	Ryan Hudson	8	7	No	No		2	23.2	5	5	Ryan Hudson	1	-2	-1	23.2	354
+5/21/2017	23	3	Jimmy Quinn	Jon Jester	Luke Mathews	7	7	Yes	No		3	23.3	9	9	Luke Mathews	0	2	2	23.3	355
+5/28/2017	23	4	Jon Jester	Troy Fite	Luke Sandoval	11	9	No	No		4	23.4	7	7	Jon Jester	2	2	2	23.4	356
+6/4/2017	23	5	Jon Jester	Troy Fite	Wes Jackson	10	6	No	No		5	23.5	8	7	Jon Jester	4	2	2	23.5	357
+6/11/2017	23	6	Troy Fite	Jimmy Quinn	Garett Hill	7	6	No	No		6	23.6	8	8	Garett Hill	1	0	0	23.6	358
+6/18/2017	23	7	Jon Jester	Jimmy Quinn	Nate Wood	9	8	No	No		7	23.7	9	8	Nate Wood	1	-1	-1	23.7	359
+6/25/2017	23	8	Jimmy Quinn	Troy Fite	Matt Davis	9	9	No	No		8	23.8	7	8	Matt Davis	0	0	0	23.8	360
+7/2/2017	23	9A	Beau Bromley	Jesse Mathews	Garett Hill	7	7	Yes	No	2OT; Jesse's team was down 3 and took it to OT	9	23.9A	5	5	Garett Hill	0	-1	-2	23.9A	361
+7/2/2017	23	9B	Jon Jester	Troy Fite	Nate Wood	10	9	No	No		9	23.9B	5	5	Nate Wood	1	1	2	23.9B	361
+7/9/2017	23	10A	Jon Jester	Jesse Mathews	Jon Jester	11	11	Yes	No		10	23.10A	6	6	Jon Jester	0	-1	-2	23.10A	362
+7/9/2017	23	10B	Troy Fite	Jimmy Quinn	AJ Ferguson	8	8	Yes	No		10	23.10B	5	5	AJ Ferguson	0	1	1	23.10B	362
+7/16/2017	23	11	Jimmy Quinn	Troy Fite	Shane Gibson	7	3	No	No		11	23.11	9	10	Jimmy Quinn	4	5	5	23.11	363
+7/23/2017	23	12	Troy Fite	Jon Jester	Ryan Hudson	8	7	No	No	Jon left the game with Matt to get stitches in his ear and we played the rest 7 on 5 per Jon's team's choice.	12	23.12	8	7	Troy Fite	1	-1	-1	23.12	364
+7/30/2017	23	13	Jimmy Quinn	Troy Fite	Jimmy Quinn	11	8	No	No		13	23.13	7	6	Jimmy Quinn	3	3	3	23.13	365
+8/6/2017	23	14	Jimmy Quinn	Troy Fite	Garrett Griffin	8	5	No	No		14	23.14	10	10	Hayden Holmes	3	1	2	23.14	366
+8/13/2017	23	15A	Troy Fite	Jon Jester	Troy Fite	11	8	No	No		15	23.15A	5	6	Garett Hill	3	0	0	23.15A	367
+8/13/2017	23	15B	Jered Lawrenson	Shane Gibson	Jered Lawrenson	8	7	No	No	Jaylen & Antwan left with half the game left and we played 4v4.	15	23.15B	5	5	Luke Sandoval	1	2	2	23.15B	367
+8/20/2017	23	16	Jimmy Quinn	Troy Fite	Ragan Land	10	7	No	No		16	23.16	8	8	Ragan Land	3	0	0	23.16	368
+8/27/2017	24	1	Troy Fite	Jimmy Quinn	Luke Mathews	8	7	No	No		1	24.1	9	9	Troy Fite	1	1	1	24.1	369
+9/3/2017	24	2	Jimmy Quinn	Troy Fite	Matt Davis	10	9	No	No		2	24.2	7	7	Matt Davis	1	1	1	24.2	370
+9/10/2017	24	3	Jon Jester	Jimmy Quinn	Jon Jester	9	6	No	No		3	24.3	9	9	Jon Jester	3	4	4	24.3	371
+9/17/2017	24	4	Jimmy Quinn	Troy Fite	Jimmy Quinn	10	9	No	No		4	24.4	9	9	Jimmy Quinn	1	1	2	24.4	372
+9/24/2017	24	5	Jesse Mathews	Troy Fite	Hayden Holmes	9	8	No	No		5	24.5	8	9	Jesse Mathews	1	1	2	24.5	373
+10/1/2017	24	6	Jimmy Quinn	Troy Fite	Luke Sandoval	8	8	Yes	No		6	24.6	10	10	Jesse Mathews	0	-1	0	24.6	374
+10/8/2017	24	7	Jon Jester	Jimmy Quinn	Garett Hill	9	7	No	No		7	24.7	9	8	Garett Hill	2	1	1	24.7	375
+10/15/2017	24	8	Jon Jester	Jesse Mathews	Matt Jester	12	10	No	No		8	24.8	8	7	Matt Jester	2	3	3	24.8	376
+10/22/2017	24	9	Troy Fite	Matt Jester	Tyler Smith	9	8	No	No		9	24.9	9	9	Tyler Smith	1	1	-1	24.9	377
+10/29/2017	24	10A	Troy Fite	Jimmy Quinn	Troy Fite	9	9	Yes	No		10	24.10A	6	6	Wes Jackson	0	1	1	24.10A	378
+10/29/2017	24	10B	Jesse Mathews	Garrett Griffin	Luke Sandoval	10	9	No	No		10	24.10B	6	6	Luke Sandoval	1	2	2	24.10B	378
+11/5/2017	24	11A	Jimmy Quinn	Jesse Mathews	Jimmy Quinn	10	9	No	No		11	24.11A	5	6	Jimmy Quinn	1	2	2	24.11A	379
+11/5/2017	24	11B	Jon Jester	Troy Fite	Garett Hill	10	7	No	No		11	24.11B	5	5	Garett Hill	3	3	3	24.11B	379
+11/12/2017	24	12	Jimmy Quinn	Troy Fite	Luke Sandoval	7	4	No	No		12	24.12	10	10	Luke Sandoval	3	1	1	24.12	380
+11/19/2017	24	13	Jon Jester	Jimmy Quinn	AJ DePhillips	10	5	No	No		13	24.13	9	8	AJ DePhillips	5	1	0	24.13	381
+11/26/2017	24	14	Troy Fite	Jimmy Quinn	Chris Cross	8	6	No	No		14	24.14	9	9	Chris Cross	2	2	3	24.14	382
+12/3/2017	24	15	Jon Jester	Jimmy Quinn	Jon Jester	4	3	No	No		15	24.15	10	10	Jon Jester	1	5	5	24.15	383
+12/10/2017	24	16A	Jimmy Quinn	Troy Fite	Shane Gibson	12	12	Yes	No		16	24.16A	5	5	Shane Gibson	0	-1	-1	24.16A	384
+12/10/2017	24	16B	Jesse Mathews	Jon Jester	Garrett Griffin	8	8	Yes	No		16	24.16B	6	6	Garrett Griffin	0	-1	-1	24.16B	384
+12/17/2017	25	1	Troy Fite	Jimmy Quinn	Jesse Mathews	4	2	No	No		1	25.1	10	9	Jesse Mathews	2	3	4	25.1	385
+12/23/2017	25	2	Jon Jester	Troy Fite	Matt Jester	12	12	Yes	No	5OT; Played on Saturday before Christmas Eve	2	25.2	8	7	Chris Cross	0	0	0	25.2	386
+12/31/2017	25	3	Troy Fite	Jimmy Quinn	Jesse Mathews	10	8	No	No		3	25.3	7	6	Troy Fite	2	2	2	25.3	387
+1/7/2018	25	4	Jimmy Quinn	Troy Fite	Shane Gibson	10	9	No	No		4	25.4	9	9	Shane Gibson	1	1	1	25.4	388
+1/14/2018	25	5							No	Troy Fite lost these game stats.	5	25.5	0	0	#N/A	0	0	0	25.5	389
+1/21/2018	25	6	Troy Fite	AJ Ferguson	Reid Wise	7	6	No	No		6	25.6	6	6	Reid Wise	1	0	-1	25.6	390
+1/28/2018	25	7	Jimmy Quinn	Troy Fite	Jimmy Quinn	6	5	No	No		7	25.7	10	10	Jimmy Quinn	1	3	4	25.7	391
+2/4/2018	25	8	Jimmy Quinn	Troy Fite	Ryan Hudson	8	6	No	No		8	25.8	8	8	Luke Mathews	2	1	1	25.8	392
+2/11/2018	25	9	Jimmy Quinn	Troy Fite	Michael Jordan	9	9	Yes	No		9	25.9	5	5	Jon Jester	0	4	5	25.9	393
+2/18/2018	25	10	Troy Fite	Jimmy Quinn	Wes Yancy	12	11	No	No		10	25.10	6	6	Wes Yancy	1	2	2	25.10	394
+2/25/2018	25	11	Jon Jester	Jimmy Quinn	Chris Cross	5	4	No	No		11	25.11	9	9	Chris Cross	1	-3	-3	25.11	395
+3/4/2018	25	12	Shane Gibson	Beau Bromley	Shane Gibson	10	7	No	No		12	25.12	6	6	Shane Gibson	3	0	0	25.12	396
+3/11/2018	25	13	Jimmy Quinn	Troy Fite	Shane Gibson	9	9	Yes	No		13	25.13	7	6	Shane Gibson	0	0	0	25.13	397
+3/18/2018	25	14	Troy Fite	AJ Ferguson	Isaac Reese	11	8	No	No		14	25.14	5	5	Isaac Reese	3	1	1	25.14	398
+3/25/2018	25	15	Jon Jester	Troy Fite	Jon Jester	7	5	No	No		15	25.15	10	10	Jon Jester	2	5	5	25.15	399
+4/8/2018	25	16	Jimmy Quinn	Jesse Mathews	Luke Mathews	11	6	No	No		16	25.16	7	6	Jimmy Quinn	5	0	-1	25.16	400
+4/15/2018	26	1	Jon Jester	Troy Fite	Jon Jester	12	9	No	No		1	26.1	5	5	Mitchell Draelos	3	2	2	26.1	401
+4/22/2018	26	2	Troy Fite	Jimmy Quinn	Matt Davis	12	9	No	No		2	26.2	6	6	Matt Davis	3	2	3	26.2	402
+4/29/2018	26	3	Jimmy Quinn	Troy Fite	Chris Cross	7	5	No	No		3	26.3	9	9	Shane Gibson	2	0	0	26.3	403
+5/6/2018	26	4	Jimmy Quinn	Jesse Mathews	Cody Rodriguez	10	9	No	No		4	26.4	6	6	Cody Rodriguez	1	5	3	26.4	404
+5/13/2018	26	5	Terrance Pugh	Jaylen Riser	Matt Jester	6	3	No	No		5	26.5	3	4	Jon Jester	3	1	1	26.5	405
+5/20/2018	26	6A	Jesse Mathews	Jimmy Quinn	Wes Jackson	7	6	No	No		6	26.6A	7	6	Wes Jackson	1	2	2	26.6A	406
+5/20/2018	26	6B	Shane Gibson	Troy Fite	Shane Gibson	10	5	No	No		6	26.6B	6	6	Shane Gibson	5	0	1	26.6B	406
+5/27/2018	26	7	Jimmy Quinn	Troy Fite	Shane Gibson	10	6	No	No		7	26.7	8	8	Shane Gibson	4	4	4	26.7	407
+6/3/2018	26	8	Troy Fite	Shane Gibson	Logan Black	6	4	No	No		8	26.8	8	9	Troy Fite	2	2	2	26.8	408
+6/10/2018	26	9	Jimmy Quinn	Jesse Mathews	Josh Hough	12	6	No	No		9	26.9	7	6	Jimmy Quinn	6	1	1	26.9	409
+6/17/2018	26	10	Jon Jester	Shane Gibson	Beau Bromley	12	9	No	No		10	26.10	6	6	Beau Bromley	3	1	1	26.10	410
+6/24/2018	26	11	Troy Fite	Jimmy Quinn	Beau Bromley	8	8	Yes	No	Questionable call in OT gave Troy's team a redo leading to a win.	11	26.11	7	7	Beau Bromley	0	2	2	26.11	411
+7/1/2018	26	12	Jimmy Quinn	Troy Fite	Jimmy Quinn	9	7	No	No		12	26.12	7	8	Jimmy Quinn	2	2	2	26.12	412
+7/8/2018	26	13	Jimmy Quinn	Troy Fite	Hunter Culpepper	9	7	No	No		13	26.13	8	8	Hunter Culpepper	2	1	1	26.13	413
+7/15/2018	26	14	Jimmy Quinn	Troy Fite	Jimmy Quinn	7	5	No	No		14	26.14	10	10	Jimmy Quinn	2	2	2	26.14	414
+7/22/2018	26	15	Jon Jester	Troy Fite	Jon Jester	8	5	No	No		15	26.15	9	8	Jon Jester	3	2	2	26.15	415
+7/29/2018	26	16	Jimmy Quinn	Troy Fite	Chase Arnold	8	6	No	No		16	26.16	9	10	Mitch Bertrem	2	1	2	26.16	416
+8/5/2018	27	1A	Jon Jester	Jimmy Quinn	Beau Bromley	12	9	No	No		1	27.1A	6	6	Jon Jester	3	0	0	27.1A	417
+8/5/2018	27	1B	Troy Fite	Jesse Mathews	Matt Jester	8	8	Yes	No		1	27.1B	5	5	Matt Jester	0	0	0	27.1B	417
+8/12/2018	27	2	Jon Jester	Troy Fite	Jon Jester	9	3	No	No		2	27.2	10	9	Jon Jester	6	2	2	27.2	418
+8/19/2018	27	3	Jon Jester	Jimmy Quinn	Jon Jester	12	10	No	No		3	27.3	6	6	Jon Jester	2	0	1	27.3	419
+8/26/2018	27	4	Jimmy Quinn	Troy Fite	AJ DePhillips	8	8	Yes	No		4	27.4	9	10	Jimmy Quinn	0	-1	-1	27.4	420
+9/2/2018	27	5	Jon Jester	Jesse Mathews	Caleb Deck	11	8	No	No		5	27.5	6	7	Caleb Deck	3	3	3	27.5	421
+9/9/2018	27	6	Jimmy Quinn	Jon Jester	Jered Lawrenson	11	10	No	No		6	27.6	8	7	Jimmy Quinn	1	0	0	27.6	422
+9/16/2018	27	7	Beau Bromley	Shane Gibson	Garett Hill	8	4	No	No		7	27.7	7	6	Garett Hill	4	4	4	27.7	423
+9/23/2018	27	8	Jimmy Quinn	Troy Fite	Josh Hough	11	9	No	No		8	27.8	7	6	Josh Hough	2	3	2	27.8	424
+9/30/2018	27	9	Troy Fite	Jimmy Quinn	Beau Bromley	11	10	No	No		9	27.9	9	8	Beau Bromley	1	0	0	27.9	425
+10/7/2018	27	10	Jon Jester	Jimmy Quinn	Jon Jester	12	10	No	No		10	27.10	8	8	Jon Jester	2	2	2	27.10	426
+10/14/2018	27	11	Jimmy Quinn	Troy Fite	Jon Jester	8	6	No	No		11	27.11	8	8	Jon Jester	2	8	8	27.11	427
+10/21/2018	27	12	Jimmy Quinn	Jesse Mathews	Brian Ward	8	7	No	No		12	27.12	8	8	AJ DePhillips	1	1	1	27.12	428
+10/28/2018	27	13A	Jesse Mathews	Jimmy Quinn	Kale Crampton	11	9	No	No	10-Year Anniversary Game	13	27.13A	6	6	Kale Crampton	2	0	0	27.13A	429
+10/28/2018	27	13B	Jon Jester	Troy Fite	Luke Mathews	14	8	No	No	10-Year Anniversary Game	13	27.13B	5	5	Luke Mathews	6	2	2	27.13B	429
+11/4/2018	27	14	Troy Fite	Jimmy Quinn	Jon Jester	8	8	Yes	No		14	27.14	10	10	Beau Bromley	0	-1	-1	27.14	430
+11/11/2018	27	15	Jimmy Quinn	Tyler Smith	Terrance Pugh	10	7	No	No	Beau dislocated his finger and left after 15 plays	15	27.15	7	7	Jimmy Quinn	3	3	3	27.15	431
+11/18/2018	27	16	Jimmy Quinn	Troy Fite	Cody Rodriguez	6	4	No	No		16	27.16	8	8	Jimmy Quinn	2	2	2	27.16	432
+11/25/2018	28	1	Shane Gibson	Garett Hill	AJ Ferguson	10	9	No	No		1	28.1	6	6	AJ Ferguson	1	0	0	28.1	433
+12/2/2018	28	2	Jon Jester	Troy Fite	Chris Cross	11	10	No	No		2	28.2	7	7	Chris Cross	1	0	0	28.2	434
+12/9/2018	28	3	Jimmy Quinn	Troy Fite	Jon Jester	7	5	No	No		3	28.3	9	9	Jimmy Quinn	2	4	4	28.3	435
+12/16/2018	28	4A	Shane Gibson	Garett Hill	Matt Jester	10	9	No	No		4	28.4A	5	5	Matt Jester	1	2	2	28.4A	436
+12/16/2018	28	4B	Jimmy Quinn	Troy Fite	Beau Bromley	9	9	Yes	No	3 OT	4	28.4B	5	5	Beau Bromley	0	-1	-1	28.4B	436
+12/23/2018	28	5	Jon Jester	Tyler Delval	Caleb Deck	13	12	No	No		5	28.5	7	0	Caleb Deck	1	3	3	28.5	437
+12/30/2018	28	6	Jimmy Quinn	Troy Fite	Jesse Mathews	6	6	Yes	No	7 OT	6	28.6	8	8	Jesse Mathews	0	0	0	28.6	438
+1/6/2019	28	7	Troy Fite	Jon Jester	Troy Fite	7	5	No	No		7	28.7	9	8	Troy Fite	2	2	2	28.7	439
+1/13/2019	28	8	Troy Fite	Jimmy Quinn	Shane Gibson	9	4	No	No		8	28.8	10	10	Shane Gibson	5	4	4	28.8	440
+1/20/2019	28	9	Garett Hill	Jesse Mathews	Garett Hill	9	6	No	No		9	28.9	8	8	Cody Rodriguez	3	3	3	28.9	441
+1/27/2019	28	10	Troy Fite	Jimmy Quinn	Jon Jester	5	2	No	No		10	28.10	10	10	Jon Jester	3	2	2	28.10	442
+2/3/2019	28	11	Troy Fite	Jimmy Quinn	Shane Gibson	5	4	No	No		11	28.11	9	9	Shane Gibson	1	2	2	28.11	443
+2/10/2019	28	12	Jimmy Quinn	Garett Hill	AJ Ferguson	10	10	Yes	No		12	28.12	7	8	AJ Ferguson	0	4	5	28.12	444
+2/17/2019	28	13	Jimmy Quinn	Troy Fite	AJ Ferguson	4	4	Yes	No		13	28.13	10	11	AJ Ferguson	0	0	0	28.13	445
+2/24/2019	28	14	Garett Hill	Jimmy Quinn	Garett Hill	13	4	No	No	Tied biggest blowout	14	28.14	9	8	Garett Hill	9	4	4	28.14	446
+3/3/2019	28	15	Garett Hill	Jimmy Quinn	Shane Gibson	7	2	No	No	Most interceptions in a game record	15	28.15	10	10	Shane Gibson	5	6	6	28.15	447
+3/10/2019	28	16A	Shane Gibson	Jon Jester	Shane Gibson	9	7	No	No		16	28.16A	5	5	Shane Gibson	2	0	0	28.16A	448
+3/10/2019	28	16B	Troy Fite	Jesse Mathews	Grant Hill	7	7	Yes	No	4OT; Andie left early - finished 4v5	16	28.16B	5	5	Beau Bromley	0	-1	-1	28.16B	448
+3/17/2019	29	1	Garett Hill	Troy Fite	Cody Rodriguez	7	5	No	No		1	29.1	8	8	Garett Hill	2	3	3	29.1	449
+3/24/2019	29	2A	Jimmy Quinn	Jon Jester	Jimmy Quinn	13	11	No	No		2	29.2A	5	5	Jimmy Quinn	2	2	2	29.2A	450
+3/24/2019	29	2B	Shane Gibson	Garett Hill	Brandon Least	7	6	No	No		2	29.2B	5	6	Beau Bromley	1	2	2	29.2B	450
+3/31/2019	29	3	Jimmy Quinn	Troy Fite	Garett Hill	11	7	No	No		3	29.3	8	7	Tyler Delval	4	3	3	29.3	451
+4/7/2019	29	4	Jimmy Quinn	Shane Gibson	AJ Ferguson	7	7	Yes	No		4	29.4	8	8	AJ Ferguson	0	1	1	29.4	452
+4/14/2019	29	5	Jimmy Quinn	Shane Gibson	Grant Hill	11	11	Yes	No	3OT	5	29.5	6	0	Grant Hill	0	3	3	29.5	453
+4/28/2019	29	6	Jimmy Quinn	Troy Fite	Jon Jester	9	6	No	No		6	29.6	9	8	Jon Jester	3	1	1	29.6	454
+5/5/2019	29	7	Troy Fite	Jon Jester	Matt Davis	9	9	Yes	No		7	29.7	6	6	Matt Davis	0	-1	-1	29.7	455
+5/19/2019	29	8	Troy Fite	Jon Jester	Andie McGee	5	5	Yes	No		8	29.8	8	7	Andie McGee	0	-2	-2	29.8	456
+5/26/2019	29	9	Jon Jester	Jimmy Quinn	Garett Hill	8	7	No	No		9	29.9	7	7	Jon Jester	1	2	2	29.9	457
+6/2/2019	29	10	Jimmy Quinn	Troy Fite	Garett Hill	9	6	No	No		10	29.10	7	7	Garett Hill	3	-1	-1	29.10	458
+6/9/2019	29	11	Jimmy Quinn	Jon Jester	Cody Rodriguez	8	6	No	No		11	29.11	8	8	Cody Rodriguez	2	2	2	29.11	459
+6/16/2019	29	12	Troy Fite	Shane Gibson	Evan Lasher	2	2	Yes	No	3OT; torrential downpour - only half the game stats	12	29.12	9	8	Matt Davis	0	-4	-4	29.12	460
+6/23/2019	29	13	Jimmy Quinn	Jon Jester	Garett Hill	8	6	No	No		13	29.13	7	7	Garett Hill	2	2	2	29.13	461
+6/30/2019	29	14	Jimmy Quinn	Troy Fite	Garett Hill	8	7	No	No		14	29.14	11	10	Garett Hill	1	0	0	29.14	462
+7/7/2019	29	15	Jon Jester	Jimmy Quinn	Shane Gibson	10	9	No	No		15	29.15	6	6	Shane Gibson	1	0	1	29.15	463
+7/21/2019	29	16	Jon Jester	Shane Gibson	Garett Hill	7	6	No	No		16	29.16	7	8	Garett Hill	1	2	2	29.16	464
+7/28/2019	30	1	Jon Jester	Jimmy Quinn	Chris Cross	11	9	No	No		1	30.1	7	6	Chris Cross	2	1	1	30.1	465
+8/4/2019	30	2A	Shane Gibson	Jon Jester	Beau Bromley	6	4	No	No		2	30.2A	5	5	Beau Bromley	2	-1	-1	30.2A	466
+8/4/2019	30	2B	Jered Lawrenson	Garett Hill	Cody Rodriguez	5	2	No	No		2	30.2B	5	5	Cody Rodriguez	3	4	4	30.2B	466
+8/11/2019	30	3	Garett Hill	Brandon Least	Matt Jester	6	3	No	No		3	30.3	7	6	Matt Jester	3	0	0	30.3	467
+8/18/2019	30	4A	Troy Fite	Jon Jester	Beau Bromley	9	8	No	No		4	30.4A	6	6	Beau Bromley	1	1	2	30.4A	468
+8/18/2019	30	4B	Garett Hill	Jimmy Quinn	Brandon Least	7	2	No	No		4	30.4B	5	6	Brandon Least	5	1	1	30.4B	468
+8/25/2019	30	5	Jon Jester	Jimmy Quinn	Tyler Engebretson	7	6	No	No		5	30.5	11	10	Evan Lashar	1	-1	-1	30.5	469
+9/1/2019	30	6	Garett Hill	Shane Gibson	Matt Sanders	7	4	No	No		6	30.6	8	8	Matt Sanders	3	0	-1	30.6	470
+9/8/2019	30	7	Jimmy Quinn	Troy Fite	Garett Hill	8	6	No	No		7	30.7	7	8	Garett Hill	2	5	5	30.7	471
+9/15/2019	30	8	Jon Jester	Jimmy Quinn	Brandon Least	13	12	No	No		8	30.8	4	4	Brandon Least	1	2	2	30.8	472
+9/22/2019	30	9	Jon Jester	Jimmy Quinn	Brandon Least	11	7	No	No		9	30.9	8	8	Brandon Least	4	2	1	30.9	473
+9/29/2019	30	10	Shane Gibson	Garett Hill	Chris Cross	9	7	No	No		10	30.10	7	6	Chris Cross	2	0	1	30.10	474
+10/6/2019	30	11	Jimmy Quinn	Jon Jester	Josh Hough	9	4	No	No		11	30.11	9	8	Jimmy Quinn	5	1	1	30.11	475
+10/13/2019	30	12	Troy Fite	Jimmy Quinn	AJ Ferguson	12	12	Yes	No		12	30.12	5	5	AJ Ferguson	0	1	1	30.12	476
+10/20/2019	30	13	Troy Fite	Jon Jester	Shane Gibson	7	6	No	No		13	30.13	8	7	Shane Gibson	1	1	0	30.13	477
+10/27/2019	30	14	Jimmy Quinn	Troy Fite	Jimmy Quinn	10	6	No	No		14	30.14	7	6	Jimmy Quinn	4	2	2	30.14	478
+11/3/2019	30	15	Shane Gibson	Brandon Least	Caleb Deck	5	3	No	No		15	30.15	9	9	Caleb Deck	2	2	2	30.15	479
+11/10/2019	30	16A	Jimmy Quinn	Jon Jester	Tyler Smith	10	9	No	No		16	30.16A	6	5	Tyler Smith	1	2	2	30.16A	480
+11/17/2019	30	16B	Jered Lawrenson	Garett Hill	Chris Cross	8	7	No	No		16	30.16B	6	6	Matt	1	1	1	30.16B	480
+11/17/2019	31	1	Troy Fite	Jimmy Quinn	Troy Fite	7	6	No	No		1	31.1	10	10	Matt Davis	1	1	1	31.1	481
+11/24/2019	31	2	Garett Hill	Brandon Least	AJ Ferguson	5	3	No	No	Garett Hill has these	2	31.2	8	8	AJ Ferguson	2	1	1	31.2	482
+12/1/2019	31	3	Troy Fite	Jimmy Quinn	Brandon Least	4	1	No	No		3	31.3	10	10	Garett Hill	3	0	0	31.3	483
+12/8/2019	31	4	Garett Hill	Brandon Least	Jared Miller	8	3	No	No		4	31.4	10	10	Jared Miller	5	1	1	31.4	484
+12/15/2019	31	5	Jon Jester	Jimmy Quinn	Garett Hill	9	8	No	No		5	31.5	7	7	Garett Hill	1	2	2	31.5	485
+12/22/2019	31	6	Jon Jester	Troy Fite	Jon Jester	8	6	No	No		6	31.6	8	8	Jon Jester	2	-1	-1	31.6	486
+12/29/2019	31	7	Jon Jester	Troy Fite	Evan Lasher	7	6	No	No		7	31.7	9	9	Evan Lashar	1	0	0	31.7	487
+1/5/2020	31	8A	Jimmy Quinn	Jon Jester	Evan Lasher	7	6	No	No		8	31.8A	6	6	Jimmy Quinn	1	-2	-2	31.8A	488
+1/5/2020	31	8B	Garett Hill	Tyler Smith	Brandon Least	9	8	No	No		8	31.8B	6	5	Brandon Least	1	1	1	31.8B	488
+1/12/2020	31	9	Shane Gibson	Tyler Smith	Garett Hill	10	8	No	No		9	31.9	6	5	Shane Gibson	2	2	3	31.9	489
+1/19/2020	31	10	Jon Jester	Jimmy Quinn	Jon Jester	11	9	No	No		10	31.10	5	5	Caleb Deck	2	1	1	31.10	490
+1/26/2020	31	11	Jon Jester	Jimmy Quinn	Brandon Least	9	7	No	No		11	31.11	7	7	Jon Jester	2	-1	1	31.11	491
+2/20/2020	31	12	Troy Fite	Jimmy Quinn	Jon Jester	9	8	No	No		12	31.12	9	9	Jon Jester	1	-3	-3	31.12	492
+2/9/2020	31	13	Jon Jester	Garett Hill	AJ Ferguson	10	9	No	No		13	31.13	6	7	Jon Jester	1	3	3	31.13	493
+2/16/2020	31	14	Jimmy Quinn	Troy Fite	Jimmy Quinn	12	4	No	No		14	31.14	10	10	Jimmy Quinn	8	4	4	31.14	494
+2/23/2020	31	15	Jimmy Quinn	Jon Jester	Matt Davis	6	4	No	No		15	31.15	9	9	Matt Davis	2	-4	-5	31.15	495
+3/1/2020	31	16	Jimmy Quinn	Jon Jester	Cody Rodriguez	8	7	No	No		16	31.16	8	7	Cody Rodriguez	1	0	0	31.16	496
+3/8/2020	32	1	Garett Hill	Jon Jester	Chris Cross	11	9	No	No		1	32.1	6	6	Chris Cross	2	-1	-1	32.1	497
+3/15/2020	32	2	Garett Hill	AJ Ferguson	Cody Rodriguez	7	5	No	No	Last game before COVID-19 shutdown	2	32.2	6	6	Cody Rodriguez	2	0	0	32.2	498
+5/17/2020	32	3	Jimmy Quinn	Tyler Smith	Jamal George	12	11	No	No		3	32.3	7	1	Shane Gibson	1	2	2	32.3	499
+5/24/2020	32	4	Jimmy Quinn	Troy Fite	Matt Sanders	8	5	No	No		4	32.4	9	9	Matt Sanders	3	3	3	32.4	500
+5/31/2020	32	5	Troy Fite	Garett Hill	Troy Fite	9	6	No	No		5	32.5	8	1	Troy Fite	3	1	1	32.5	501
+6/7/2020	32	6	Jimmy Quinn	Troy Fite	Chris Cross	5	2	No	No		6	32.6	9	9	Beau Bromley	3	2	2	32.6	502
+6/14/2020	32	7	Jimmy Quinn	Troy Fite	Garett Hill	5	3	No	No		7	32.7	9	9	Josh Hough	2	1	1	32.7	503
+6/21/2020	32	8	Garett Hill	Jimmy Quinn	Brandon Least	11	6	No	No		8	32.8	6	6	Brandon Least	5	0	0	32.8	504
+6/28/2020	32	9	Troy Fite	Jon Jester	Troy Fite	8	6	No	No		9	32.9	7	6	Devon Crook	2	0	0	32.9	505
+7/5/2020	32	10	Jimmy Quinn	Troy Fite	Hunter Culpepper	7	7	Yes	No		10	32.10	10	10	Cody Rodriguez	0	0	-1	32.10	506
+7/12/2020	32	11	Jimmy Quinn	Garett Hill	Beau Bromley	9	9	Yes	No		11	32.11	7	7	Jimmy Quinn	0	-2	-1	32.11	507
+7/19/2020	32	12	Garett Hill	Troy Fite	Evan Lasher	6	5	No	No		12	32.12	9	9	Evan Lashar	1	0	0	32.12	508
+7/26/2020	32	13A	Jimmy Quinn	Troy Fite	Tyler Smith	7	6	No	No		13	32.13A	6	6	Jamal George	1	1	1	32.13A	509
+7/26/2020	32	13B	Garett Hill	Jon Jester	Clay Rodriguez	11	9	No	No		13	32.13B	5	5	Clay Rodriguez	2	0	0	32.13B	509
+8/2/2020	32	14	Jimmy Quinn	Jon Jester	Evan Lasher	7	6	No	No		14	32.14	9	9	Evan Lashar	1	0	1	32.14	510
+8/9/2020	32	15	Jimmy Quinn	Troy Fite	Garett Hill	6	3	No	No		15	32.15	10	10	Garett Hill	3	3	4	32.15	511
+8/16/2020	32	16A	AJ Ferguson	Jon Jester	Brandon Kinney	10	8	No	No		16	32.16A	6	6	Matt Jester	2	1	3	32.16A	512
+8/16/2020	32	16B	Garett Hill	Jimmy Quinn	Evan Lasher	9	8	No	No		16	32.16B	5	5	Parker Rigler	1	0	0	32.16B	512
+8/23/2020	33	1	Jimmy Quinn	Garett Hill	AJ Ferguson	10	10	Yes	No		1	33.1	5	5	AJ Ferguson	0	0	0	33.1	513
+8/30/2020	33	2	Troy Fite	Jon Jester	Matt Jester	6	5	No	No		2	33.2	9	9	Matt Jester	1	4	4	33.2	514
+9/6/2020	33	3	Jimmy Quinn	Garett Hill	Shane Gibson	5	5	Yes	No		3	33.3	10	9	Shane Gibson	0	0	0	33.3	515
+9/13/2020	33	4	Jimmy Quinn	Troy Fite	Matt Sanders	7	2	No	No		4	33.4	9	8	Matt Sanders	5	6	7	33.4	516
+9/20/2020	33	5	Jimmy Quinn	Jon Jester	AJ Ferguson	9	8	No	No		5	33.5	9	9	Garett Hill	1	-1	-1	33.5	517
+9/27/2020	33	6	Garett Hill	Jon Jester	Matt Sanders	7	5	No	No		6	33.6	10	9	TJ Carmichael	2	1	1	33.6	518
+10/4/2020	33	7	Garett Hill	Jon Jester	David Parrot	8	2	No	No		7	33.7	8	9	Evan Lashar	6	1	1	33.7	519
+10/11/2020	33	8	Jimmy Quinn	Evan Lasher	Brandon Kinney	8	5	No	No		8	33.8	8	8	Brandon Kinney	3	2	2	33.8	520
+10/18/2020	33	9	Garett Hill	Troy Fite	Matt Jester	10	4	No	No		9	33.9	8	8	Matt Jester	6	3	3	33.9	521
+10/25/2020	33	10A	Garett Hill	Troy Fite	Matt Sanders	12	10	No	No		10	33.10A	5	6	Matt Sanders	2	1	0	33.10A	522
+10/25/2020	33	10B	Jon Jester	Jimmy Quinn	Evan Lasher	11	11	Yes	No		10	33.10B	5	5	Evan Lashar	0	-1	-1	33.10B	522
+11/1/2020	33	11	Garett Hill	Evan Lasher	Matt Jester	7	5	No	No		11	33.11	6	6	Matt Jester	2	1	1	33.11	523
+11/8/2020	33	12	Jimmy Quinn	Troy Fite	Cody Rodriguez	4	3	No	No		12	33.12	9	8	Matt Jester	1	0	0	33.12	524
+11/15/2020	33	13A	AJ Ferguson	Garett Hill	AJ Ferguson	10	7	No	No		13	33.13A	7	6	AJ Ferguson	3	2	3	33.13A	525
+11/15/2020	33	13B	Jimmy Quinn	Jon Jester	TJ Carmichael	7	6	No	No		13	33.13B	6	6	TJ Carmichael	1	-1	-1	33.13B	525
+11/22/2020	33	14	Garett Hill	Jimmy Quinn	Garett Hill	6	4	No	No		14	33.14	9	8	Garett Hill	2	5	5	33.14	526
+11/29/2020	33	15A	Troy Fite	Jered Lawrenson	Brandon Kinney	7	5	No	No		15	33.15A	6	6	Brandon Kinney	2	0	0	33.15A	527
+11/29/2020	33	15B	Garett Hill	Jimmy Quinn	Matt Jester	7	6	No	No		15	33.15B	5	5	Matt Jester	1	3	3	33.15B	527
+12/6/2020	33	16	Garett Hill	Jimmy Quinn	Garett Hill	9	5	No	No		16	33.16	9	9	Garett Hill	4	3	4	33.16	528
+12/13/2020	34	1A	Garett Hill	Jon Jester	Garett Hill	11	10	No	No		1	34.1A	5	5	Garett Hill	1	2	1	34.1A	529
+12/13/2020	34	1B	Jimmy Quinn	Troy Fite	Jack Suntkin	8	8	Yes	No		1	34.1B	6	6	Russell Dilks	0	-1	-1	34.1B	529
+12/20/2020	34	2	Garett Hill	Jon Jester	Cooper McCutchen	10	5	No	No		2	34.2	9	8	Cooper McCutchen	5	1	1	34.2	530
+12/27/2020	34	3	Garett Hill	Troy Fite	Gavin Holland	11	5	No	No		3	34.3	7	6	Gavin Holland	6	1	2	34.3	531
+1/3/2021	34	4	Garett Hill	Troy Fite	Brandon Kinney	9	9	Yes	No		4	34.4	7	8	Brandon Kinney	0	0	0	34.4	532
+1/10/2021	34	5	Troy Fite	Jimmy Quinn	Cooper McCutchen	9	7	No	No		5	34.5	8	7	Cooper McCutchen	2	0	0	34.5	533
+1/17/2021	34	6	Garett Hill	Jimmy Quinn	Jon Jester	8	7	No	No		6	34.6	8	8	Garett Hill	1	1	1	34.6	534
+1/24/2021	34	7	Jon Jester	Garett Hill	Jon Jester	10	6	No	No		7	34.7	10	10	Jon Jester	4	2	2	34.7	535
+1/31/2021	34	8	Garett Hill	Jon Jester	Matt Jester	10	9	No	No		8	34.8	8	7	Matt Jester	1	-1	-1	34.8	536
+2/7/2021	34	9	Jon Jester	Garett Hill	Cooper McCutchen	9	9	Yes	No		9	34.9	7	7	Cooper McCutchen	0	0	-1	34.9	537
+2/14/2021	34	10	Jimmy Quinn	Garett Hill	TJ Carmichael	6	4	No	No		10	34.10	6	6	TJ Carmichael	2	2	2	34.10	538
+2/21/2021	34	11	Garett Hill	Troy Fite	Addison Peirro	4	3	No	No		11	34.11	10	10	Chris Cross	1	2	1	34.11	539
+2/28/2021	34	12	Jimmy Quinn	Garett Hill	Oliver Scheerhorn	8	8	Yes	No		12	34.12	7	7	Beau Bromley	0	0	0	34.12	540
+3/7/2021	34	13	Garett Hill	Jimmy Quinn	Grant Hill	5	4	No	No		13	34.13	10	10	Cale Rodriguez	1	0	1	34.13	541
+3/14/2021	34	14	Garett Hill	Cooper McCutchen	Cody Rodriguez	10	7	No	No		14	34.14	8	8	Garett Hill	3	1	1	34.14	542
+3/21/2021	34	15	Garett Hill	Troy Fite	Garett Hill	7	5	No	No		15	34.15	8	7	Garett Hill	2	1	1	34.15	543
+3/28/2021	34	16	Garett Hill	Jon Jester	Garett Hill	11	9	No	No		16	34.16	8	8	Garett Hill	2	4	4	34.16	544
+4/11/2021	35	1	Troy Fite	Garett Hill	Brandon Kinney	6	5	No	No		1	35.1	9	8	Brandon Kinney	1	-2	-2	35.1	545
+4/18/2021	35	2	Jimmy Quinn	Jon Jester	Jered Lawrenson	9	7	No	No		2	35.2	5	5	Jered Lawrenson	2	-2	-2	35.2	546
+4/25/2021	35	3	Garett Hill	Jon Jester	Grant Hill	7	4	No	No		3	35.3	6	5	Grant Hill	3	-1	-1	35.3	547
+5/2/2021	35	4	Jon Jester	Garett Hill	Cody Rodriguez	11	8	No	No		4	35.4	5	5	Cody Rodriguez	3	3	4	35.4	548
+5/16/2021	35	5	Jon Jester	Troy Fite	Brandon Kinney	7	5	No	No		5	35.5	6	6	Jon Jester	2	2	3	35.5	549
+5/23/2021	35	6	Jon Jester	Troy Fite	Evan Lasher	10	10	Yes	No		6	35.6	5	6	Jon Jester	0	-1	-2	35.6	550
+5/30/2021	35	7	Jimmy Quinn	Troy Fite	Jimmy Quinn	6	5	No	No		7	35.7	7	8	Jimmy Quinn	1	2	2	35.7	551
+6/6/2021	35	8	Jon Jester	Evan Lasher	Brandon Kinney	7	5	No	No		8	35.8	7	0	Brandon Kinney	2	4	4	35.8	552
+6/13/2021	35	9	Garett Hill	Grant Hill	Kyle Bowler	10	5	No	No		9	35.9	5	5	Johnny Ball	5	0	0	35.9	553
+6/20/2021	35	10	Troy Fite	Jimmy Quinn	Addison Peirro	6	6	Yes	No		10	35.10	9	9	Addison Peirro	0	1	1	35.10	554
+6/27/2021	35	11	Jon Jester	Troy Fite	Evan Lashar	11	11	Yes	No		11	35.11	4	4	Evan Lashar	0	0	0	35.11	555
+7/4/2021	35	12	Jimmy Quinn	Matt Jester	Jared Miller	9	8	No	No		12	35.12	4	4	Jared Miller	1	1	1	35.12	556
+7/11/2021	35	13	Troy Fite	Jon Jester	TJ Carmichael	5	4	No	No		13	35.13	8	7	TJ Carmichael	1	2	2	35.13	557
+7/18/2021	35	14	Jon Jester	Garett Hill	Chris Cross	8	8	Yes	No	2 OT	14	35.14	7	6	Chris Cross	0	-2	-2	35.14	558
+7/25/2021	35	15	Jon Jester	Jimmy Quinn	Devan Crook	10	8	No	No		15	35.15	6	5	Devan Crook	2	2	1	35.15	559
+8/1/2021	35	16	Troy Fite	Matt Jester	Oliver Scheerhorn	9	8	No	No		16	35.16	5	5	Oliver Scheerhorn	1	1	2	35.16	560
+8/8/2021	36	1	Troy Fite	Jimmy Quinn	Evan Lashar	7	5	No	No		1	36.1	7	6	Evan Lashar	2	1	1	36.1	561
+8/15/2021	36	2	Jon Jester	Troy Fite	Jalon Smith	9	6	No	No		2	36.2	8	8	Jon Jester	3	1	1	36.2	562
+8/22/2021	36	3	Jimmy Quinn	Troy Fite	Grayson Hostetler	10	9	No	No		3	36.3	8	9	Jimmy Quinn	1	0	0	36.3	563
+8/29/2021	36	4	Jimmy Quinn	Troy Fite	Addison Peirro	8	8	Yes	No		4	36.4	7	8	Addison Peirro	0	2	2	36.4	564
+9/5/2021	36	5	Troy Fite	Jimmy Quinn	Jon Jester	11	10	No	No		5	36.5	7	6	Evan Lashar	1	0	0	36.5	565
+9/12/2021	36	6	Jimmy Quinn	Troy Fite	Addison Peirro	10	8	No	No		6	36.6	6	6	Addison Peirro	2	2	2	36.6	566
+9/19/2021	36	7	Troy Fite	Jered Lawrenson	Matt Jester	9	7	No	No		7	36.7	6	6	Matt Jester	2	1	1	36.7	567
+9/26/2021	36	8	Jimmy Quinn	Troy Fite	Beau Bromley	10	6	No	No		8	36.8	7	6	Beau Bromley	4	4	4	36.8	568
+10/3/2021	36	9	Cooper McCutchen	Jon Jester	Anthony Vign	11	7	No	No		9	36.9	6	5	Anthony Vign	4	-1	0	36.9	569
+10/10/2021	36	10	Jimmy Quinn	Troy Fite	Garett Hill	8	7	No	No		10	36.10	10	9	Jimmy Quinn	1	1	1	36.10	570
+10/17/2021	36	11	Garett Hill	Troy Fite					No		11	36.11	0	0	#N/A	0	0	0	36.11	571
+10/24/2021	36	12	Jimmy Quinn	Troy Fite	TJ Carmichael	12	9	No	No		12	36.12	6	6	TJ Carmichael	3	2	3	36.12	572
+10/31/2021	36	13	Troy Fite	Jimmy Quinn	Troy Fite	11	8	No	No		13	36.13	8	9	Troy Fite	3	0	0	36.13	573
+11/7/2021	36	14	Jon Jester	Garett Hill	TJ Carmichael	9	8	No	No		14	36.14	9	9	TJ Carmichael	1	2	2	36.14	574
+11/14/2021	36	15	Troy Fite	Jimmy Quinn	Troy Fite	11	10	No	No		15	36.15	7	6	Troy Fite	1	0	-1	36.15	575
+11/21/2021	36	16	Jimmy Quinn	Troy Fite	Grant Hill	10	4	No	No		16	36.16	8	8	Jimmy Quinn	6	3	2	36.16	576
+11/28/2021	37	1	Jimmy Quinn	Garett Hill	TJ Carmichael	7	7	Yes	No		1	37.1	10	10	TJ Carmichael	0	-1	-3	37.1	577
+12/5/2021	37	2	Garett Hill	Jimmy Quinn	Jalon Smith	11	8	No	No		2	37.2	7	7	TJ Carmichael	3	3	3	37.2	578
+12/12/2021	37	3	Grant Hill	Evan Lasher	Grant Hill	9	9	Yes	No		3	37.3	7	0	Grant Hill	0	2	3	37.3	579
+12/19/2021	37	4	Jimmy Quinn	Troy Fite	David Parrot	11	10	No	No		4	37.4	7	8	David Parrot	1	-1	-1	37.4	580
+12/26/2021	37	5	Garett Hill	Jimmy Quinn	Evan Lashar	7	7	Yes	No		5	37.5	8	8	Evan Lashar	0	-2	-1	37.5	581
+1/2/2022	37	6	Troy Fite	Jimmy Quinn	Anthony Vign	7	6	No	No	Game Unsure 1	6	37.6	8	8	Anthony Vign	1	4	4	37.6	582
+1/9/2022	37	7	Garett Hill	Troy Fite	Cooper McCutchen	7	7	Yes	No		7	37.7	9	8	Addison Peirro	0	-1	-1	37.7	583
+1/16/2022	37	8	Jimmy Quinn	Troy Fite	Addison Peirro	5	5	Yes	No		8	37.8	8	8	Addison Peirro	0	-1	-1	37.8	584
+1/23/2022	37	9	Evan Lashar	Troy Fite	Evan Lashar	7	3	No	No		9	37.9	6	6	Evan Lashar	4	3	3	37.9	585
+1/30/2022	37	10	Troy Fite	Jimmy Quinn	Cooper McCutchen	8	4	No	No		10	37.10	9	9	Addison Peirro	4	2	2	37.10	586
+2/6/2022	37	11	Jimmy Quinn	Cooper McCutchen	Beau Bromley	8	8	Yes	No	(also had a snow game on 2/3/22) Game Unsure 2	11	37.11	4	4	Addison Peirro	0	3	3	37.11	587
+2/13/2022	37	12	Jimmy Quinn	Garett Hill	TJ Carmichael	8	8	Yes	No	Game Unsure 3	12	37.12	7	7	TJ Carmichael	0	2	2	37.12	588
+2/20/2022	37	13	Evan Lashar	Jimmy Quinn	Austin Hawley	9	5	No	No	Game Unsure 4	13	37.13	7	8	Anthony Vign	4	3	3	37.13	589
+2/27/2022	37	14	Troy Fite	Jimmy Quinn	Grant Hill	9	8	No	No		14	37.14	6	7	Grant Hill	1	3	3	37.14	590
+3/6/2022	37	15	Cooper McCutchen	Jimmy Quinn	Cooper McCutchen	13	11	No	No	Game Unsure 5	15	37.15	8	8	Cooper McCutchen	2	1	1	37.15	591
+3/13/2022	37	16	Troy Fite	Garett Hill	Brandon Kinney	8	7	No	No		16	37.16	8	7	Brandon Kinney	1	2	2	37.16	592
+3/20/2022	38	1A	Garett Hill	Jimmy Quinn	Garett Hill	10	9	No	No		1	38.1A	6	5	Jalon Smith	1	0	0	38.1A	593
+3/20/2022	38	1B	Cooper McCutchen	Troy Fite	Cooper McCutchen	8	7	No	No		1	38.1B	5	5	Cooper McCutchen	1	3	3	38.1B	593
+3/27/2022	38	2	Jimmy Quinn	Troy Fite	Austin Hawley	6	5	No	No	Game Unsure 7	2	38.2	8	8	Austin Hawley	1	0	1	38.2	594
+4/3/2022	38	3	Troy Fite	Cooper McCutchen	Anthony Vign	7	5	No	No		3	38.3	8	8	Anthony Vign	2	4	4	38.3	595
+4/10/2022	38	4	Jimmy Quinn	Troy Fite	Cooper McCutchen	8	8	Yes	No		4	38.4	7	6	Cooper McCutchen	0	1	1	38.4	596
+4/24/2022	38	5	Cooper McCutchen	Matt Jester	TJ Carmichael	6	5	No	No		5	38.5	8	7	TJ Carmichael	1	0	0	38.5	597
+5/1/2022	38	6	Jimmy Quinn	Troy Fite	Damon Murphy	8	7	No	No		6	38.6	8	7	Damon Murphy	1	0	0	38.6	598
+5/15/2022	38	7	Garett Hill	Troy Fite	Garett Hill	10	9	No	No		7	38.7	7	8	Garett Hill	1	-1	-1	38.7	599
+5/29/2022	38	8	Garett Hill	Troy Fite	Addison Peirro	7	5	No	No	Game Garett/Grant 1	8	38.8	10	9	Addison Peirro	2	1	0	38.8	600
+6/5/2022	38	9	Garett Hill	Grant Hill	Garett Hill	10	6	No	No	Game Garett/Grant 2	9	38.9	5	5	Jonny Ball	4	0	0	38.9	601
+6/26/2022	38	10	Evan Lashar	Jarod Miller	Matt Jester	9	7	No	No		10	38.10	5	0	Matt Jester	2	4	4	38.10	602
+7/24/2022	38	11	Garett Hill	Jimmy Quinn	Garett Hill	10	9	No	No		11	38.11	7	6	Evan Lashar	1	0	0	38.11	603
+7/31/2022	38	12	Troy Fite	Jimmy Quinn	Troy Fite	9	6	No	No	also dated 7/24/22?	12	38.12	9	8	TJ Carmichael	3	3	3	38.12	604
+8/7/2022	38	13	Garett Hill	Jimmy Quinn	Garett Hill	10	9	No	No	Game Unsure 6	13	38.13	7	6	Evan Lashar	1	0	0	38.13	605
+8/14/2022	38	14	Evan Lashar	Devan Crook	Anthony Vign	13	1	No	No		14	38.14	7	6	Anthony Vign	12	7	7	38.14	606
+8/21/2022	38	15	Troy Fite	Jimmy Quinn	TJ Carmichael	7	7	Yes	No	3OT	15	38.15	10	9	Troy Fite	0	2	1	38.15	607
+8/28/2022	38	16	Troy Fite	Anthony Vign	TJ Carmichael	7	7	Yes	No		16	38.16	6	5	TJ Carmichael	0	-2	-2	38.16	608
+9/4/2022	39	1	Garett Hill	Jon Jester	Garett Hill	11	9	No	No	Game Garett/Grant 3	1	39.1	8	8	Garett Hill	2	5	5	39.1	609
+9/11/2022	39	2	Jimmy Quinn	Troy Fite	David Parrot	10	10	Yes	No		2	39.2	6	6	David Parrot	0	-2	-2	39.2	610
+9/18/2022	39	3	Cooper McCutchen	Matt Jester	Keaton M	10	8	No	No		3	39.3	6	6	Keaton M	2	3	3	39.3	611
+10/9/2022	39	4	Jimmy Quinn	Troy Fite	Dakota	10	8	No	No		4	39.4	7	8	Jimmy Quinn	2	0	1	39.4	612
+10/23/2022	39	5	Garett Hill	Troy Fite	Garett Hill	10	9	No	No	10/??/22	5	39.5	7	7	Mason Vaught	1	-1	-1	39.5	613
+10/30/2022	39	6	Cooper McCutchen	Matt Jester	David Parrot	12	8	No	No		6	39.6	7	6	David Parrot	4	6	6	39.6	614
+11/6/2022	39	7	Cooper McCutchen	Jered Lawrenson	Grayson Hostetler	10	9	No	No		7	39.7	8	9	Grayson Hostetler	1	1	1	39.7	615
+11/13/2022	39	8	Oliver Scheerhorn	Troy Fite	Oliver Scheerhorn	10	8	No	No		8	39.8	6	7	Oliver Scheerhorn	2	1	1	39.8	616
+11/20/2022	39	9	Jimmy Quinn	Grant Hill	David Parrot	11	4	No	No		9	39.9	7	8	Dakota	7	3	3	39.9	617
+11/27/2022	39	10	Jimmy Quinn	Garett Hill	Cooper McCutchen	8	7	No	No		10	39.10	11	10	Cooper McCutchen	1	2	1	39.10	618
+12/4/2022	39	11	Troy Fite	Jimmy Quinn	Damon Murphy	12	7	No	No		11	39.11	9	8	Garett Hill	5	1	1	39.11	619
+12/11/2022	39	12	Troy Fite	Cooper McCutchen	Garett Hill	11	9	No	No		12	39.12	8	8	Garett Hill	2	2	2	39.12	620
+12/18/2022	39	13	Troy Fite	Jimmy Quinn	Keaton M	12	8	No	No		13	39.13	7	6	Keaton M	4	2	2	39.13	621
+1/1/2023	39	14	Troy Fite	Jonny Ball	TJ Carmichael	8	4	No	No		14	39.14	9	9	TJ Carmichael	4	7	7	39.14	622
+1/15/2023	39	15	Troy Fite	Cooper McCutchen	Troy Fite	14	13	No	No		15	39.15	6	5	Troy Fite	1	3	3	39.15	623
+1/22/2023	39	16	David Parrot	Jimmy Quinn	Ryan Bray	13	9	No	No		16	39.16	5	5	Ryan Bray	4	0	1	39.16	624
+2/5/2023	40	1	Troy Fite	Jimmy Quinn	Luke Rossi	14	9	No	No		1	40.1	7	8	Luke Rossi	5	3	3	40.1	625
+2/12/2023	40	2	Cooper McCutchen	Jimmy Quinn	Luke Rossi	12	8	No	No		2	40.2	6	5	Luke Rossi	4	2	2	40.2	626
+2/19/2023	40	3	Jimmy Quinn	Cooper McCutchen	Colt Hickerson	10	9	No	No		3	40.3	9	8	Jimmy Quinn	1	0	1	40.3	627
+2/26/2023	40	4	Cooper McCutchen	Troy Fite	Cooper McCutchen	11	9	No	No		4	40.4	6	6	Cooper McCutchen	2	0	0	40.4	628
+3/5/2023	40	5	Troy Fite	Jimmy Quinn	Brendan Tisserand	8	8	Yes	No		5	40.5	10	8	Addison Peirro	0	2	2	40.5	629
+3/26/2023	40	6	Jimmy Quinn	Troy Fite	Jesse Davis	11	9	No	No		6	40.6	5	5	Jesse Davis	2	0	0	40.6	630
+4/2/2023	40	7	Jimmy Quinn	Matt Jester	Anthony Vign	9	8	No	No		7	40.7	6	6	Anthony Vign	1	2	2	40.7	631
+4/16/2023	40	8	Jimmy Quinn	Troy Fite	Cooper McCutchen	9	8	No	No		8	40.8	7	8	Jimmy Quinn	1	1	1	40.8	632
+7/6/2025	40	9	Jon Jester	Jimmy Quinn	Jon Jester	10	9	No	No		9	40.9	10	10	Jon Jester	1	0	0	40.9	633
