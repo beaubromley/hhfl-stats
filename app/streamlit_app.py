@@ -711,60 +711,57 @@ elif page == "🤖 AI Query":
     # Quick templates - ONE ROW
     st.subheader("Quick Templates")
     
-    # Initialize selected template
-    if 'selected_template' not in st.session_state:
-        st.session_state.selected_template = None
+    template_questions = {
+        "Top Fantasy": "Who are the top 15 players by total career fantasy points?",
+        "Best QBs": "Show me the top 10 quarterbacks by passing yards",
+        "Top Receivers": "Who are the top 10 receivers by career yards?",
+        "Best Defense": "Show the top 10 players by tackles",
+        "MVP Leaders": "Who has won the most MVP awards?",
+        "Best Games": "What are the top 10 single game fantasy performances?"
+    }
     
     col1, col2, col3, col4, col5, col6 = st.columns(6)
     
+    selected_template = None
+    
     with col1:
         if st.button("Top Fantasy", use_container_width=True, key="tmpl_fantasy"):
-            st.session_state.selected_template = "Who are the top 15 players by total career fantasy points?"
+            selected_template = template_questions["Top Fantasy"]
     
     with col2:
         if st.button("Best QBs", use_container_width=True, key="tmpl_qbs"):
-            st.session_state.selected_template = "Show me the top 10 quarterbacks by passing yards"
+            selected_template = template_questions["Best QBs"]
     
     with col3:
         if st.button("Top Receivers", use_container_width=True, key="tmpl_rec"):
-            st.session_state.selected_template = "Who are the top 10 receivers by career yards?"
+            selected_template = template_questions["Top Receivers"]
     
     with col4:
         if st.button("Best Defense", use_container_width=True, key="tmpl_def"):
-            st.session_state.selected_template = "Show the top 10 players by tackles"
+            selected_template = template_questions["Best Defense"]
     
     with col5:
         if st.button("MVP Leaders", use_container_width=True, key="tmpl_mvp"):
-            st.session_state.selected_template = "Who has won the most MVP awards?"
+            selected_template = template_questions["MVP Leaders"]
     
     with col6:
         if st.button("Best Games", use_container_width=True, key="tmpl_games"):
-            st.session_state.selected_template = "What are the top 10 single game fantasy performances?"
+            selected_template = template_questions["Best Games"]
     
     st.markdown("---")
     
-    # Initialize question in session state
-    if 'ai_question' not in st.session_state:
-        st.session_state.ai_question = ''
+    # Question input - use selected template if clicked
+    default_question = selected_template if selected_template else st.session_state.get('ai_question', '')
     
-    # Use template if one was selected
-    question_value = st.session_state.ai_question
-    if st.session_state.selected_template:
-        question_value = st.session_state.selected_template
-        st.session_state.selected_template = None  # Clear after use
-    
-    # Question input
     question = st.text_area(
         "Ask your question:",
         placeholder="e.g., Who has the most career receiving touchdowns?",
         height=100,
-        value=question_value,
-        key="question_text_area"
+        value=default_question
     )
     
-    # Update session state when question changes
-    if question != st.session_state.ai_question:
-        st.session_state.ai_question = question
+    # Save to session state
+    st.session_state.ai_question = question
     
     # Manual SQL override option (collapsible)
     with st.expander("Advanced: Manual SQL Override"):
