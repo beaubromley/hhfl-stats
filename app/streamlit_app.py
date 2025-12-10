@@ -711,37 +711,35 @@ elif page == "🤖 AI Query":
     # Quick templates - ONE ROW
     st.subheader("Quick Templates")
     
+    # Initialize selected template
+    if 'selected_template' not in st.session_state:
+        st.session_state.selected_template = None
+    
     col1, col2, col3, col4, col5, col6 = st.columns(6)
     
     with col1:
-        if st.button("Top Fantasy", use_container_width=True):
-            st.session_state.auto_question = "Who are the top 15 players by total career fantasy points?"
-            st.rerun()
+        if st.button("Top Fantasy", use_container_width=True, key="tmpl_fantasy"):
+            st.session_state.selected_template = "Who are the top 15 players by total career fantasy points?"
     
     with col2:
-        if st.button("Best QBs", use_container_width=True):
-            st.session_state.auto_question = "Show me the top 10 quarterbacks by passing yards"
-            st.rerun()
+        if st.button("Best QBs", use_container_width=True, key="tmpl_qbs"):
+            st.session_state.selected_template = "Show me the top 10 quarterbacks by passing yards"
     
     with col3:
-        if st.button("Top Receivers", use_container_width=True):
-            st.session_state.auto_question = "Who are the top 10 receivers by career yards?"
-            st.rerun()
+        if st.button("Top Receivers", use_container_width=True, key="tmpl_rec"):
+            st.session_state.selected_template = "Who are the top 10 receivers by career yards?"
     
     with col4:
-        if st.button("Best Defense", use_container_width=True):
-            st.session_state.auto_question = "Show the top 10 players by tackles"
-            st.rerun()
+        if st.button("Best Defense", use_container_width=True, key="tmpl_def"):
+            st.session_state.selected_template = "Show the top 10 players by tackles"
     
     with col5:
-        if st.button("MVP Leaders", use_container_width=True):
-            st.session_state.auto_question = "Who has won the most MVP awards?"
-            st.rerun()
+        if st.button("MVP Leaders", use_container_width=True, key="tmpl_mvp"):
+            st.session_state.selected_template = "Who has won the most MVP awards?"
     
     with col6:
-        if st.button("Best Games", use_container_width=True):
-            st.session_state.auto_question = "What are the top 10 single game fantasy performances?"
-            st.rerun()
+        if st.button("Best Games", use_container_width=True, key="tmpl_games"):
+            st.session_state.selected_template = "What are the top 10 single game fantasy performances?"
     
     st.markdown("---")
     
@@ -749,17 +747,18 @@ elif page == "🤖 AI Query":
     if 'ai_question' not in st.session_state:
         st.session_state.ai_question = ''
     
-    # Check for auto-question from templates
-    if 'auto_question' in st.session_state:
-        st.session_state.ai_question = st.session_state.auto_question
-        del st.session_state.auto_question
+    # Use template if one was selected
+    question_value = st.session_state.ai_question
+    if st.session_state.selected_template:
+        question_value = st.session_state.selected_template
+        st.session_state.selected_template = None  # Clear after use
     
     # Question input
     question = st.text_area(
         "Ask your question:",
         placeholder="e.g., Who has the most career receiving touchdowns?",
         height=100,
-        value=st.session_state.ai_question,
+        value=question_value,
         key="question_text_area"
     )
     
