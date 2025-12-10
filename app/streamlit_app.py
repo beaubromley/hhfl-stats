@@ -14,6 +14,19 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
+def get_api_key_from_secrets(provider="gemini"):
+    """Get API key from Streamlit secrets (server-side only)"""
+    try:
+        if provider == "gemini":
+            return st.secrets.get("GEMINI_API_KEY", None)
+        elif provider == "openai":
+            return st.secrets.get("OPENAI_API_KEY", None)
+    except FileNotFoundError:
+        # Secrets file doesn't exist (local development without secrets)
+        return None
+    except Exception:
+        return None
+
 # Page config
 st.set_page_config(
     page_title="HHFL Stats Dashboard",
@@ -72,8 +85,9 @@ st.sidebar.markdown("---")
 page = st.sidebar.radio(
     "Navigation",
     ["🏠 Home", "👤 Player Lookup", "🏆 Leaderboards", "📊 Game Browser", 
-     "📈 Trends", "⚔️ Head-to-Head", "🤖 AI Query"]
+     "📈 Trends", "⚔️ Head-to-Head", "🤖 AI Query", "📝 Stat Importer"]  # Added here
 )
+
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 📊 Quick Stats")
@@ -677,95 +691,67 @@ elif page == "⚔️ Head-to-Head":
 elif page == "🤖 AI Query":
     st.markdown('<p class="main-header">AI-Powered Query</p>', unsafe_allow_html=True)
     
-    st.markdown("Ask questions in plain English! AI will generate SQL, run it, and explain the results.")
-    
     # Import LLM functions
     try:
         from app.llm_integration import (
             generate_sql_gemini,
             interpret_results_gemini,
-            generate_sql_openai,
-            interpret_results_openai,
-            get_schema_context,
-            test_api_key
+            get_schema_context
         )
     except ImportError as e:
         st.error(f"LLM module error: {e}")
         st.stop()
     
-    st.markdown("---")
-    
-    # Provider selection
-    provider = st.selectbox(
-        "AI Provider:",
-        ["Google Gemini (Free - Rate Limited)", "OpenAI (Paid)", "Manual (No API)"]
-    )
-    
-    use_api = provider != "Manual (No API)"
-    
-    if provider == "Google Gemini (Free - Rate Limited)":
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            api_key = st.text_input("Gemini API Key:", type="password")
-        with col2:
-            model = st.selectbox("Model:", ["gemini-2.5-flash", "gemini-2.5-pro"])
-        
-        st.caption("⚠️ Free tier: 15/min, 1500/day. You hit the limit - try OpenAI or Manual mode.")
-        
-    elif provider == "OpenAI (Paid)":
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            api_key = st.text_input("OpenAI API Key:", type="password")
-        with col2:
-            model = st.selectbox("Model:", ["gpt-3.5-turbo", "gpt-4o-mini", "gpt-4o"])
-        
-        st.caption("$5 free credits for new accounts (about 10,000 queries with gpt-3.5-turbo)")
-    
-    else:
-        api_key = None
-        model = None
-        st.info("Manual mode: Copy/paste to ChatGPT/Claude/Gemini web (all free)")
+    # Get API key from secrets (no user input needed)
+    api_key = get_api_key_from_secrets("gemini")
+    model = "gemini-2.5-flash"
     
     st.markdown("---")
     
-    # Quick templates
+    # Quick templates - ONE ROW
     st.subheader("Quick Templates")
     
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
     
     with col1:
-        if st.button("Top Fantasy"):
+        if st.button("Top Fantasy", use_container_width=True):
             st.session_state.auto_question = "Who are the top 15 players by total career fantasy points?"
-            st.rerun()
-        if st.button("Best QBs"):
-            st.session_state.auto_question = "Show me the top 10 quarterbacks by passing yards"
             st.rerun()
     
     with col2:
-        if st.button("Top Receivers"):
-            st.session_state.auto_question = "Who are the top 10 receivers by career yards?"
-            st.rerun()
-        if st.button("Best Defense"):
-            st.session_state.auto_question = "Show the top 10 players by tackles"
+        if st.button("Best QBs", use_container_width=True):
+            st.session_state.auto_question = "Show me the top 10 quarterbacks by passing yards"
             st.rerun()
     
     with col3:
-        if st.button("MVP Leaders"):
+        if st.button("Top Receivers", use_container_width=True):
+            st.session_state.auto_question = "Who are the top 10 receivers by career yards?"
+            st.rerun()
+    
+    with col4:
+        if st.button("Best Defense", use_container_width=True):
+            st.session_state.auto_question = "Show the top 10 players by tackles"
+            st.rerun()
+    
+    with col5:
+        if st.button("MVP Leaders", use_container_width=True):
             st.session_state.auto_question = "Who has won the most MVP awards?"
             st.rerun()
-        if st.button("Best Games"):
+    
+    with col6:
+        if st.button("Best Games", use_container_width=True):
             st.session_state.auto_question = "What are the top 10 single game fantasy performances?"
             st.rerun()
     
     st.markdown("---")
     
-    # Initialize session state for question if needed
-    if 'current_question' not in st.session_state:
-        st.session_state.current_question = ''
+    # Initialize question in session state
+    if 'ai_question' not in st.session_state:
+        st.session_state.ai_question = ''
     
     # Check for auto-question from templates
     if 'auto_question' in st.session_state:
-        st.session_state.current_question = st.session_state.auto_question
+        st.session_state.ai_question = st.session_state.auto_question
         del st.session_state.auto_question
     
     # Question input
@@ -773,144 +759,592 @@ elif page == "🤖 AI Query":
         "Ask your question:",
         placeholder="e.g., Who has the most career receiving touchdowns?",
         height=100,
-        value=st.session_state.current_question
+        value=st.session_state.ai_question,
+        key="question_text_area"
     )
     
     # Update session state when question changes
-    if question != st.session_state.current_question:
-        st.session_state.current_question = question
+    if question != st.session_state.ai_question:
+        st.session_state.ai_question = question
     
-    # Manual SQL input (always visible)
-    manual_sql = st.text_area(
-        "Or paste SQL directly:",
-        placeholder="Paste your SQL query here...",
-        height=150
-    )
+    # Manual SQL override option (collapsible)
+    with st.expander("Advanced: Manual SQL Override"):
+        manual_sql = st.text_area(
+            "Paste SQL directly:",
+            placeholder="Optional: Paste your own SQL query here...",
+            height=150
+        )
     
     # Run button
     if st.button("Run Query", type="primary", use_container_width=True):
-        # Use the session state question, not the widget value
-        current_question = st.session_state.current_question
+        # Use session state question
+        current_question = st.session_state.ai_question
         
         if not current_question and not manual_sql:
-            st.warning("Please enter a question or paste SQL!")
-        elif use_api and not api_key and not manual_sql:
-            st.warning("Please enter your API key or use Manual mode!")
+            st.warning("Please enter a question!")
+            st.stop()
+        
+        sql_query = None
+        
+        # Priority: Use manual SQL if provided
+        if manual_sql and manual_sql.strip():
+            sql_query = manual_sql.strip()
+            st.info("Using your manual SQL")
+        
+        # Otherwise generate SQL with AI
+        elif api_key:
+            with st.spinner("Generating SQL..."):
+                sql_query, error = generate_sql_gemini(current_question, api_key, model)
+                if error:
+                    st.error(f"Error: {error}")
+                    st.stop()
+                st.success("SQL generated!")
+        
         else:
-            sql_query = None
+            st.error("AI queries not configured.")
+            st.stop()
+        
+        # Execute SQL
+        if sql_query and sql_query.strip():
+            st.markdown("---")
             
-            # Priority: Use manual SQL if provided
-            if manual_sql and manual_sql.strip():
-                sql_query = manual_sql.strip()
-                st.info("Using your manual SQL")
+            with st.expander("View SQL Query", expanded=False):
+                st.code(sql_query, language="sql")
             
-            # Otherwise generate SQL
-            elif provider == "Google Gemini (Free - Rate Limited)" and api_key:
-                with st.spinner("Generating SQL..."):
-                    sql_query, error = generate_sql_gemini(current_question, api_key, model)
-                    if error:
-                        st.error(f"Error: {error}")
-                        st.stop()
-                    st.success("SQL generated!")
-            
-            elif provider == "OpenAI (Paid)" and api_key:
-                with st.spinner("Generating SQL..."):
-                    sql_query, error = generate_sql_openai(current_question, api_key, model)
-                    if error:
-                        st.error(f"Error: {error}")
-                        st.stop()
-                    st.success("SQL generated!")
-            
-            elif provider == "Manual (No API)":
-                # Show prompt to help generate SQL
-                if current_question:
-                    schema = get_schema_context()
-                    sql_prompt = f"""Generate SQLite query: {current_question}
-
-{schema}
-
-IMPORTANT: Use LIMIT 10 or more to show top results (even for "who has the most" questions).
-
-Return ONLY the SQL query."""
+            try:
+                with st.spinner("Running query..."):
+                    results_df = pd.read_sql_query(sql_query, conn)
+                
+                st.success(f"Found {len(results_df)} result(s)")
+                
+                st.subheader("Results:")
+                st.dataframe(results_df, use_container_width=True, hide_index=True)
+                
+                # Interpret results with AI
+                if not results_df.empty and api_key:
+                    st.markdown("---")
                     
-                    st.subheader("Copy this to ChatGPT/Claude/Gemini:")
-                    st.code(sql_prompt, language="text")
-                    st.info("After getting the SQL, paste it in the 'Or paste SQL directly' box above and click Run Query again")
-                    st.stop()
+                    with st.spinner("Interpreting results..."):
+                        interpretation, error = interpret_results_gemini(
+                            current_question, sql_query, results_df, api_key, model
+                        )
+                        
+                        if interpretation:
+                            st.subheader("AI Answer:")
+                            st.markdown(f'<div class="ai-answer">{interpretation}</div>', 
+                                      unsafe_allow_html=True)
+                        elif error:
+                            st.warning(f"Could not generate interpretation: {error}")
+                
+                # Download option
+                csv = results_df.to_csv(index=False)
+                st.download_button(
+                    "Download Results as CSV", 
+                    data=csv, 
+                    file_name="query_results.csv", 
+                    mime="text/csv"
+                )
+                
+            except Exception as e:
+                st.error(f"SQL Error: {e}")
+                st.code(str(e))
+
+# ============================================================================
+# STAT IMPORTER PAGE
+# ============================================================================
+elif page == "📝 Stat Importer":
+    st.markdown('<p class="main-header">📝 Game Stat Importer</p>', unsafe_allow_html=True)
+    
+    st.markdown("Enter a new game using your familiar shorthand codes!")
+    
+    # Import play parser
+    try:
+        from app.play_parser import PlayParser
+    except ImportError:
+        st.error("Play parser module not found. Make sure play_parser.py exists in app/ folder.")
+        st.stop()
+    
+    # Initialize session state
+    if 'game_setup_complete' not in st.session_state:
+        st.session_state.game_setup_complete = False
+    if 'team1_roster' not in st.session_state:
+        st.session_state.team1_roster = []
+    if 'team2_roster' not in st.session_state:
+        st.session_state.team2_roster = []
+    if 'current_plays' not in st.session_state:
+        st.session_state.current_plays = []
+    if 'current_drive' not in st.session_state:
+        st.session_state.current_drive = 1
+    if 'current_down' not in st.session_state:
+        st.session_state.current_down = 1
+    if 'current_offense' not in st.session_state:
+        st.session_state.current_offense = 1
+    
+    # Get all players for dropdowns
+    cursor.execute("SELECT DISTINCT player_name FROM players ORDER BY player_name")
+    all_players = [row[0] for row in cursor.fetchall()]
+    
+    # ========================================================================
+    # GAME SETUP SECTION
+    # ========================================================================
+    
+    with st.expander("⚙️ Game Setup", expanded=not st.session_state.game_setup_complete):
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            game_date = st.date_input("Game Date", value=datetime.now())
+            season = st.number_input("Season", min_value=1, value=latest_season, step=1)
+        
+        with col2:
+            game_number = st.number_input("Game Number", min_value=1, value=1, step=1)
+            game_suffix = st.text_input("Game Suffix (optional)", max_chars=1, placeholder="A, B, C...")
+        
+        with col3:
+            captain1 = st.selectbox("Captain 1:", all_players, 
+                                   index=all_players.index('Jimmy Quinn') if 'Jimmy Quinn' in all_players else 0)
+            captain2 = st.selectbox("Captain 2:", all_players,
+                                   index=all_players.index('Troy Fite') if 'Troy Fite' in all_players else 1)
+        
+        mvp = st.selectbox("MVP (select after game):", [""] + all_players)
+        overtime = st.checkbox("Overtime?")
+        
+        if st.button("✅ Confirm Game Setup"):
+            st.session_state.game_setup_complete = True
+            st.rerun()
+    
+    # ========================================================================
+    # TEAM ROSTERS SECTION
+    # ========================================================================
+    
+    # Keep roster expander open if rosters are being edited
+    roster_expanded = (not st.session_state.team1_roster and not st.session_state.team2_roster) or st.session_state.get('roster_editing', False)
+    
+    with st.expander("👥 Team Rosters", expanded=roster_expanded):
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.write(f"**Team 1 - {captain1}**")
+            
+            if st.button("Load Jimmy Quinn's Team (Example)", key="load_jq"):
+                st.session_state.team1_roster = [
+                    {'code': 'Q', 'player': 'Jimmy Quinn'},
+                    {'code': 'B', 'player': 'Beau Bromley'},
+                    {'code': 'G', 'player': 'Garett Hill'},
+                    {'code': 'R', 'player': 'Cody Rodriguez'},
+                    {'code': 'L', 'player': 'Brandon Least'},
+                    {'code': 'P', 'player': 'Terrance Pugh'},
+                    {'code': 'A', 'player': 'Alex Couch'}
+                ]
+                st.session_state.roster_editing = True
+                st.rerun()
+            
+            add_col1, add_col2 = st.columns([1, 3])
+            with add_col1:
+                player1_code = st.text_input("Code:", max_chars=1, key="code_t1", placeholder="Q")
+            with add_col2:
+                new_player1 = st.selectbox("Player:", [""] + all_players, key="add_t1")
+            
+            if st.button("Add to Team 1", use_container_width=True, key="add_btn_t1") and new_player1 and player1_code:
+                if not any(p['code'] == player1_code for p in st.session_state.team1_roster):
+                    st.session_state.team1_roster.append({'code': player1_code, 'player': new_player1})
+                    st.session_state.roster_editing = True
+                    st.rerun()
                 else:
-                    st.warning("Please enter a question or paste SQL directly!")
-                    st.stop()
+                    st.warning("Code already used!")
             
-            # Execute SQL
-            if sql_query and sql_query.strip():
-                st.markdown("---")
+            if st.session_state.team1_roster:
+                st.markdown("**Roster:**")
+                for i, p in enumerate(st.session_state.team1_roster):
+                    col_a, col_b, col_c = st.columns([1, 3, 1])
+                    with col_a:
+                        st.code(p['code'])
+                    with col_b:
+                        st.write(p['player'])
+                    with col_c:
+                        if st.button("🗑️", key=f"del_t1_{i}", help="Remove player"):
+                            st.session_state.team1_roster.pop(i)
+                            st.session_state.roster_editing = True
+                            st.rerun()
+        
+        with col2:
+            st.write(f"**Team 2 - {captain2}**")
+            
+            if st.button("Load Tyler Smith's Team (Example)", key="load_ts"):
+                st.session_state.team2_roster = [
+                    {'code': 'T', 'player': 'Tyler Smith'},
+                    {'code': 'C', 'player': 'Chris Cross'},
+                    {'code': 'S', 'player': 'Shane Gibson'},
+                    {'code': 'D', 'player': 'Caleb Deck'},
+                    {'code': 'Z', 'player': 'Cale Rodriguez'},
+                    {'code': 'W', 'player': 'Brian Ward'},
+                    {'code': 'E', 'player': 'Tyler E'}
+                ]
+                st.session_state.roster_editing = True
+                st.rerun()
+            
+            add_col1, add_col2 = st.columns([1, 3])
+            with add_col1:
+                player2_code = st.text_input("Code:", max_chars=1, key="code_t2", placeholder="T")
+            with add_col2:
+                new_player2 = st.selectbox("Player:", [""] + all_players, key="add_t2")
+            
+            if st.button("Add to Team 2", use_container_width=True, key="add_btn_t2") and new_player2 and player2_code:
+                if not any(p['code'] == player2_code for p in st.session_state.team2_roster):
+                    st.session_state.team2_roster.append({'code': player2_code, 'player': new_player2})
+                    st.session_state.roster_editing = True
+                    st.rerun()
+                else:
+                    st.warning("Code already used!")
+            
+            if st.session_state.team2_roster:
+                st.markdown("**Roster:**")
+                for i, p in enumerate(st.session_state.team2_roster):
+                    col_a, col_b, col_c = st.columns([1, 3, 1])
+                    with col_a:
+                        st.code(p['code'])
+                    with col_b:
+                        st.write(p['player'])
+                    with col_c:
+                        if st.button("🗑️", key=f"del_t2_{i}", help="Remove player"):
+                            st.session_state.team2_roster.pop(i)
+                            st.session_state.roster_editing = True
+                            st.rerun()
+        
+        # Done button to collapse
+        st.markdown("---")
+        if st.session_state.team1_roster and st.session_state.team2_roster:
+            if st.button("✅ Done - Rosters Complete", use_container_width=True, type="primary"):
+                st.session_state.roster_editing = False
+                st.rerun()
+
+
+    
+    # ========================================================================
+    # BUILD PLAYER CODES - MOVED BEFORE PLAY ENTRY
+    # ========================================================================
+    
+    # Build player code lookup
+    player_codes = {}
+    for p in st.session_state.team1_roster + st.session_state.team2_roster:
+        player_codes[p['code']] = p['player']
+    
+    # ========================================================================
+    # PLAY ENTRY SECTION
+    # ========================================================================
+    
+    st.markdown("---")
+    st.subheader("⚡ Play-by-Play Entry")
+    
+    # CODE REFERENCE GUIDE
+    with st.expander("📖 Code Reference Guide"):
+        st.markdown("""
+        ### Play Code Format
+        
+        **Pass Play:** `[QB Code][Receiver Code][Yards][Tackler Code]`
+        - Example: `TS17L` = Tyler Smith to Shane Gibson for 17 yards, tackled by Brandon Least
+        
+        **Rush Play:** `[Rusher Code][Yards][Tackler Code]`
+        - Example: `Q13S` = Jimmy Quinn run for 13 yards, tackled by Shane Gibson
+        
+        **Incomplete:** `[QB Code]`
+        - Example: `T` = Tyler Smith incomplete pass
+        
+        **Special Plays:**
+        - `[Code][Code] K` = Kickoff (tackler + returner)
+        - `[QB][Receiver] I` = Interception
+        - `[QB][Tackler] S` = Sack
+        - `P` = Punt
+        
+        **Touchdowns:**
+        - System auto-detects based on scoring
+        
+        ### Your Player Codes:
+        """)
+        
+        if player_codes:
+            code_cols = st.columns(4)
+            codes_list = list(player_codes.items())
+            
+            for i, (code, name) in enumerate(codes_list):
+                with code_cols[i % 4]:
+                    st.code(f"{code} = {name}")
+        else:
+            st.info("Add players to team rosters to see codes")
+    
+    # Check if rosters are set
+    if not player_codes:
+        st.warning("⚠️ Please add players to team rosters first!")
+        st.stop()
+    
+    # Initialize parser
+    parser = PlayParser(player_codes)
+    
+    # Play entry form
+    col1, col2, col3 = st.columns([2, 1, 1])
+    
+    with col1:
+        new_stat = st.text_input(
+            "Stat Code:",
+            placeholder="e.g., TS17L, Q, CL",
+            key="new_stat_code",
+            help="Your shorthand play code"
+        )
+    
+    with col2:
+        new_detail = st.text_input(
+            "Detail (optional):",
+            placeholder="K, I, S, P",
+            max_chars=2,
+            key="new_detail_code"
+        )
+    
+    with col3:
+        st.write("")
+        st.write("")
+        if st.button("➕ Add Play", type="primary", use_container_width=True):
+            if new_stat:
+                parsed = parser.parse_play(new_stat, new_detail)
                 
-                with st.expander("View SQL Query", expanded=False):
-                    st.code(sql_query, language="sql")
+                parsed['drive'] = st.session_state.current_drive
+                parsed['down'] = st.session_state.current_down
+                parsed['offense_team'] = st.session_state.current_offense
                 
-                try:
-                    with st.spinner("Running query..."):
-                        results_df = pd.read_sql_query(sql_query, conn)
-                    
-                    st.success(f"Found {len(results_df)} result(s)")
-                    
-                    st.subheader("Results:")
-                    st.dataframe(results_df, use_container_width=True, hide_index=True)
-                    
-                    # Interpret results
-                    if not results_df.empty:
-                        st.markdown("---")
+                st.session_state.current_plays.append(parsed)
+                
+                # Update drive/down logic
+                if parsed['is_turnover'] or parsed['play_type'] == 'Punt':
+                    st.session_state.current_drive += 1
+                    st.session_state.current_down = 1
+                    st.session_state.current_offense = 2 if st.session_state.current_offense == 1 else 1
+                elif parsed['is_touchdown']:
+                    st.session_state.current_drive += 1
+                    st.session_state.current_down = 1
+                    st.session_state.current_offense = 2 if st.session_state.current_offense == 1 else 1
+                elif st.session_state.current_down >= 6:
+                    st.session_state.current_drive += 1
+                    st.session_state.current_down = 1
+                    st.session_state.current_offense = 2 if st.session_state.current_offense == 1 else 1
+                else:
+                    st.session_state.current_down += 1
+                
+                st.rerun()
+    
+    # ========================================================================
+    # CURRENT GAME STATUS
+    # ========================================================================
+    
+    if st.session_state.current_plays:
+        player_stats, team1_score, team2_score = parser.calculate_game_stats(st.session_state.current_plays)
+        
+        st.markdown("---")
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric(f"{captain1} Score", team1_score)
+        
+        with col2:
+            st.metric(f"{captain2} Score", team2_score)
+        
+        with col3:
+            st.metric("Total Plays", len(st.session_state.current_plays))
+        
+        with col4:
+            st.metric(f"Drive {st.session_state.current_drive}", f"{st.session_state.current_down}th down")
+        
+        st.markdown("---")
+        st.subheader("📋 Recent Plays")
+        
+        recent_plays = st.session_state.current_plays[-10:]
+        
+        plays_display = []
+        for i, play in enumerate(recent_plays):
+            play_num = len(st.session_state.current_plays) - len(recent_plays) + i + 1
+            plays_display.append({
+                '#': play_num,
+                'Code': play['stat_code'],
+                'Description': play['description'],
+                'Yards': play['yards'] if play['yards'] > 0 else '',
+                'Drive': play['drive'],
+                'Down': play['down']
+            })
+        
+        plays_df = pd.DataFrame(plays_display)
+        st.dataframe(plays_df, use_container_width=True, hide_index=True)
+        
+        st.markdown("---")
+        st.subheader("📊 Current Player Stats")
+        
+        stats_list = []
+        for player, stats in player_stats.items():
+            if any(stats.values()):
+                off_fantasy, def_fantasy, total_fantasy = parser.calculate_fantasy_points(stats)
+                stats_list.append({
+                    'Player': player,
+                    'PassYds': stats['passing_yards'],
+                    'PassTD': stats['passing_tds'],
+                    'RecYds': stats['receiving_yards'],
+                    'RecTD': stats['receiving_tds'],
+                    'RushYds': stats['rush_yards'],
+                    'Tack': stats['tackles'],
+                    'INT': stats['interceptions'],
+                    'Fantasy': total_fantasy
+                })
+        
+        if stats_list:
+            stats_df = pd.DataFrame(stats_list)
+            stats_df = stats_df.sort_values('Fantasy', ascending=False)
+            st.dataframe(stats_df, use_container_width=True, hide_index=True)
+        
+        st.markdown("---")
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            if st.button("◀️ Undo Last Play"):
+                if st.session_state.current_plays:
+                    st.session_state.current_plays.pop()
+                    st.rerun()
+        
+        with col2:
+            if st.button("🔄 Start New Drive"):
+                st.session_state.current_drive += 1
+                st.session_state.current_down = 1
+                st.rerun()
+        
+        with col3:
+            if st.button("🗑️ Clear All"):
+                st.session_state.current_plays = []
+                st.session_state.team1_roster = []
+                st.session_state.team2_roster = []
+                st.session_state.current_drive = 1
+                st.session_state.current_down = 1
+                st.session_state.game_setup_complete = False
+                st.rerun()
+        
+        with col4:
+            if st.button("💾 Save Game", type="primary"):
+                with st.spinner("Saving game to database..."):
+                    try:
+                        cursor = conn.cursor()
                         
-                        # Auto interpretation if using API
-                        if provider == "Google Gemini (Free - Rate Limited)" and api_key:
-                            with st.spinner("Interpreting..."):
-                                interpretation, error = interpret_results_gemini(current_question, sql_query, results_df, api_key, model)
-                                if interpretation:
-                                    st.subheader("AI Answer:")
-                                    st.markdown(f'<div class="ai-answer">{interpretation}</div>', unsafe_allow_html=True)
-                                elif error:
-                                    st.warning(f"Interpretation error: {error}")
+                        cursor.execute('''
+                            INSERT INTO games 
+                            (game_date, season, game_number, game_suffix, game_code,
+                             captain1, captain2, mvp, team1_score, team2_score, overtime)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        ''', (
+                            game_date.strftime('%Y-%m-%d'),
+                            season,
+                            game_number,
+                            game_suffix if game_suffix else None,
+                            f"{game_number}{game_suffix}" if game_suffix else str(game_number),
+                            captain1,
+                            captain2,
+                            mvp if mvp else None,
+                            team1_score,
+                            team2_score,
+                            'Yes' if overtime else 'No'
+                        ))
                         
-                        elif provider == "OpenAI (Paid)" and api_key:
-                            with st.spinner("Interpreting..."):
-                                interpretation, error = interpret_results_openai(current_question, sql_query, results_df, api_key, model)
-                                if interpretation:
-                                    st.subheader("AI Answer:")
-                                    st.markdown(f'<div class="ai-answer">{interpretation}</div>', unsafe_allow_html=True)
-                                elif error:
-                                    st.warning(f"Interpretation error: {error}")
+                        game_id = cursor.lastrowid
                         
-                        else:
-                            # Manual interpretation option
-                            results_text = results_df.head(20).to_string(index=False)
+                        for player_name, stats in player_stats.items():
+                            cursor.execute('SELECT player_id FROM players WHERE player_name = ?', (player_name,))
+                            player_result = cursor.fetchone()
+                            if not player_result:
+                                continue
+                            player_id = player_result[0]
                             
-                            interp_prompt = f"""Question: {current_question}
-
-Results (top results shown):
-{results_text}
-
-Answer the specific question ("who has the MOST"), but provide context from the other top results too.
-
-Answer:"""
+                            off_fantasy, def_fantasy, total_fantasy = parser.calculate_fantasy_points(stats)
                             
-                            with st.expander("Get AI interpretation"):
-                                st.subheader("Copy this to AI:")
-                                st.code(interp_prompt, language="text")
-                                
-                                interpretation = st.text_area("Paste answer:", height=150, key="manual_interp")
-                                
-                                if interpretation:
-                                    st.markdown(f'<div class="ai-answer">{interpretation}</div>', unsafe_allow_html=True)
-                    
-                    # Download
-                    csv = results_df.to_csv(index=False)
-                    st.download_button("Download CSV", data=csv, 
-                                     file_name="results.csv", mime="text/csv")
-                    
-                except Exception as e:
-                    st.error(f"SQL Error: {e}")
-                    st.code(str(e))
+                            on_team1 = any(p['player'] == player_name for p in st.session_state.team1_roster)
+                            if on_team1:
+                                win_loss = 'Win' if team1_score > team2_score else ('Loss' if team1_score < team2_score else 'Tie')
+                            else:
+                                win_loss = 'Win' if team2_score > team1_score else ('Loss' if team2_score < team1_score else 'Tie')
+                            
+                            comp_ratio = stats['completions'] / stats['attempts'] if stats['attempts'] > 0 else 0
+                            
+                            cursor.execute('''
+                                INSERT INTO player_game_stats (
+                                    game_id, player_id,
+                                    completions, attempts, completion_ratio,
+                                    passing_yards, passing_tds, interceptions_thrown,
+                                    rush_attempts, rush_yards, rush_tds,
+                                    receptions, receiving_yards, receiving_tds,
+                                    tackles, sacks, interceptions, int_tds,
+                                    win_loss, offensive_fantasy, defensive_fantasy, total_fantasy
+                                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                            ''', (
+                                game_id, player_id,
+                                stats['completions'], stats['attempts'], comp_ratio,
+                                stats['passing_yards'], stats['passing_tds'], stats['interceptions_thrown'],
+                                stats['rush_attempts'], stats['rush_yards'], stats['rush_tds'],
+                                stats['receptions'], stats['receiving_yards'], stats['receiving_tds'],
+                                stats['tackles'], stats['sacks'], stats['interceptions'], stats['int_tds'],
+                                win_loss, off_fantasy, def_fantasy, total_fantasy
+                            ))
+                        
+                        for play_num, play in enumerate(st.session_state.current_plays, start=1):
+                            qb_id = receiver_id = tackler_id = rusher_id = None
+                            
+                            if play['qb']:
+                                cursor.execute('SELECT player_id FROM players WHERE player_name = ?', (play['qb'],))
+                                result = cursor.fetchone()
+                                qb_id = result[0] if result else None
+                            
+                            if play['receiver']:
+                                cursor.execute('SELECT player_id FROM players WHERE player_name = ?', (play['receiver'],))
+                                result = cursor.fetchone()
+                                receiver_id = result[0] if result else None
+                            
+                            if play['tackler']:
+                                cursor.execute('SELECT player_id FROM players WHERE player_name = ?', (play['tackler'],))
+                                result = cursor.fetchone()
+                                tackler_id = result[0] if result else None
+                            
+                            if play['rusher']:
+                                cursor.execute('SELECT player_id FROM players WHERE player_name = ?', (play['rusher'],))
+                                result = cursor.fetchone()
+                                rusher_id = result[0] if result else None
+                            
+                            cursor.execute('''
+                                INSERT INTO plays (
+                                    game_id, play_number, stat_code, detail_code, yards,
+                                    play_description, drive_number, down_number, play_type, offense_team,
+                                    is_touchdown, is_incomplete, is_fumble, is_interception, is_safety, is_turnover,
+                                    qb_id, rusher_id, receiver_id, tackler_id
+                                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                            ''', (
+                                game_id, play_num, play['stat_code'], play['detail_code'], play['yards'],
+                                play['description'], play['drive'], play['down'], play['play_type'], play['offense_team'],
+                                play['is_touchdown'], play['is_incomplete'], play['is_fumble'], 
+                                play['is_interception'], play['is_safety'], play['is_turnover'],
+                                qb_id, rusher_id, receiver_id, tackler_id
+                            ))
+                        
+                        conn.commit()
+                        
+                        st.success(f"✅ Game saved! Season {season}.{game_number}{game_suffix or ''}")
+                        st.balloons()
+                        
+                        if st.button("Start New Game"):
+                            st.session_state.current_plays = []
+                            st.session_state.team1_roster = []
+                            st.session_state.team2_roster = []
+                            st.session_state.current_drive = 1
+                            st.session_state.current_down = 1
+                            st.session_state.game_setup_complete = False
+                            st.rerun()
+                        
+                    except Exception as e:
+                        st.error(f"Error saving game: {e}")
+                        conn.rollback()
+    
+    else:
+        st.info("👆 Enter play codes above to start tracking the game!")
 
+    
+    
 
 # Footer
 st.sidebar.markdown("---")

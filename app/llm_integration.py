@@ -62,6 +62,7 @@ CRITICAL INSTRUCTIONS:
   * "Show me the best X" → Return TOP 10-20 by X
 - Return ONLY the SQL query
 - No explanations, no markdown formatting, no code blocks
+- Include offsetting data to support the analysis (ex. if asked for passing yards, include passing TDs, completion percentages, etc.)
 - Use proper JOINs between tables
 - Round decimals to 1 decimal place with ROUND()
 - Handle NULL values with NULLIF or COALESCE
@@ -149,6 +150,7 @@ IMPORTANT:
 - If asked "who has the most", identify the #1 player but also mention the context (e.g., "Jimmy Quinn leads with X, followed by Troy Fite with Y")
 - Include specific numbers and player names
 - Be conversational and enthusiastic
+- Add interesting thoughts or insights that may address a side question or follow up question to the original
 - Provide interesting insights or comparisons from the top results
 
 Answer:"""
