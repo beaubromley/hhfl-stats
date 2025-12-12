@@ -712,12 +712,12 @@ elif page == "🤖 AI Query":
     st.subheader("Quick Templates")
     
     template_questions = {
-        "Top Fantasy": "Who are the top 15 players by total career fantasy points?",
-        "Best QBs": "Show me the top 10 quarterbacks by passing yards",
-        "Top Receivers": "Who are the top 10 receivers by career yards?",
-        "Best Defense": "Show the top 10 players by tackles",
-        "MVP Leaders": "Who has won the most MVP awards?",
-        "Best Games": "What are the top 10 single game fantasy performances?"
+        "Top Fantasy": "Who are the top 15 players by total career fantasy points? Show their games played, win-loss record, and average per game.",
+        "Best QBs": "Show me the top 10 quarterbacks by career passing yards with their completion percentage, TDs, and interceptions",
+        "Top Receivers": "Who are the top 10 receivers by career yards? Include their catches, TDs, and yards per reception",
+        "Best Defense": "Show the top 10 defensive players by career tackles with their sacks, interceptions, and defensive fantasy points",
+        "MVP Leaders": "Who has won the most MVP awards? For each player, show how many MVPs they have and what seasons they won them in",
+        "Elite Performance": "Analyze the 'Elite Performance Club': Find all games where a player scored 40+ fantasy points, then for those players, show their career win-loss record, calculate what percentage of their career games were elite performances, rank them by consistency (standard deviation of fantasy points), and finally show me the head-to-head matchups when two elite performers faced each other in the same game. Also tell me which season had the most elite performances and whether elite performances are more common in overtime games."
     }
     
     col1, col2, col3, col4, col5, col6 = st.columns(6)
@@ -745,8 +745,8 @@ elif page == "🤖 AI Query":
             selected_template = template_questions["MVP Leaders"]
     
     with col6:
-        if st.button("Best Games", use_container_width=True, key="tmpl_games"):
-            selected_template = template_questions["Best Games"]
+        if st.button("Elite Performance", use_container_width=True, key="tmpl_games"):
+            selected_template = template_questions["Elite Performance"]
     
     st.markdown("---")
     
@@ -773,24 +773,22 @@ elif page == "🤖 AI Query":
     
     # Run button
     if st.button("Run Query", type="primary", use_container_width=True):
-        # Use session state question
         current_question = st.session_state.ai_question
         
         if not current_question and not manual_sql:
             st.warning("Please enter a question!")
             st.stop()
         
-        sql_query = None
+        sql_text = None
         
-        # Priority: Use manual SQL if provided
+        # Get SQL (manual override or AI generated)
         if manual_sql and manual_sql.strip():
-            sql_query = manual_sql.strip()
+            sql_text = manual_sql.strip()
             st.info("Using your manual SQL")
         
-        # Otherwise generate SQL with AI
         elif api_key:
             with st.spinner("Generating SQL..."):
-                sql_query, error = generate_sql_gemini(current_question, api_key, model)
+                sql_text, error = generate_sql_gemini(current_question, api_key, model)
                 if error:
                     st.error(f"Error: {error}")
                     st.stop()
@@ -800,50 +798,122 @@ elif page == "🤖 AI Query":
             st.error("AI queries not configured.")
             st.stop()
         
-        # Execute SQL
-        if sql_query and sql_query.strip():
+        # Parse multiple SQL statements
+        if sql_text:
+            from app.llm_integration import parse_sql_statements
+            
+            sql_statements = parse_sql_statements(sql_text)
+            
             st.markdown("---")
             
-            with st.expander("View SQL Query", expanded=False):
-                st.code(sql_query, language="sql")
+            # Show all SQL queries
+            with st.expander(f"View SQL Query ({len(sql_statements)} statement{'s' if len(sql_statements) > 1 else ''})", expanded=False):
+                for i, sql in enumerate(sql_statements, 1):
+                    if len(sql_statements) > 1:
+                        st.write(f"**Query {i}:**")
+                    st.code(sql, language="sql")
+                    if i < len(sql_statements):
+                        st.markdown("---")
             
-            try:
-                with st.spinner("Running query..."):
-                    results_df = pd.read_sql_query(sql_query, conn)
+            # Execute all queries
+            all_results = []
+            all_errors = []
+            
+            for i, sql_query in enumerate(sql_statements, 1):
+                try:
+                    with st.spinner(f"Running query {i} of {len(sql_statements)}..."):
+                        results_df = pd.read_sql_query(sql_query, conn)
+                        all_results.append(results_df)
+                        all_errors.append(None)
                 
-                st.success(f"Found {len(results_df)} result(s)")
+                except Exception as e:
+                    all_results.append(None)
+                    all_errors.append(str(e))
+            
+            # Check if any queries succeeded
+            success_count = sum(1 for r in all_results if r is not None)
+            
+            if success_count == 0:
+                st.error("All queries failed!")
                 
-                st.subheader("Results:")
-                st.dataframe(results_df, use_container_width=True, hide_index=True)
+                # Show what went wrong with each query
+                for i, (sql_query, error) in enumerate(zip(sql_statements, all_errors), 1):
+                    with st.expander(f"❌ Query {i} - {error[:100]}", expanded=True):
+                        st.error(f"**Error:** {error}")
+                        st.code(sql_query, language="sql")
                 
-                # Interpret results with AI
-                if not results_df.empty and api_key:
-                    st.markdown("---")
+                st.warning("💡 Try a simpler question or use Manual SQL Override above to write your own query.")
+                st.stop()
+            
+            st.success(f"Executed {success_count} of {len(sql_statements)} quer{'ies' if len(sql_statements) > 1 else 'y'} successfully!")
+            
+            # Display all results - COLLAPSED BY DEFAULT
+            with st.expander("📊 View Query Results", expanded=False):
+                for i, (results_df, error) in enumerate(zip(all_results, all_errors), 1):
+                    if len(sql_statements) > 1:
+                        st.markdown(f"### Query {i} Results:")
                     
-                    with st.spinner("Interpreting results..."):
-                        interpretation, error = interpret_results_gemini(
-                            current_question, sql_query, results_df, api_key, model
-                        )
-                        
-                        if interpretation:
-                            st.subheader("AI Answer:")
-                            st.markdown(f'<div class="ai-answer">{interpretation}</div>', 
-                                      unsafe_allow_html=True)
-                        elif error:
-                            st.warning(f"Could not generate interpretation: {error}")
+                    if error:
+                        st.error(f"Error: {error}")
+                        with st.expander(f"View Query {i} SQL"):
+                            st.code(sql_statements[i-1], language="sql")
+                    
+                    elif results_df is not None:
+                        if len(results_df) == 0:
+                            st.info("No results found")
+                        else:
+                            st.write(f"Found {len(results_df)} row{'s' if len(results_df) != 1 else ''}")
+                            st.dataframe(results_df, use_container_width=True, hide_index=True)
+                    
+                    if i < len(sql_statements):
+                        st.markdown("---")
+            
+            # Interpret all results together with AI
+            successful_results = [r for r in all_results if r is not None]
+            
+            if successful_results and api_key:
+                st.markdown("---")
                 
-                # Download option
-                csv = results_df.to_csv(index=False)
+                with st.spinner("Interpreting results..."):
+                    # Filter out None results for interpretation
+                    valid_queries = [sql_statements[i] for i, r in enumerate(all_results) if r is not None]
+                    valid_results = [r for r in all_results if r is not None]
+                    
+                    interpretation, error = interpret_results_gemini(
+                        current_question, valid_queries, valid_results, api_key, model
+                    )
+                    
+                    if interpretation:
+                        st.subheader("AI Answer:")
+                        st.markdown(f'<div class="ai-answer">{interpretation}</div>', 
+                                  unsafe_allow_html=True)
+                    elif error:
+                        st.warning(f"Could not generate interpretation: {error}")
+                        st.info("But you can see the results above!")
+            
+            # Download all results
+            if len(successful_results) == 1:
+                csv = successful_results[0].to_csv(index=False)
                 st.download_button(
                     "Download Results as CSV", 
                     data=csv, 
                     file_name="query_results.csv", 
                     mime="text/csv"
                 )
+            elif len(successful_results) > 1:
+                # Combine all results into one downloadable file
+                combined_csv = ""
+                for i, df in enumerate(successful_results, 1):
+                    combined_csv += f"Query {i}\n"
+                    combined_csv += df.to_csv(index=False)
+                    combined_csv += "\n\n"
                 
-            except Exception as e:
-                st.error(f"SQL Error: {e}")
-                st.code(str(e))
+                st.download_button(
+                    f"Download All Results as CSV ({len(successful_results)} queries)", 
+                    data=combined_csv, 
+                    file_name="multi_query_results.csv", 
+                    mime="text/csv"
+                )
 
 # ============================================================================
 # STAT IMPORTER PAGE
