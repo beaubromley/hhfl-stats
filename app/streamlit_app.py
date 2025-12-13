@@ -716,8 +716,8 @@ elif page == "🤖 AI Query":
         "Best QBs": "Show me the top 10 quarterbacks by career passing yards with their completion percentage, TDs, and interceptions",
         "Top Receivers": "Who are the top 10 receivers by career yards? Include their catches, TDs, and yards per reception",
         "Best Defense": "Show the top 10 defensive players by career tackles with their sacks, interceptions, and defensive fantasy points",
-        "MVP Leaders": "Who has won the most MVP awards? For each player, show how many MVPs they have and what seasons they won them in",
-        "Elite Performance": "Analyze the 'Elite Performance Club': Find all games where a player scored 40+ fantasy points, then for those players, show their career win-loss record, calculate what percentage of their career games were elite performances, rank them by consistency (standard deviation of fantasy points), and finally show me the head-to-head matchups when two elite performers faced each other in the same game. Also tell me which season had the most elite performances and whether elite performances are more common in overtime games."
+        "Best Team": "I want to see which set of five players (including a quarterback, leading receivers, and top defensive players) that had the best win loss records (when on the same team) also include some of the top stats from the players when playing together. These sets of five may be just a subset of the overall team. Include a requirement for each player having at least 30 games played total and each set having at least 5 games together.",
+        "MVP Stats": "Look at the game stats for the game MVPs versus the stats for the other players in that game and tell me which stats are most impactful for the MVP selection. Then evaluate our Fantasy point system and tell me what changes you would make to better align it with the MVP selection."
     }
     
     col1, col2, col3, col4, col5, col6 = st.columns(6)
@@ -741,12 +741,12 @@ elif page == "🤖 AI Query":
             selected_template = template_questions["Best Defense"]
     
     with col5:
-        if st.button("MVP Leaders", use_container_width=True, key="tmpl_mvp"):
-            selected_template = template_questions["MVP Leaders"]
+        if st.button("Best Team", use_container_width=True, key="tmpl_mvp"):
+            selected_template = template_questions["Best Team"]
     
     with col6:
-        if st.button("Elite Performance", use_container_width=True, key="tmpl_games"):
-            selected_template = template_questions["Elite Performance"]
+        if st.button("MVP Stats", use_container_width=True, key="tmpl_games"):
+            selected_template = template_questions["MVP Stats"]
     
     st.markdown("---")
     
