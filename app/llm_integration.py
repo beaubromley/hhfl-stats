@@ -286,7 +286,7 @@ SQL:"""
             }],
             "generationConfig": {
                 "temperature": 0.2,
-                "maxOutputTokens": 12000,
+                "maxOutputTokens": 20000,
                 "stopSequences": []
             },
             "safetySettings": [
@@ -438,7 +438,7 @@ Answer:"""
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {
                 "temperature": 0.7,
-                "maxOutputTokens": 10000  # INCREASED from 2000
+                "maxOutputTokens": 20000  # INCREASED from 2000
             },
             "safetySettings": [
                 {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
