@@ -17,7 +17,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 # Page config
 st.set_page_config(
     page_title="HHFL Stats Dashboard",
-    page_icon="🏈",
+    page_icon="assets/favicon.png",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
