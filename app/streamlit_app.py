@@ -360,7 +360,7 @@ with tab3:
         "qbs": "Show me the top 10 quarterbacks by career passing yards with their completion percentage, TDs, and interceptions",
         "receivers": "Who are the top 10 receivers by career yards? Include their catches, TDs, and yards per reception",
         "defense": "Show the top 10 defensive players by career tackles with their sacks, interceptions, and defensive fantasy points",
-        "team": "I want to see which set of five players (including a quarterback, leading receivers, and top defensive players) that had the best win loss records (when on the same team) also include some of the top stats from the players when playing together. These sets of five may be just a subset of the overall team. Include a requirement for each player having at least 30 games played total and each set having at least 5 games together.",
+        "team": "I want to see which set of four players (including a quarterback, leading receivers, and top defensive players) that had the best win loss records (when on the same team) also include some of the top stats (per game average) from the players when playing together. These sets of players may be just a subset of the overall team. Include a requirement for each player having at least 30 games played total and each set having at least 2 games together.",
         "mvp": "Look at the game stats for the game MVPs versus the stats for the other players in that game and tell me which stats are most impactful for the MVP selection. Then evaluate our Fantasy point system and tell me what changes you would make to better align it with the MVP selection."
     }
     
