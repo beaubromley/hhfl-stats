@@ -48,6 +48,14 @@ st.markdown("""
     [data-testid="stSidebar"] {
         display: none;
     }
+    button[data-baseweb="tab"] {
+        font-size: 1.2rem !important;
+        font-weight: 600 !important;
+        padding: 1rem 1.5rem !important;
+    }
+    button[data-baseweb="tab"][aria-selected="true"] {
+        font-size: 1.3rem !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
