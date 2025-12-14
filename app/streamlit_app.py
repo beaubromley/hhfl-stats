@@ -356,43 +356,45 @@ with tab3:
     st.subheader("Quick Templates")
     
     template_questions = {
-        "Top Fantasy": "Who are the top 15 players by total career fantasy points? Show their games played, win-loss record, and average per game.",
-        "Best QBs": "Show me the top 10 quarterbacks by career passing yards with their completion percentage, TDs, and interceptions",
-        "Top Receivers": "Who are the top 10 receivers by career yards? Include their catches, TDs, and yards per reception",
-        "Best Defense": "Show the top 10 defensive players by career tackles with their sacks, interceptions, and defensive fantasy points",
-        "Best Team": "I want to see which set of five players (including a quarterback, leading receivers, and top defensive players) that had the best win loss records (when on the same team) also include some of the top stats from the players when playing together. These sets of five may be just a subset of the overall team. Include a requirement for each player having at least 30 games played total and each set having at least 5 games together.",
-        "MVP Stats": "Look at the game stats for the game MVPs versus the stats for the other players in that game and tell me which stats are most impactful for the MVP selection. Then evaluate our Fantasy point system and tell me what changes you would make to better align it with the MVP selection."
+        "fantasy": "Who are the top 15 players by total career fantasy points? Show their games played, win-loss record, and average per game.",
+        "qbs": "Show me the top 10 quarterbacks by career passing yards with their completion percentage, TDs, and interceptions",
+        "receivers": "Who are the top 10 receivers by career yards? Include their catches, TDs, and yards per reception",
+        "defense": "Show the top 10 defensive players by career tackles with their sacks, interceptions, and defensive fantasy points",
+        "team": "I want to see which set of five players (including a quarterback, leading receivers, and top defensive players) that had the best win loss records (when on the same team) also include some of the top stats from the players when playing together. These sets of five may be just a subset of the overall team. Include a requirement for each player having at least 30 games played total and each set having at least 5 games together.",
+        "mvp": "Look at the game stats for the game MVPs versus the stats for the other players in that game and tell me which stats are most impactful for the MVP selection. Then evaluate our Fantasy point system and tell me what changes you would make to better align it with the MVP selection."
     }
-    
-    # Initialize template state
-    if 'selected_template_key' not in st.session_state:
-        st.session_state.selected_template_key = None
     
     col1, col2, col3, col4, col5, col6 = st.columns(6)
     
     with col1:
         if st.button("Top Fantasy", use_container_width=True, key="tmpl_fantasy"):
-            st.session_state.selected_template_key = "Top Fantasy"
+            st.session_state.ai_question = template_questions["fantasy"]
+            st.session_state.template_clicked = True
     
     with col2:
         if st.button("Best QBs", use_container_width=True, key="tmpl_qbs"):
-            st.session_state.selected_template_key = "Best QBs"
+            st.session_state.ai_question = template_questions["qbs"]
+            st.session_state.template_clicked = True
     
     with col3:
         if st.button("Top Receivers", use_container_width=True, key="tmpl_rec"):
-            st.session_state.selected_template_key = "Top Receivers"
+            st.session_state.ai_question = template_questions["receivers"]
+            st.session_state.template_clicked = True
     
     with col4:
         if st.button("Best Defense", use_container_width=True, key="tmpl_def"):
-            st.session_state.selected_template_key = "Best Defense"
+            st.session_state.ai_question = template_questions["defense"]
+            st.session_state.template_clicked = True
     
     with col5:
         if st.button("Best Team", use_container_width=True, key="tmpl_team"):
-            st.session_state.selected_template_key = "Best Team"
+            st.session_state.ai_question = template_questions["team"]
+            st.session_state.template_clicked = True
     
     with col6:
         if st.button("MVP Stats", use_container_width=True, key="tmpl_mvp_stats"):
-            st.session_state.selected_template_key = "MVP Stats"
+            st.session_state.ai_question = template_questions["mvp"]
+            st.session_state.template_clicked = True
     
     st.markdown("---")
     
@@ -400,24 +402,21 @@ with tab3:
     if 'ai_question' not in st.session_state:
         st.session_state.ai_question = ''
     
-    # Use template if one was selected
-    if st.session_state.selected_template_key:
-        question_value = template_questions[st.session_state.selected_template_key]
-        st.session_state.selected_template_key = None  # Clear after use
-    else:
-        question_value = st.session_state.ai_question
-    
-    # Question input
+    # Question input - directly use session state value
     question = st.text_area(
         "Ask your question:",
         placeholder="e.g., Who has the most career receiving touchdowns?",
         height=100,
-        value=question_value,
-        key="question_text_area"
+        value=st.session_state.ai_question
     )
     
-    # Save to session state
-    st.session_state.ai_question = question
+    # Only update session state if user actually typed (not from template button)
+    if not st.session_state.get('template_clicked', False):
+        if question != st.session_state.ai_question:
+            st.session_state.ai_question = question
+    else:
+        # Clear the flag after rendering
+        st.session_state.template_clicked = False
     
     # Manual SQL override
     with st.expander("Advanced: Manual SQL Override"):
