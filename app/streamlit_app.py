@@ -360,37 +360,39 @@ with tab3:
         "Best QBs": "Show me the top 10 quarterbacks by career passing yards with their completion percentage, TDs, and interceptions",
         "Top Receivers": "Who are the top 10 receivers by career yards? Include their catches, TDs, and yards per reception",
         "Best Defense": "Show the top 10 defensive players by career tackles with their sacks, interceptions, and defensive fantasy points",
-        "Best Team": "I want to see which set of four players (including a quarterback, leading receivers, and top defensive players) that had the best win loss records (when on the same team) also include some of the top stats (per game) from the players when playing together. These sets of four may be just a subset of the overall team. Include a requirement for each player having at least 30 games played total and each set having at least 2 games together.",
+        "Best Team": "I want to see which set of five players (including a quarterback, leading receivers, and top defensive players) that had the best win loss records (when on the same team) also include some of the top stats from the players when playing together. These sets of five may be just a subset of the overall team. Include a requirement for each player having at least 30 games played total and each set having at least 5 games together.",
         "MVP Stats": "Look at the game stats for the game MVPs versus the stats for the other players in that game and tell me which stats are most impactful for the MVP selection. Then evaluate our Fantasy point system and tell me what changes you would make to better align it with the MVP selection."
     }
     
-    col1, col2, col3, col4, col5, col6 = st.columns(6)
+    # Initialize template state
+    if 'selected_template_key' not in st.session_state:
+        st.session_state.selected_template_key = None
     
-    selected_template = None
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
     
     with col1:
         if st.button("Top Fantasy", use_container_width=True, key="tmpl_fantasy"):
-            selected_template = template_questions["Top Fantasy"]
+            st.session_state.selected_template_key = "Top Fantasy"
     
     with col2:
         if st.button("Best QBs", use_container_width=True, key="tmpl_qbs"):
-            selected_template = template_questions["Best QBs"]
+            st.session_state.selected_template_key = "Best QBs"
     
     with col3:
         if st.button("Top Receivers", use_container_width=True, key="tmpl_rec"):
-            selected_template = template_questions["Top Receivers"]
+            st.session_state.selected_template_key = "Top Receivers"
     
     with col4:
         if st.button("Best Defense", use_container_width=True, key="tmpl_def"):
-            selected_template = template_questions["Best Defense"]
+            st.session_state.selected_template_key = "Best Defense"
     
     with col5:
         if st.button("Best Team", use_container_width=True, key="tmpl_team"):
-            selected_template = template_questions["Best Team"]
+            st.session_state.selected_template_key = "Best Team"
     
     with col6:
         if st.button("MVP Stats", use_container_width=True, key="tmpl_mvp_stats"):
-            selected_template = template_questions["MVP Stats"]
+            st.session_state.selected_template_key = "MVP Stats"
     
     st.markdown("---")
     
@@ -398,10 +400,12 @@ with tab3:
     if 'ai_question' not in st.session_state:
         st.session_state.ai_question = ''
     
-    # Use template if selected
-    question_value = st.session_state.ai_question
-    if selected_template:
-        question_value = selected_template
+    # Use template if one was selected
+    if st.session_state.selected_template_key:
+        question_value = template_questions[st.session_state.selected_template_key]
+        st.session_state.selected_template_key = None  # Clear after use
+    else:
+        question_value = st.session_state.ai_question
     
     # Question input
     question = st.text_area(
@@ -412,9 +416,8 @@ with tab3:
         key="question_text_area"
     )
     
-    # Update session state
-    if question != st.session_state.ai_question:
-        st.session_state.ai_question = question
+    # Save to session state
+    st.session_state.ai_question = question
     
     # Manual SQL override
     with st.expander("Advanced: Manual SQL Override"):
